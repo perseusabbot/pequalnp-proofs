@@ -1,0 +1,26 @@
+1/22 BipartitionCount
+2/22 CoverBuild
+3/22 L_meta_2084_child2
+4/22 StarFormula
+5/22 BicliqueFormula
+6/22 ExactCleanFormula
+7/22 SemanticFormula
+8/22 StarUnion
+9/22 SharedOR
+10/22 PEqualNP.Outside.L_meta_3008
+11/22 PrunedProgram
+12/22 StageSupport
+13/22 PhysicalStages
+14/22 Staged
+15/22 HeawoodStages
+16/22 Sharp
+17/22 PrunedEdges
+18/22 OptimalStars
+19/22 PostedModel
+20/22 BottomPairs
+21/22 MissingStar
+22/22 PrefixClasses
+'Checkpoint122.Prefix.physicalPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint122.Prefix.certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint122.Pruning.missingStar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint122.Pruning.threeLost' depends on axioms: [propext, Classical.choice, Quot.sound]

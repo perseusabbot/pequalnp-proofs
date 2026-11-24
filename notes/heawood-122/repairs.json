@@ -1,0 +1,61 @@
+{
+  "per_index": [
+    {
+      "index": 1,
+      "schedules": 243,
+      "deletions_with_rerouting": 166455,
+      "replacement_tuples": 3550152240,
+      "tuples_after_suffix_screen": 1204531236,
+      "solutions": 0
+    },
+    {
+      "index": 8,
+      "schedules": 243,
+      "deletions_with_rerouting": 166455,
+      "replacement_tuples": 3550152240,
+      "tuples_after_suffix_screen": 1226252196,
+      "solutions": 0
+    },
+    {
+      "index": 9,
+      "schedules": 243,
+      "deletions_with_rerouting": 166455,
+      "replacement_tuples": 3550152240,
+      "tuples_after_suffix_screen": 1234122966,
+      "solutions": 0
+    },
+    {
+      "index": 10,
+      "schedules": 243,
+      "deletions_with_rerouting": 166455,
+      "replacement_tuples": 3550152240,
+      "tuples_after_suffix_screen": 1226252196,
+      "solutions": 0
+    },
+    {
+      "index": 20,
+      "schedules": 729,
+      "deletions_with_rerouting": 499365,
+      "replacement_tuples": 10650456720,
+      "tuples_after_suffix_screen": 3614188572,
+      "solutions": 0
+    }
+  ],
+  "total": {
+    "schedules": 1701,
+    "deletions_with_rerouting": 1165185,
+    "replacement_tuples": 24851065680,
+    "tuples_after_suffix_screen": 8505347166,
+    "solutions": 0
+  },
+  "padded_28_gate_control": {
+    "index": 1,
+    "schedules": 1,
+    "deletions_with_rerouting": 726,
+    "replacement_tuples": 16734300,
+    "tuples_after_suffix_screen": 6268384,
+    "solutions": 76
+  },
+  "row_count": 58,
+  "canonical_schedule_rule": "two forced ORs, missing pairs and triples in center order, products in center order, left fold of products"
+}
