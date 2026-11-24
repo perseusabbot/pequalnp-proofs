@@ -1,0 +1,5 @@
+'Checkpoint121.Heawood.physicalCounts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Heawood.minimumCovers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Heawood.optimalProducts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Heawood.physicalBottom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Heawood.optimalBottom' depends on axioms: [propext, Classical.choice, Quot.sound]

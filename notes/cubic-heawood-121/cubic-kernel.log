@@ -1,0 +1,5 @@
+'Checkpoint121.Cubic.stages' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Cubic.physicalCoverBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Cubic.representationIff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Cubic.coverRepresentation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint121.Cubic.parentIffNormalization' depends on axioms: [propext, Classical.choice, Quot.sound]

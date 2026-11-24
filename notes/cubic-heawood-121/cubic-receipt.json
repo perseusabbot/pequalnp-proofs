@@ -1,0 +1,59 @@
+{
+  "project_revision": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "lean": "4.36.0",
+  "checks": {
+    "reduction": {
+      "module": "R_meta_2084_121",
+      "source_sha256": "adea47534b99148f1dfe5ed0954230f47fdfac4271c2185b4e59c1ca7ccd7362",
+      "constants": 1646,
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "rests_on": [
+        {
+          "module": "PEqualNP.Outside.R_meta_2084_121",
+          "sha256": "adea47534b99148f1dfe5ed0954230f47fdfac4271c2185b4e59c1ca7ccd7362"
+        }
+      ]
+    },
+    "isolated_inputs": {
+      "module": "L_meta_2084_child1",
+      "source_sha256": "65c2323d49e13dd90faf7cd3f8b8904aef9716f8d6a7d3b4dee15716f2a2a3fa",
+      "constants": 1780,
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "rests_on": [
+        {
+          "module": "PEqualNP.Outside.L_meta_2084_child1",
+          "sha256": "65c2323d49e13dd90faf7cd3f8b8904aef9716f8d6a7d3b4dee15716f2a2a3fa"
+        }
+      ]
+    },
+    "cost": {
+      "module": "L_meta_2084_child2",
+      "source_sha256": "73e7ab11d86fbc04dff4535f21cc5507a4511db4c8a68f445962ad30011d795e",
+      "constants": 1678,
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "rests_on": [
+        {
+          "module": "PEqualNP.Outside.L_meta_2084_child2",
+          "sha256": "73e7ab11d86fbc04dff4535f21cc5507a4511db4c8a68f445962ad30011d795e"
+        }
+      ]
+    }
+  },
+  "child_sha256": {
+    "1": "1502be0bc667bc9f950aeb7a1fe4814f2aa6f64c4aab961659e7fd00d9581957",
+    "2": "82c03b2492782e1ee347b17e6ffe21d7ec9f704f9a48d2a5e0fd37466bfc194f",
+    "3": "6de6f0c0a27f5f4d731fd18143e1d88913cc2d26c3b15c91370a29bd2e7d09de"
+  }
+}

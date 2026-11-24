@@ -1,0 +1,141 @@
+{
+  "BicliqueFormula": {
+    "requires": [
+      "StarFormula"
+    ],
+    "sha256": "4c22da427dc6807e2a4874f5992a8b44ce3789288cdca17f6b0fdf234f0f7f23",
+    "source": "src/BicliqueFormula.lean"
+  },
+  "BipartitionCount": {
+    "requires": [],
+    "sha256": "fc6d03831fb2e33501e9e150d7cc8087baa5999173128327bc9bd5d1d6707ca6",
+    "source": "src/BipartitionCount.lean"
+  },
+  "BottomPairs": {
+    "requires": [
+      "OptimalStars"
+    ],
+    "sha256": "478727c0300978fbced57ce303d8bf514d25549a7559394016d05f926b8393a6",
+    "source": "src/BottomPairs.lean"
+  },
+  "CoverBuild": {
+    "requires": [],
+    "sha256": "3985fe98b9beb84f9bc9f11312b6279970f8224774cb5063518e2af02fa4398f",
+    "source": "src/CoverBuild.lean"
+  },
+  "ExactCleanFormula": {
+    "requires": [
+      "BicliqueFormula",
+      "BipartitionCount"
+    ],
+    "sha256": "00812d2fdda872b2969bd4e3749dc9094ac5be7bc70899feaca3325b2f2b22f4",
+    "source": "src/ExactCleanFormula.lean"
+  },
+  "ExactReduction": {
+    "requires": [
+      "Sharp",
+      "R_meta_2084_121",
+      "L_meta_2084_child1",
+      "Literals"
+    ],
+    "sha256": "9085c649139486472ac3f45f974d37d1829a9cb7f0802862846f86e08b768485",
+    "source": "src/ExactReduction.lean"
+  },
+  "HeawoodStages": {
+    "requires": [
+      "PhysicalStages"
+    ],
+    "sha256": "9bd542704a2fd98acc955a0c047a4e1067f3dde9150c6be7bc298a20bd9f6a11",
+    "source": "src/HeawoodStages.lean"
+  },
+  "L_meta_2084_child1": {
+    "requires": [],
+    "sha256": "65c2323d49e13dd90faf7cd3f8b8904aef9716f8d6a7d3b4dee15716f2a2a3fa",
+    "source": "src/L_meta_2084_child1.lean"
+  },
+  "L_meta_2084_child2": {
+    "requires": [],
+    "sha256": "73e7ab11d86fbc04dff4535f21cc5507a4511db4c8a68f445962ad30011d795e",
+    "source": "src/L_meta_2084_child2.lean"
+  },
+  "L_meta_2535": {
+    "requires": [],
+    "sha256": "83e5fb6297350d1d3cfc7fcd2b698e4c883f7eebfd5a4d98475511c7f86aa56e",
+    "source": "src/L_meta_2535.lean"
+  },
+  "Literals": {
+    "requires": [
+      "L_meta_2535"
+    ],
+    "sha256": "74521230e750713a2b5436ad78eace8d38bd699f7a2608b0c37cc1160751031e",
+    "source": "src/Literals.lean"
+  },
+  "OptimalStars": {
+    "requires": [
+      "HeawoodStages",
+      "Sharp"
+    ],
+    "sha256": "1434e313652c7603f859550b494d931c8639624b74bfa3d9d77418515683e1d0",
+    "source": "src/OptimalStars.lean"
+  },
+  "PhysicalStages": {
+    "requires": [
+      "StageSupport"
+    ],
+    "sha256": "a106ddded6b07d5386a5dd98f1b3fcaa431d9c21ceacd57b9a510f9ec7f3a195",
+    "source": "src/PhysicalStages.lean"
+  },
+  "R_meta_2084_121": {
+    "requires": [],
+    "sha256": "adea47534b99148f1dfe5ed0954230f47fdfac4271c2185b4e59c1ca7ccd7362",
+    "source": "src/R_meta_2084_121.lean"
+  },
+  "SemanticFormula": {
+    "requires": [
+      "ExactCleanFormula"
+    ],
+    "sha256": "99c9984a3f3f2624eb9f33fa21d06c129f22497de1b61dd77e2763e95cce525c",
+    "source": "src/SemanticFormula.lean"
+  },
+  "SharedOR": {
+    "requires": [
+      "SemanticFormula",
+      "StarUnion"
+    ],
+    "sha256": "bccf15fb885045a9211b5196855aea70459f5a8b68cbdffd4ec540015627a4bb",
+    "source": "src/SharedOR.lean"
+  },
+  "Sharp": {
+    "requires": [
+      "Staged"
+    ],
+    "sha256": "8deb3b87b57f3af8c3cce9448bfbfa5503c8cbd0ab7edcbb894eb8c4b1493ff8",
+    "source": "src/Sharp.lean"
+  },
+  "StageSupport": {
+    "requires": [
+      "SharedOR",
+      "CoverBuild"
+    ],
+    "sha256": "855425c7ea1725ba58810523b3feb14a27aa84c2370e66dcce0c59336e84d925",
+    "source": "src/StageSupport.lean"
+  },
+  "Staged": {
+    "requires": [
+      "PhysicalStages",
+      "L_meta_2084_child2"
+    ],
+    "sha256": "d50c2e5a82f762a1c847a7d6d06c724019003760b2c5221350d547b62135056c",
+    "source": "src/Staged.lean"
+  },
+  "StarFormula": {
+    "requires": [],
+    "sha256": "8c8f22d94850964a39868d9cc7af0dd31c97f6cb168b75dd1f02357c46a16730",
+    "source": "src/StarFormula.lean"
+  },
+  "StarUnion": {
+    "requires": [],
+    "sha256": "4437b20c2f6ce732b1a14368571daa2e96b097fa5b47dbdb1171e4880c51fe54",
+    "source": "src/StarUnion.lean"
+  }
+}

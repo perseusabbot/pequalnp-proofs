@@ -1,0 +1,8 @@
+{
+  "point_centered": 2187,
+  "line_centered": 2187,
+  "total": 4374,
+  "assignments_checked_per_circuit": 16384,
+  "gates_per_circuit": 27,
+  "sorted_library_signatures_sha256": "fc8f77b546bc83c34c5a125a8284913eabdc6f3492876c2cc8329ae4ba6509de"
+}
