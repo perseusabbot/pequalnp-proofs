@@ -1,0 +1,126 @@
+{
+  "previous_commit": "1456ba235d8d27913fd8fdb5006f604400e3bf76",
+  "upstream": "2a775730536a0e98b3f16d2736228dda5e0c06e4",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "new_modules": 29,
+  "audited_declarations": 19,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "order_seven_minimum": 21,
+  "unrestricted_published_interval": [
+    12,
+    15
+  ],
+  "two_orbit_maximum_cells": 308,
+  "unrestricted_constructed_cells": 334,
+  "board_zero_cells": 336,
+  "replacement_windows": [
+    [
+      1,
+      14,
+      28,
+      2
+    ],
+    [
+      2,
+      91,
+      292,
+      8
+    ],
+    [
+      3,
+      364,
+      2095,
+      20
+    ],
+    [
+      4,
+      1001,
+      10736,
+      51
+    ],
+    [
+      5,
+      2002,
+      57290,
+      127
+    ],
+    [
+      6,
+      3003,
+      524833,
+      1899
+    ],
+    [
+      7,
+      3432,
+      9700048,
+      29943
+    ]
+  ],
+  "petersen_true": [
+    11,
+    11
+  ],
+  "petersen_false": [
+    14,
+    16
+  ],
+  "petersen_full": [
+    15,
+    20
+  ],
+  "wheel_monotone_gates": 13,
+  "numerical_output": [
+    "4877 certificate states, 6175855 orbit pairs, 308 of 336 cells covered at best.",
+    "Exact replacement searches: EXCLUDED 7 3432 9700048 29943",
+    "Wheel: all 128 assignments, 12-gate exhaustion and 13-gate construction reproduced.",
+    "Independent counts match for all 6,175,855 pairs. Explicit families cover 334 and 308 of 336."
+  ],
+  "checked_sha256": {
+    "README.md": "4c030e9494dda2d0a6c6c3d7b3a4f958ef853195a1118ab66820911b4463366e",
+    "check.py": "e73a1a9c0ecc49fce085fe08c7e5b52ed950c91e093cd9594ea0d671ddb7f159",
+    "desk-targets.json": "86c95dc45348e38d972e3071f3de8eb50806756eac80ce49408f2f465d9c97ec",
+    "plane-examples.json": "829f9509bfc37d6f7d56022228c4d3662527cfbb728815acd622cdc4e7ebbe97",
+    "plane-results.json": "ccb93d0eff0d8a6af2f3d95480e537dcc840558ad57003d030d8ad325ca89a68",
+    "plane.py": "56f0403e1b57eb86ab755f6e7793fa8c670a5096d2ecb73e669f9e22f3db8a86",
+    "reference.cpp": "9ee36fb07b44fb1597550a97a5303e631cea84dd037bb60cc1b8c863fff3851b",
+    "repair-results.json": "8c35fb41a45b125b0800223843415e3f925280be136d2b67a4a7439a0590b6a5",
+    "repair.cpp": "ffd1c931ff4c67b4214b09cf9b44a6d86d7f982f7bad95cbf9ca38d54602add4",
+    "replay.py": "9cc83638a13cbe19c8ce42482ef56c92e4102c6b2004035520caca082e75eea9",
+    "src/PetersenCofactors.lean": "29ae05cb4bd16a88e353dea9f6671238946c065a6ebeb16a2ae55ec54c5a4aa9",
+    "src/PetersenLower.lean": "47eb5a33434c8957b6459da110d8d2c828d3dc832a94a35da75a9f148dee9e16",
+    "src/PlaneCertificate.lean": "339503910ca952646833dd0c32b2708f13358398bb65e803515a918d78f28ff1",
+    "src/PlaneChecks0.lean": "bb935ebe4585d1fd692f0dad74cd7d2d969d0ebbd16ceb79aff96de040ffe5eb",
+    "src/PlaneChecks1.lean": "e365bad097bdec1a83746403828b2e5b72d3c508013ad61bb3d2f8f919a36d66",
+    "src/PlaneChecks10.lean": "ccb4f1210a1599db110598f839c8fe9f04257f175d7810c87857f2df35e195da",
+    "src/PlaneChecks11.lean": "a7f56e3388aa2b312ba168059ebf2113ead05baee35890504b40156b61f099f7",
+    "src/PlaneChecks12.lean": "b894098a68914ed04c0bcd222a34f1ca90d10927aec785702890541a1f31d6ca",
+    "src/PlaneChecks2.lean": "774bb7ee4fb3d742d60d2146ee3500e6363dec10d55076e4725bef4c0a11691b",
+    "src/PlaneChecks3.lean": "7dda0636ce6752c60d8fe2eee54d6cff9e3f514caf1ee799dc7aa4e37054bbb8",
+    "src/PlaneChecks4.lean": "af414f1f2a0af9d018af5f16d5c5b591938d9678ed2ebc6f3801b2f1a4347a84",
+    "src/PlaneChecks5.lean": "331a96610938b3899b815b08ad02c05abe4b1ce3369eb337c9354daed9a90085",
+    "src/PlaneChecks6.lean": "c7333ae195b2e88d923a46e501830278baa4935bd735339d1b45bc0ca7303059",
+    "src/PlaneChecks7.lean": "1aeb18740cabc559e144e09bb8c0cb9a8611a976961a74a7d1a85c7cd396c442",
+    "src/PlaneChecks8.lean": "70e8c1fc954d136f561cb6c2007a7cabde0cde300f8080cfe5788e032a279f7e",
+    "src/PlaneChecks9.lean": "6f13818b43d2036092de5184bc5536923324cde76e23a44db58c003b40715cf5",
+    "src/PlaneData0.lean": "22169b5f633505e2b8ed1e784d7f001e4a53ffde68a7555ef144627d2ab710a4",
+    "src/PlaneData1.lean": "5f12e074831b4b67425261615b93db5b512f53dfdf1ca21b9b1413e3434be8ec",
+    "src/PlaneData2.lean": "997d48dd6f812441cb336358064c317332ca442d16bc4b2a468783471b43b378",
+    "src/PlaneData3.lean": "1c6d800349c976ee3c8994e320b13fd0f9b7a86d8c0722a512f00e68a9c4af95",
+    "src/PlaneData4.lean": "aae0fe61bf9207b7795da2ae13c0ea8d0eb068ddb3bddade92036306a3b43fbf",
+    "src/PlaneData5.lean": "dc6b33412b68979654c23d0cb60257314d42f83f03877b075a1b92232075e881",
+    "src/PlaneData6.lean": "a40893e670cf17eb93cbf3f708a055734eb172993e8193c64846635cf98978ee",
+    "src/PlaneExamples.lean": "0d5c4deab8893f24707f1fe5a908b378626bee79cab143dc3f9bf6f9e787ce0c",
+    "src/PlaneLookup.lean": "56f59b20aa0f9bb24befb67f3b5624091b2ca3805417e351095e5cfd1161f60f",
+    "src/PlaneMinimum.lean": "69e9316a2e7cd07f43377857ac725f1a9e4c2c2460e8859c5956da37c12b57b9",
+    "src/PlaneOrbit.lean": "abfbd4b6eecaba2d7fed0511c7336e4d6dec7e1ae798526d3503bb4bbdf3fd68",
+    "src/PlaneTwo.lean": "dd44068bd8be2c1da16703c0630053d4f1de21b55519420517cac8f9352b99bd",
+    "src/Wheel133.lean": "2feaf0473a7499f39bacc519c565d0e69aaac2f0075548346bbc0e81f91f1466",
+    "wheel.json": "f08a78ac145227298058948f571b651bbdfb03120ac1eba62d6d78afc797f0c8"
+  }
+}

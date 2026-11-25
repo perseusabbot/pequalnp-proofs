@@ -1,0 +1,22 @@
+{
+  "L-meta-651": {
+    "title": "Petersen graph: no circuit of AND, OR (fan-in two) and NOT gates with at most 19 gates computes its edge function",
+    "statement": "¬ PEqualNP.MetaComplexity.HasCircuitSize 10 (fun x : Fin 10 → Bool => (x 0 && x 1) || (x 1 && x 2) || (x 2 && x 3) || (x 3 && x 4) || (x 4 && x 0) || (x 0 && x 5) || (x 1 && x 6) || (x 2 && x 7) || (x 3 && x 8) || (x 4 && x 9) || (x 5 && x 7) || (x 7 && x 9) || (x 9 && x 6) || (x 6 && x 8) || (x 8 && x 5)) 19",
+    "module": "PEqualNP.Outside.L_meta_651"
+  },
+  "L-meta-9348": {
+    "title": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 14 all-0 rectangles",
+    "statement": "∃ L : List (Finset (Fin 21) × Finset (Fin 21)), L.length ≤ 14 ∧ (∀ r ∈ L, ∀ i ∈ r.1, ∀ j ∈ r.2, (([1179809, 262467, 524934, 1049868, 2585, 5170, 10340, 20680, 41360, 82720, 165440, 330880, 661760, 1323520, 549889, 1099778, 102405, 204810, 409620, 819240, 1638480] : List ℕ).getD i.val 0).testBit j.val = false) ∧ ∀ (i : Fin 21) (j : Fin 21), (([1179809, 262467, 524934, 1049868, 2585, 5170, 10340, 20680, 41360, 82720, 165440, 330880, 661760, 1323520, 549889, 1099778, 102405, 204810, 409620, 819240, 1638480] : List ℕ).getD i.val 0).testBit j.val = false → ∃ r ∈ L, i ∈ r.1 ∧ j ∈ r.2",
+    "module": "PEqualNP.Outside.L_meta_9348"
+  },
+  "L-meta-9350": {
+    "title": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 14 all-0 rectangles",
+    "statement": "¬ (∃ L : List (Finset (Fin 21) × Finset (Fin 21)), L.length ≤ 14 ∧ (∀ r ∈ L, ∀ i ∈ r.1, ∀ j ∈ r.2, (([1179809, 262467, 524934, 1049868, 2585, 5170, 10340, 20680, 41360, 82720, 165440, 330880, 661760, 1323520, 549889, 1099778, 102405, 204810, 409620, 819240, 1638480] : List ℕ).getD i.val 0).testBit j.val = false) ∧ ∀ (i : Fin 21) (j : Fin 21), (([1179809, 262467, 524934, 1049868, 2585, 5170, 10340, 20680, 41360, 82720, 165440, 330880, 661760, 1323520, 549889, 1099778, 102405, 204810, 409620, 819240, 1638480] : List ℕ).getD i.val 0).testBit j.val = false → ∃ r ∈ L, i ∈ r.1 ∧ j ∈ r.2)",
+    "module": "PEqualNP.Outside.L_meta_9350"
+  },
+  "L-meta-16082": {
+    "title": "The edge function of the wheel with six spokes has an AND/OR/NOT circuit of fan-in two with at most 13 gates",
+    "statement": "PEqualNP.MetaComplexity.HasCircuitSize 7 (fun x : Fin 7 → Bool => (x 0 && x 1) || (x 0 && x 2) || (x 0 && x 3) || (x 0 && x 4) || (x 0 && x 5) || (x 0 && x 6) || (x 1 && x 2) || (x 2 && x 3) || (x 3 && x 4) || (x 4 && x 5) || (x 5 && x 6) || (x 1 && x 6)) 13",
+    "module": "PEqualNP.Outside.L_meta_16082"
+  }
+}
