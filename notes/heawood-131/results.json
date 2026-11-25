@@ -1,0 +1,540 @@
+{
+ "basis": {
+  "possible": false,
+  "last_use_states": 17206410,
+  "root_supports": 4,
+  "available_states": 15701748
+ },
+ "decisions": [
+  {
+   "mask": 32767,
+   "vertices": 15775,
+   "cap": 17,
+   "local_restrictions": 30,
+   "possible": false,
+   "root_supports": 4,
+   "expanded_states": 4662612
+  },
+  {
+   "mask": 128895,
+   "vertices": 12223,
+   "cap": 18,
+   "local_restrictions": 24,
+   "possible": false,
+   "root_supports": 192,
+   "expanded_states": 9709039
+  },
+  {
+   "mask": 114687,
+   "vertices": 16319,
+   "cap": 18,
+   "local_restrictions": 48,
+   "possible": false,
+   "root_supports": 4,
+   "expanded_states": 92
+  },
+  {
+   "mask": 229359,
+   "vertices": 15807,
+   "cap": 19,
+   "local_restrictions": 48,
+   "possible": false,
+   "root_supports": 4,
+   "expanded_states": 1615310
+  },
+  {
+   "mask": 262143,
+   "vertices": 16319,
+   "cap": 20,
+   "local_restrictions": 48,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 2
+  },
+  {
+   "mask": 2097151,
+   "vertices": 16383,
+   "cap": 23,
+   "local_restrictions": 64,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 75861
+  },
+  {
+   "mask": 2097151,
+   "vertices": 16319,
+   "cap": 21,
+   "local_restrictions": 64,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 863353
+  },
+  {
+   "mask": 393215,
+   "vertices": 16383,
+   "cap": 21,
+   "local_restrictions": 64,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 288911
+  },
+  {
+   "mask": 524031,
+   "vertices": 16383,
+   "cap": 21,
+   "local_restrictions": 64,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 212763
+  },
+  {
+   "mask": 524287,
+   "vertices": 16383,
+   "cap": 21,
+   "local_restrictions": 48,
+   "possible": false,
+   "root_supports": 0,
+   "expanded_states": 0
+  },
+  {
+   "mask": 917503,
+   "vertices": 16383,
+   "cap": 21,
+   "local_restrictions": 48,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 16228
+  },
+  {
+   "mask": 1015807,
+   "vertices": 16383,
+   "cap": 21,
+   "local_restrictions": 48,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 10730
+  },
+  {
+   "mask": 1048575,
+   "vertices": 16383,
+   "cap": 22,
+   "local_restrictions": 64,
+   "possible": false,
+   "root_supports": 0,
+   "expanded_states": 0
+  },
+  {
+   "mask": 131071,
+   "vertices": 16319,
+   "cap": 20,
+   "local_restrictions": 64,
+   "possible": false,
+   "root_supports": 16,
+   "expanded_states": 7897550
+  }
+ ],
+ "oracle_controls": [
+  [
+   128,
+   1,
+   false,
+   false
+  ],
+  [
+   128,
+   1,
+   true,
+   false
+  ],
+  [
+   128,
+   2,
+   false,
+   true
+  ],
+  [
+   128,
+   2,
+   true,
+   true
+  ],
+  [
+   136,
+   0,
+   false,
+   false
+  ],
+  [
+   136,
+   0,
+   true,
+   false
+  ],
+  [
+   136,
+   1,
+   false,
+   true
+  ],
+  [
+   136,
+   1,
+   true,
+   true
+  ],
+  [
+   160,
+   0,
+   false,
+   false
+  ],
+  [
+   160,
+   0,
+   true,
+   false
+  ],
+  [
+   160,
+   1,
+   false,
+   true
+  ],
+  [
+   160,
+   1,
+   true,
+   true
+  ],
+  [
+   168,
+   1,
+   false,
+   false
+  ],
+  [
+   168,
+   1,
+   true,
+   false
+  ],
+  [
+   168,
+   2,
+   false,
+   true
+  ],
+  [
+   168,
+   2,
+   true,
+   true
+  ],
+  [
+   170,
+   0,
+   false,
+   true
+  ],
+  [
+   170,
+   0,
+   true,
+   true
+  ],
+  [
+   192,
+   0,
+   false,
+   false
+  ],
+  [
+   192,
+   0,
+   true,
+   false
+  ],
+  [
+   192,
+   1,
+   false,
+   true
+  ],
+  [
+   192,
+   1,
+   true,
+   true
+  ],
+  [
+   200,
+   1,
+   false,
+   false
+  ],
+  [
+   200,
+   1,
+   true,
+   false
+  ],
+  [
+   200,
+   2,
+   false,
+   true
+  ],
+  [
+   200,
+   2,
+   true,
+   true
+  ],
+  [
+   204,
+   0,
+   false,
+   true
+  ],
+  [
+   204,
+   0,
+   true,
+   true
+  ],
+  [
+   224,
+   1,
+   false,
+   false
+  ],
+  [
+   224,
+   1,
+   true,
+   false
+  ],
+  [
+   224,
+   2,
+   false,
+   true
+  ],
+  [
+   224,
+   2,
+   true,
+   true
+  ],
+  [
+   232,
+   3,
+   false,
+   false
+  ],
+  [
+   232,
+   3,
+   true,
+   false
+  ],
+  [
+   232,
+   4,
+   false,
+   true
+  ],
+  [
+   232,
+   4,
+   true,
+   true
+  ],
+  [
+   234,
+   1,
+   false,
+   false
+  ],
+  [
+   234,
+   1,
+   true,
+   false
+  ],
+  [
+   234,
+   2,
+   false,
+   true
+  ],
+  [
+   234,
+   2,
+   true,
+   true
+  ],
+  [
+   236,
+   1,
+   false,
+   false
+  ],
+  [
+   236,
+   1,
+   true,
+   false
+  ],
+  [
+   236,
+   2,
+   false,
+   true
+  ],
+  [
+   236,
+   2,
+   true,
+   true
+  ],
+  [
+   238,
+   0,
+   false,
+   false
+  ],
+  [
+   238,
+   0,
+   true,
+   false
+  ],
+  [
+   238,
+   1,
+   false,
+   true
+  ],
+  [
+   238,
+   1,
+   true,
+   true
+  ],
+  [
+   240,
+   0,
+   false,
+   true
+  ],
+  [
+   240,
+   0,
+   true,
+   true
+  ],
+  [
+   248,
+   1,
+   false,
+   false
+  ],
+  [
+   248,
+   1,
+   true,
+   false
+  ],
+  [
+   248,
+   2,
+   false,
+   true
+  ],
+  [
+   248,
+   2,
+   true,
+   true
+  ],
+  [
+   250,
+   0,
+   false,
+   false
+  ],
+  [
+   250,
+   0,
+   true,
+   false
+  ],
+  [
+   250,
+   1,
+   false,
+   true
+  ],
+  [
+   250,
+   1,
+   true,
+   true
+  ],
+  [
+   252,
+   0,
+   false,
+   false
+  ],
+  [
+   252,
+   0,
+   true,
+   false
+  ],
+  [
+   252,
+   1,
+   false,
+   true
+  ],
+  [
+   252,
+   1,
+   true,
+   true
+  ],
+  [
+   254,
+   1,
+   false,
+   false
+  ],
+  [
+   254,
+   1,
+   true,
+   false
+  ],
+  [
+   254,
+   2,
+   false,
+   true
+  ],
+  [
+   254,
+   2,
+   true,
+   true
+  ]
+ ],
+ "rejected_controls": [
+  "unproved lower bound",
+  "repeated permutation entry",
+  "missing negative lift",
+  "incorrect lift"
+ ]
+}

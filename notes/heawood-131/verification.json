@@ -1,0 +1,161 @@
+{
+  "completed_utc": "2026-11-25T16:46:38.783801+00:00",
+  "upstream": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "previous_commit": "36abc906a949970ea73ac363b137e84cf6abf917",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "previous_modules": 154,
+  "new_modules": 7,
+  "audited_declarations": 167,
+  "new_theorems": {
+    "Checkpoint131.Deletion.legalPlacement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Deletion.deletes": [
+      "propext"
+    ],
+    "Checkpoint131.Deletion.witness": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Full.rowSigns": [
+      "propext"
+    ],
+    "Checkpoint131.Full.inputColumns": [
+      "propext"
+    ],
+    "Checkpoint131.Full.programFromRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Full.postedTwentyFour": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Upper.control128895_11679": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Upper.control32767_15775": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Upper.control128895_12223": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Rebuild.graftTruth": [
+      "propext"
+    ],
+    "Checkpoint131.Rebuild.graftReady": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Rebuild.graftBuilt": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Rebuild.rebuiltProjection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Heawood.boundaryValid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Heawood.boundaryNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Rebuild.combineEval": [
+      "propext"
+    ],
+    "Checkpoint131.Rebuild.rebuildOne": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Rebuild.reuseSigned": [],
+    "Checkpoint131.Rebuild.buildSigned": [
+      "propext"
+    ],
+    "Checkpoint131.Deletion.oldOperand": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Deletion.twoGateReduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Deletion.bottomAndReduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Deletion.bottomAndTwentyFive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint131.Deletion.programFromDeletion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "kernel_unconditional_full_graph_gate_floor": 19,
+  "kernel_full_graph_floor_conditional_on_thirteen_vertex_exhaustion": 24,
+  "externally_certified_full_graph_gate_floor": 24,
+  "previous_full_graph_gate_floor": 23,
+  "upper_control": {
+    "gates": 27,
+    "assignments": 16384
+  },
+  "previous_remaining_masks": 2500,
+  "previous_remaining_orbits": 25,
+  "remaining_masks": 246,
+  "remaining_orbits": 6,
+  "minimum_losses_at_26_gates": 18,
+  "minimum_losses_at_24_gates": 21,
+  "basis_exhaustions": {
+    "possible": false,
+    "last_use_states": 17206410,
+    "root_supports": 4,
+    "available_states": 15701748
+  },
+  "signed_decisions": 14,
+  "signed_states": 25352451,
+  "tiny_oracle_controls": 66,
+  "damaged_projections_rejected": 4,
+  "star_assignments": 7168,
+  "previous_checkpoint_numerical_replay": true,
+  "parent_sha256": {
+    "results.json": "6660ef053cfe4a2e08247c17f2bf13e47b30f010d11c5ad8931824c0d76d1e50",
+    "sources.json": "e96c41086738f5229b35a93c67e537e3a5b88ade3f393bc72f3d17e86066f481",
+    "frontier.json": "e0a4a2a10eb1466f4e8003441d99febf8e2adaf38f53d334a221f066782b8b29",
+    "verification.json": "b60e96563892ba976be39e22fc0c8109eddc12e247da93abe8a9d78911b1189f",
+    "prefixes.json.gz": "df4cc856bec5434cf6e1174483c25e10415ebc2be55135c358d3043fc36dd799"
+  },
+  "checked_sha256": {
+    "basis.json": "0080e2f4f029a89ce0686d90b6c0ccf2887eb7ff61f29863f7aca4d8cdf17022",
+    "check.py": "c38347fa55ff3c7b48fce5e3856a9be73eaa03844402e20179f2020ac461c2e8",
+    "controls.json": "71f78cf8ed13c9484c55e8a180a8f09091f007c497088bb51f739ade0b0c3a9a",
+    "frontier.json": "f776a3407b98b009aba44b93adb9c4da2082e464bc1a8243931c247e3e1bda67",
+    "geometry131.py": "057e8de91e42862c457d9ed9c52aae1e21bcd5a560142623bb7c897e5b1a4d4c",
+    "inventory.py": "6f3e6a6c694cd66438a13a95c23e021a44b902c4bbc70a171845ba47a34fef72",
+    "kernel.log": "6ac30ea83bb2e19074c68fa6e64b252d538f908428525edf083f4643a82a8381",
+    "projections.json": "c47769eb367ea1adf4cc022f5cd7ea12cdbe88130d921674f91c0833dac86f78",
+    "replay.py": "16a2552778dc7f6398575676708fea5e9cd1fe1cc43348a0a010426d5085ee6b",
+    "results.json": "70cbe3b89b2df0cc36f94b3d7af767754e582a4c4a82e4b5bf5e8462626167b5",
+    "row_tables.py": "18d6c6f1ca8b80982b5d140f41a1ae627e5f07aa85ff0c0fc9a0b62986be8851",
+    "signed_search.cpp": "c9eb938d8e767025cdeb4c9297a51812717d649d532f11f17d68712c42edfa5e",
+    "sources.json": "042fa2ec38bae0ecb7c7fb825cbc0972f16800a0971a37148feca6a054ca09d9"
+  }
+}

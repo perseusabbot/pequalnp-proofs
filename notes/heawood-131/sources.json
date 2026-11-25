@@ -1,0 +1,84 @@
+{
+  "DeletionData": {
+    "sha256": "1ca92934ea326c36964d286f124233dfed811990effd501aba91aa9db91a6353",
+    "imports": [
+      "TwentyTwo"
+    ],
+    "audited": [
+      "Checkpoint131.Deletion.deletes",
+      "Checkpoint131.Deletion.legalPlacement",
+      "Checkpoint131.Deletion.witness"
+    ]
+  },
+  "FullRowFloor": {
+    "sha256": "5a58b26c2150c16a3f84e0b81965e11b71d252ada0f5d73b612bbdc20042cb50",
+    "imports": [
+      "ProgramFloor"
+    ],
+    "audited": [
+      "Checkpoint131.Full.inputColumns",
+      "Checkpoint131.Full.postedTwentyFour",
+      "Checkpoint131.Full.programFromRows",
+      "Checkpoint131.Full.rowSigns"
+    ]
+  },
+  "LocalStars": {
+    "sha256": "13a7dd9bd40ed4d83e827872a21259d4be531218486095db0d377e0055ce10c4",
+    "imports": [
+      "ControlSemantics"
+    ],
+    "audited": [
+      "Checkpoint131.Upper.control128895_11679",
+      "Checkpoint131.Upper.control128895_12223",
+      "Checkpoint131.Upper.control32767_15775"
+    ]
+  },
+  "RebuiltPrefix": {
+    "sha256": "779d21a5935e93aa60b30c1355f8d1bfcd9d9345b04fae2164a7a0ccdafacac1",
+    "imports": [
+      "CutTransfer"
+    ],
+    "audited": [
+      "Checkpoint131.Rebuild.graftBuilt",
+      "Checkpoint131.Rebuild.graftReady",
+      "Checkpoint131.Rebuild.graftTruth",
+      "Checkpoint131.Rebuild.rebuiltProjection"
+    ]
+  },
+  "SurvivingScreens": {
+    "sha256": "e2d9dd10ef352b609673694db143833d81ad4ac839b9572f205b63cd86c0c549",
+    "imports": [
+      "ProjectedScreen"
+    ],
+    "audited": [
+      "Checkpoint131.Heawood.boundaryNecessary",
+      "Checkpoint131.Heawood.boundaryValid"
+    ]
+  },
+  "TranslatedGate": {
+    "sha256": "4b205ba4660ee6db06667e23de7e400499be00ce9d0525a9faa17a6ed38bca10",
+    "imports": [
+      "RebuiltPrefix"
+    ],
+    "audited": [
+      "Checkpoint131.Rebuild.buildSigned",
+      "Checkpoint131.Rebuild.combineEval",
+      "Checkpoint131.Rebuild.rebuildOne",
+      "Checkpoint131.Rebuild.reuseSigned"
+    ]
+  },
+  "VertexDeletion": {
+    "sha256": "687fa16c5cd3a82a8ee6ea774efb7481e6727bbfecfbab36c494a1dbc3d27ed3",
+    "imports": [
+      "DeletionData",
+      "ProgramFloor"
+    ],
+    "audited": [
+      "Checkpoint131.Deletion.bottomAndReduction",
+      "Checkpoint131.Deletion.bottomAndTwentyFive",
+      "Checkpoint131.Deletion.oldOperand",
+      "Checkpoint131.Deletion.programFromDeletion",
+      "Checkpoint131.Deletion.twoGateReduction"
+    ]
+  }
+}
