@@ -1,0 +1,58 @@
+{
+  "completed_utc": "2026-11-25T01:21:27.412011+00:00",
+  "project_revision": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "modules_rebuilt": 52,
+  "module_manifest_sha256": "51407e2d68f9b8d59a3be92753d9bd885aeb6ee4e74cb0934cc0c88ebe8e50c2",
+  "audited_declarations": 67,
+  "principal_theorems": {
+    "Checkpoint125.Heawood.gateFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.shortCircuits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.postedEightLost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.eightProfile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.eightPatterns": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.eightList": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.eightCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "independent_edge_masks": 2097152,
+  "endpoint_witnesses": 42,
+  "eight_boundary_masks": 357,
+  "eight_boundary_compact_json_sha256": "902b9febd837b25eb6b9d6e5ac1afc8ade0cf337d1f4ff1f05be6df151564864",
+  "automorphisms": 336,
+  "orbit_sizes": [
+    168,
+    168,
+    21
+  ],
+  "controls": 22,
+  "assignments_per_control": 16384,
+  "packed_rows": 58
+}

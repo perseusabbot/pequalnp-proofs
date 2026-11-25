@@ -1,0 +1,63 @@
+1/52 BoundaryData
+2/52 BipartitionCount
+3/52 L_meta_2084_child2
+4/52 CoverBuild
+5/52 MatchingData
+6/52 MatchingTable
+7/52 PEqualNP.Outside.L_meta_3008
+8/52 StarFormula
+9/52 BicliqueFormula
+10/52 ExactCleanFormula
+11/52 SemanticFormula
+12/52 StarUnion
+13/52 SharedOR
+14/52 PrunedProgram
+15/52 BinaryBudget
+16/52 ReadOnce
+17/52 ResidualForms
+18/52 ResidualSemantics
+19/52 MaskAudit
+20/52 RestrictionSupport
+21/52 StageSupport
+22/52 PhysicalStages
+23/52 HeawoodStages
+24/52 PrunedEdges
+25/52 PostedModel
+26/52 RegularBottom
+27/52 ContractCircuit
+28/52 EdgeSeparation
+29/52 ForcedInputs
+30/52 ResidualLibrary
+31/52 ResidualCircuit
+32/52 Restoration
+33/52 Staged
+34/52 Sharp
+35/52 OptimalStars
+36/52 BottomPairs
+37/52 MissingStar
+38/52 StarRestriction
+39/52 FourLost
+40/52 FourProfiles
+41/52 TerminalBudget
+42/52 PathObstruction
+43/52 DensePaths
+44/52 VertexMasks
+45/52 LossFloor
+46/52 ResidualShapes
+47/52 SixLost
+48/52 FiveCenters
+49/52 EightBoundary
+50/52 EightPatterns
+51/52 PatternBlocks
+52/52 PatternCount
+'Checkpoint125.Heawood.eightProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightPatterns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.outsideEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.fiveCenterCase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.fiveCounts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.sixAtTwentyFive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.gateFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.shortCircuits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.postedEightLost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightList' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightCount' depends on axioms: [propext, Classical.choice, Quot.sound]
