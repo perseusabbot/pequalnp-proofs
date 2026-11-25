@@ -1,0 +1,4917 @@
+[
+ {
+  "representative": 4095,
+  "lost_vertices": 16271,
+  "sample_vertices": 12687,
+  "matching": [
+   12,
+   15,
+   18
+  ],
+  "gate_cap": 11,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 56,
+  "stabilizer": 6
+ },
+ {
+  "representative": 7167,
+  "lost_vertices": 14239,
+  "sample_vertices": 12687,
+  "matching": [
+   10,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 8175,
+  "lost_vertices": 15775,
+  "sample_vertices": 12687,
+  "matching": [
+   4,
+   13,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 14207,
+  "lost_vertices": 12191,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 14334,
+  "lost_vertices": 16287,
+  "sample_vertices": 3225,
+  "matching": [
+   0,
+   11,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   8,
+   16,
+   128,
+   1024,
+   2048
+  ],
+  "positive_rows": [
+   1025,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   25,
+   144,
+   1032,
+   2049,
+   3200
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 15615,
+  "lost_vertices": 16287,
+  "sample_vertices": 11419,
+  "matching": [
+   8,
+   9,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   1024,
+   2048,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   8194,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   27,
+   144,
+   1034,
+   2051,
+   3074,
+   8201,
+   9224,
+   10241,
+   11392
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 15839,
+  "lost_vertices": 16287,
+  "sample_vertices": 12687,
+  "matching": [
+   5,
+   9,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   260,
+   4100,
+   8196,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 16095,
+  "lost_vertices": 8095,
+  "sample_vertices": 7581,
+  "matching": [
+   5,
+   15,
+   18
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   4,
+   8,
+   16,
+   20,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   4096,
+   5120
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   4100,
+   136,
+   2056,
+   4104,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   29,
+   148,
+   280,
+   1036,
+   1288,
+   2053,
+   3204,
+   4113,
+   4496,
+   6145,
+   7552
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 16111,
+  "lost_vertices": 15775,
+  "sample_vertices": 11419,
+  "matching": [
+   4,
+   8,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   1024,
+   2048,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   8194,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   27,
+   144,
+   1034,
+   2051,
+   3074,
+   8201,
+   9224,
+   10241,
+   11392
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 16335,
+  "lost_vertices": 15775,
+  "sample_vertices": 12687,
+  "matching": [
+   4,
+   14,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 16359,
+  "lost_vertices": 15775,
+  "sample_vertices": 12687,
+  "matching": [
+   3,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 19455,
+  "lost_vertices": 14239,
+  "sample_vertices": 12687,
+  "matching": [
+   10,
+   12,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 20463,
+  "lost_vertices": 15775,
+  "sample_vertices": 12687,
+  "matching": [
+   4,
+   12,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 22399,
+  "lost_vertices": 12191,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 23487,
+  "lost_vertices": 14239,
+  "sample_vertices": 9623,
+  "matching": [
+   6,
+   10,
+   16,
+   19
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 23519,
+  "lost_vertices": 14239,
+  "sample_vertices": 9623,
+  "matching": [
+   5,
+   10,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 23535,
+  "lost_vertices": 13727,
+  "sample_vertices": 9623,
+  "matching": [
+   4,
+   10,
+   16,
+   18
+  ],
+  "gate_cap": 11,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 24495,
+  "lost_vertices": 15775,
+  "sample_vertices": 9627,
+  "matching": [
+   4,
+   6,
+   13,
+   16
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   136,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   27,
+   282,
+   400,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 24527,
+  "lost_vertices": 15775,
+  "sample_vertices": 9623,
+  "matching": [
+   4,
+   13,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 24551,
+  "lost_vertices": 15775,
+  "sample_vertices": 9623,
+  "matching": [
+   3,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 24557,
+  "lost_vertices": 15775,
+  "sample_vertices": 12702,
+  "matching": [
+   1,
+   4,
+   13,
+   16
+  ],
+  "gate_cap": 10,
+  "signals": [
+   2,
+   4,
+   8,
+   16,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104,
+   8208
+  ],
+  "negative_rows": [
+   30,
+   148,
+   282,
+   4370,
+   4496,
+   8456,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 32711,
+  "lost_vertices": 15773,
+  "sample_vertices": 15773,
+  "matching": [
+   3,
+   15,
+   18
+  ],
+  "gate_cap": 14,
+  "signals": [
+   1,
+   4,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   4096,
+   5120,
+   8192,
+   8320
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   4100,
+   8196,
+   136,
+   2056,
+   4104,
+   1040,
+   2064,
+   8208
+  ],
+  "negative_rows": [
+   29,
+   148,
+   280,
+   1036,
+   2053,
+   3204,
+   4113,
+   4496,
+   8201,
+   9480,
+   14337,
+   15744
+  ],
+  "orbit_size": 14,
+  "stabilizer": 24
+ },
+ {
+  "representative": 48351,
+  "lost_vertices": 8127,
+  "sample_vertices": 1971,
+  "matching": [
+   5,
+   9,
+   16,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   16,
+   18,
+   32,
+   128,
+   256,
+   512,
+   768,
+   1024
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   514,
+   1040,
+   544
+  ],
+  "negative_rows": [
+   51,
+   306,
+   432,
+   529,
+   912,
+   1282,
+   1920
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 59231,
+  "lost_vertices": 12223,
+  "sample_vertices": 9623,
+  "matching": [
+   5,
+   7,
+   12,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   8196,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 59255,
+  "lost_vertices": 12223,
+  "sample_vertices": 11419,
+  "matching": [
+   3,
+   7,
+   12,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   1024,
+   2048,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   8194,
+   136,
+   2056,
+   2064,
+   8208
+  ],
+  "negative_rows": [
+   27,
+   144,
+   1034,
+   2051,
+   3074,
+   8201,
+   9224,
+   10241,
+   11392
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 79742,
+  "lost_vertices": 12223,
+  "sample_vertices": 3225,
+  "matching": [
+   0,
+   7,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   8,
+   16,
+   128,
+   1024,
+   2048
+  ],
+  "positive_rows": [
+   1025,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   25,
+   144,
+   1032,
+   2049,
+   3200
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 79854,
+  "lost_vertices": 15807,
+  "sample_vertices": 3225,
+  "matching": [
+   0,
+   4,
+   11,
+   14,
+   18
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   8,
+   16,
+   128,
+   1024,
+   2048
+  ],
+  "positive_rows": [
+   1025,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   25,
+   144,
+   1032,
+   2049,
+   3200
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 112499,
+  "lost_vertices": 12223,
+  "sample_vertices": 3225,
+  "matching": [
+   2,
+   3,
+   7,
+   14,
+   18
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   8,
+   16,
+   128,
+   1024,
+   2048
+  ],
+  "positive_rows": [
+   129,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   25,
+   144,
+   1032,
+   2049,
+   3200
+  ],
+  "orbit_size": 56,
+  "stabilizer": 6
+ },
+ {
+  "representative": 8191,
+  "lost_vertices": 16287,
+  "sample_vertices": 12687,
+  "matching": [
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 11,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 14335,
+  "lost_vertices": 16287,
+  "sample_vertices": 9615,
+  "matching": [
+   11,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   136
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 15359,
+  "lost_vertices": 16287,
+  "sample_vertices": 12687,
+  "matching": [
+   10,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 15871,
+  "lost_vertices": 16287,
+  "sample_vertices": 9623,
+  "matching": [
+   9,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 16127,
+  "lost_vertices": 16287,
+  "sample_vertices": 7581,
+  "matching": [
+   8,
+   15,
+   18
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   4,
+   8,
+   16,
+   20,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   4096,
+   5120
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   4100,
+   136,
+   2056,
+   4104,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   29,
+   148,
+   280,
+   1036,
+   1288,
+   2053,
+   3204,
+   4113,
+   4496,
+   6145,
+   7552
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 16255,
+  "lost_vertices": 16287,
+  "sample_vertices": 9615,
+  "matching": [
+   7,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   136
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 16351,
+  "lost_vertices": 16287,
+  "sample_vertices": 7581,
+  "matching": [
+   5,
+   15,
+   18
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   4,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   4096,
+   5120
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   4100,
+   136,
+   2056,
+   4104,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   29,
+   148,
+   280,
+   1036,
+   1288,
+   2053,
+   3204,
+   4113,
+   4496,
+   6145,
+   7552
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 16367,
+  "lost_vertices": 15775,
+  "sample_vertices": 12687,
+  "matching": [
+   4,
+   14,
+   16,
+   18
+  ],
+  "gate_cap": 11,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 16375,
+  "lost_vertices": 16287,
+  "sample_vertices": 12687,
+  "matching": [
+   3,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 20479,
+  "lost_vertices": 16287,
+  "sample_vertices": 12687,
+  "matching": [
+   12,
+   15,
+   18
+  ],
+  "gate_cap": 11,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 22527,
+  "lost_vertices": 16287,
+  "sample_vertices": 9623,
+  "matching": [
+   11,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 23551,
+  "lost_vertices": 14239,
+  "sample_vertices": 13727,
+  "matching": [
+   10,
+   15,
+   18
+  ],
+  "gate_cap": 14,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   24,
+   128,
+   256,
+   1024,
+   4096,
+   5120,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   31,
+   148,
+   282,
+   1038,
+   1156,
+   1290,
+   4115,
+   4370,
+   4496,
+   5378,
+   8201,
+   9480,
+   12289,
+   13696
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 24447,
+  "lost_vertices": 16287,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 24511,
+  "lost_vertices": 16287,
+  "sample_vertices": 9627,
+  "matching": [
+   6,
+   13,
+   16,
+   19
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   136,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   27,
+   282,
+   400,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 24543,
+  "lost_vertices": 16287,
+  "sample_vertices": 9623,
+  "matching": [
+   5,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 24559,
+  "lost_vertices": 15775,
+  "sample_vertices": 9623,
+  "matching": [
+   4,
+   13,
+   16,
+   18
+  ],
+  "gate_cap": 11,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 24567,
+  "lost_vertices": 16287,
+  "sample_vertices": 9623,
+  "matching": [
+   3,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 24573,
+  "lost_vertices": 16287,
+  "sample_vertices": 12702,
+  "matching": [
+   1,
+   13,
+   16,
+   19
+  ],
+  "gate_cap": 10,
+  "signals": [
+   2,
+   4,
+   8,
+   16,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104,
+   8208
+  ],
+  "negative_rows": [
+   30,
+   148,
+   282,
+   4370,
+   4496,
+   8456,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 32719,
+  "lost_vertices": 15775,
+  "sample_vertices": 11679,
+  "matching": [
+   4,
+   16,
+   18
+  ],
+  "gate_cap": 14,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   8196,
+   136,
+   2056,
+   1040,
+   2064,
+   8208
+  ],
+  "negative_rows": [
+   31,
+   148,
+   282,
+   400,
+   1038,
+   1290,
+   2055,
+   3078,
+   3204,
+   3330,
+   8201,
+   9480,
+   10241,
+   11648
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 32727,
+  "lost_vertices": 16287,
+  "sample_vertices": 7581,
+  "matching": [
+   3,
+   15,
+   18
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   4,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   4096,
+   5120
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   4100,
+   136,
+   2056,
+   4104,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   29,
+   148,
+   280,
+   1036,
+   1288,
+   2053,
+   3204,
+   4113,
+   4496,
+   6145,
+   7552
+  ],
+  "orbit_size": 42,
+  "stabilizer": 8
+ },
+ {
+  "representative": 39935,
+  "lost_vertices": 14271,
+  "sample_vertices": 12687,
+  "matching": [
+   10,
+   14,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 45051,
+  "lost_vertices": 15295,
+  "sample_vertices": 12687,
+  "matching": [
+   2,
+   14,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 46975,
+  "lost_vertices": 12223,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   14,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 48383,
+  "lost_vertices": 16319,
+  "sample_vertices": 9907,
+  "matching": [
+   8,
+   9,
+   16,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   16,
+   32,
+   128,
+   512,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   514,
+   8194,
+   1040,
+   544
+  ],
+  "negative_rows": [
+   51,
+   176,
+   529,
+   656,
+   1026,
+   8225,
+   8352,
+   8705,
+   9856
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 48607,
+  "lost_vertices": 16319,
+  "sample_vertices": 12687,
+  "matching": [
+   5,
+   9,
+   16,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   260,
+   4100,
+   8196,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 48863,
+  "lost_vertices": 8127,
+  "sample_vertices": 7581,
+  "matching": [
+   5,
+   16,
+   18
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   4,
+   8,
+   16,
+   20,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   4096,
+   5120
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   4100,
+   136,
+   2056,
+   4104,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   29,
+   148,
+   280,
+   1036,
+   1288,
+   2053,
+   3204,
+   4113,
+   4496,
+   6145,
+   7552
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 49085,
+  "lost_vertices": 16063,
+  "sample_vertices": 11419,
+  "matching": [
+   1,
+   14,
+   16,
+   19
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   1024,
+   2048,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   8194,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   27,
+   144,
+   1034,
+   2051,
+   3074,
+   8201,
+   9224,
+   10241,
+   11392
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 49118,
+  "lost_vertices": 16319,
+  "sample_vertices": 12687,
+  "matching": [
+   0,
+   5,
+   16,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   257,
+   130,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 52223,
+  "lost_vertices": 14271,
+  "sample_vertices": 12687,
+  "matching": [
+   10,
+   12,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 53243,
+  "lost_vertices": 15295,
+  "sample_vertices": 12687,
+  "matching": [
+   2,
+   13,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 55167,
+  "lost_vertices": 12223,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   13,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 56191,
+  "lost_vertices": 14271,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   10,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 56255,
+  "lost_vertices": 14271,
+  "sample_vertices": 9879,
+  "matching": [
+   6,
+   10,
+   16,
+   19
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   512,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   514,
+   8194,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   533,
+   660,
+   1030,
+   1668,
+   8705,
+   9856
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 56287,
+  "lost_vertices": 14271,
+  "sample_vertices": 9623,
+  "matching": [
+   5,
+   10,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 56303,
+  "lost_vertices": 14271,
+  "sample_vertices": 9623,
+  "matching": [
+   4,
+   10,
+   16,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 59263,
+  "lost_vertices": 12223,
+  "sample_vertices": 10655,
+  "matching": [
+   7,
+   12,
+   18
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   12,
+   16,
+   128,
+   256,
+   2048,
+   2304,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   8196,
+   136,
+   2056,
+   2064,
+   8208
+  ],
+  "negative_rows": [
+   31,
+   148,
+   282,
+   400,
+   2055,
+   2180,
+   2306,
+   8201,
+   8456,
+   10241,
+   10624
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 59359,
+  "lost_vertices": 16319,
+  "sample_vertices": 12695,
+  "matching": [
+   5,
+   11,
+   12,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   260,
+   4100,
+   8196,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   4115,
+   4370,
+   4496,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 61279,
+  "lost_vertices": 16319,
+  "sample_vertices": 9623,
+  "matching": [
+   5,
+   7,
+   12,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   8196,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 61303,
+  "lost_vertices": 16319,
+  "sample_vertices": 9615,
+  "matching": [
+   3,
+   7,
+   12,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   8194,
+   260,
+   8196,
+   136
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 61403,
+  "lost_vertices": 15295,
+  "sample_vertices": 12687,
+  "matching": [
+   2,
+   5,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 61419,
+  "lost_vertices": 15295,
+  "sample_vertices": 12687,
+  "matching": [
+   2,
+   4,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 72703,
+  "lost_vertices": 14271,
+  "sample_vertices": 12687,
+  "matching": [
+   10,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 79743,
+  "lost_vertices": 12223,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 79855,
+  "lost_vertices": 15807,
+  "sample_vertices": 9615,
+  "matching": [
+   4,
+   11,
+   14,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   136
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 79870,
+  "lost_vertices": 16319,
+  "sample_vertices": 3225,
+  "matching": [
+   0,
+   11,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   8,
+   16,
+   128,
+   1024,
+   2048
+  ],
+  "positive_rows": [
+   1025,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   25,
+   144,
+   1032,
+   2049,
+   3200
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81151,
+  "lost_vertices": 16319,
+  "sample_vertices": 5519,
+  "matching": [
+   8,
+   9,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   4100,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   4099,
+   5378,
+   5504
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81343,
+  "lost_vertices": 16319,
+  "sample_vertices": 1427,
+  "matching": [
+   6,
+   9,
+   14,
+   15,
+   20
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   2,
+   16,
+   128,
+   256,
+   1024
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   1040
+  ],
+  "negative_rows": [
+   19,
+   274,
+   400,
+   1282,
+   1408
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81375,
+  "lost_vertices": 16319,
+  "sample_vertices": 5519,
+  "matching": [
+   5,
+   9,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   4100,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   4099,
+   5378,
+   5504
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81399,
+  "lost_vertices": 16319,
+  "sample_vertices": 13591,
+  "matching": [
+   3,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   256,
+   1024,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   257,
+   1025,
+   8194,
+   260,
+   4100,
+   8196,
+   1040
+  ],
+  "negative_rows": [
+   23,
+   1030,
+   4115,
+   4370,
+   5378,
+   12289,
+   13568
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81405,
+  "lost_vertices": 16319,
+  "sample_vertices": 1683,
+  "matching": [
+   1,
+   9,
+   14,
+   15,
+   20
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   2,
+   16,
+   128,
+   512,
+   1024
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   514,
+   1040
+  ],
+  "negative_rows": [
+   19,
+   529,
+   656,
+   1026,
+   1664
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81406,
+  "lost_vertices": 16319,
+  "sample_vertices": 13591,
+  "matching": [
+   0,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   256,
+   1024,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   257,
+   1025,
+   8194,
+   260,
+   4100,
+   8196,
+   1040
+  ],
+  "negative_rows": [
+   23,
+   1030,
+   4115,
+   4370,
+   5378,
+   12289,
+   13568
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81775,
+  "lost_vertices": 15807,
+  "sample_vertices": 7323,
+  "matching": [
+   4,
+   7,
+   14,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   1024,
+   2048,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   136,
+   2056,
+   4104,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   27,
+   1034,
+   4115,
+   4240,
+   6147,
+   7170,
+   7296
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81871,
+  "lost_vertices": 15807,
+  "sample_vertices": 5519,
+  "matching": [
+   4,
+   14,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   4100,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   4099,
+   5378,
+   5504
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81886,
+  "lost_vertices": 16319,
+  "sample_vertices": 5519,
+  "matching": [
+   0,
+   5,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   4096
+  ],
+  "positive_rows": [
+   257,
+   1025,
+   130,
+   260,
+   4100,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   4099,
+   5378,
+   5504
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 81895,
+  "lost_vertices": 15807,
+  "sample_vertices": 5533,
+  "matching": [
+   3,
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   4,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   4100,
+   136,
+   4104,
+   1040
+  ],
+  "negative_rows": [
+   29,
+   148,
+   280,
+   1036,
+   1156,
+   1288,
+   4113,
+   4496,
+   5504
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 84991,
+  "lost_vertices": 14271,
+  "sample_vertices": 12687,
+  "matching": [
+   10,
+   12,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 85999,
+  "lost_vertices": 15807,
+  "sample_vertices": 12687,
+  "matching": [
+   4,
+   12,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 87039,
+  "lost_vertices": 14271,
+  "sample_vertices": 9623,
+  "matching": [
+   11,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 89023,
+  "lost_vertices": 14271,
+  "sample_vertices": 9651,
+  "matching": [
+   6,
+   10,
+   17,
+   19
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   16,
+   32,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   1040,
+   8208,
+   1056
+  ],
+  "negative_rows": [
+   51,
+   306,
+   432,
+   1282,
+   8225,
+   8608,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 89055,
+  "lost_vertices": 14271,
+  "sample_vertices": 5519,
+  "matching": [
+   5,
+   10,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   4100,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   4099,
+   5378,
+   5504
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 89079,
+  "lost_vertices": 14271,
+  "sample_vertices": 9653,
+  "matching": [
+   3,
+   10,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   4,
+   16,
+   32,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   8196,
+   1040,
+   8208,
+   1056
+  ],
+  "negative_rows": [
+   53,
+   180,
+   432,
+   1156,
+   8225,
+   8608,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 89083,
+  "lost_vertices": 14271,
+  "sample_vertices": 12687,
+  "matching": [
+   2,
+   10,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   4096,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   8194,
+   260,
+   4100,
+   8196,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   132,
+   266,
+   4099,
+   4354,
+   8201,
+   8456,
+   12289,
+   12672
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 90031,
+  "lost_vertices": 15807,
+  "sample_vertices": 9627,
+  "matching": [
+   4,
+   6,
+   13,
+   17
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   136,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   27,
+   282,
+   400,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 90087,
+  "lost_vertices": 15807,
+  "sample_vertices": 9653,
+  "matching": [
+   3,
+   13,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   4,
+   16,
+   32,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   260,
+   8196,
+   1040,
+   8208,
+   1056
+  ],
+  "negative_rows": [
+   53,
+   180,
+   432,
+   1156,
+   8225,
+   8608,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 92031,
+  "lost_vertices": 12223,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   12,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 94159,
+  "lost_vertices": 15807,
+  "sample_vertices": 5519,
+  "matching": [
+   4,
+   12,
+   17,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   1024,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   260,
+   4100,
+   136,
+   4104
+  ],
+  "negative_rows": [
+   15,
+   1038,
+   1156,
+   1290,
+   4099,
+   5378,
+   5504
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 95103,
+  "lost_vertices": 12223,
+  "sample_vertices": 9623,
+  "matching": [
+   7,
+   10,
+   15,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   23,
+   148,
+   274,
+   400,
+   1030,
+   1156,
+   1282,
+   8193,
+   9600
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 97199,
+  "lost_vertices": 15807,
+  "sample_vertices": 9627,
+  "matching": [
+   4,
+   6,
+   10,
+   17
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   136,
+   1040,
+   8208
+  ],
+  "negative_rows": [
+   27,
+   282,
+   400,
+   1290,
+   8201,
+   9480,
+   9600
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 97503,
+  "lost_vertices": 16319,
+  "sample_vertices": 7323,
+  "matching": [
+   5,
+   9,
+   15,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   1024,
+   2048,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   2056,
+   4104,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   27,
+   1034,
+   4115,
+   4240,
+   6147,
+   7170,
+   7296
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 112379,
+  "lost_vertices": 16319,
+  "sample_vertices": 9907,
+  "matching": [
+   2,
+   8,
+   11,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   16,
+   32,
+   128,
+   512,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   130,
+   514,
+   8194,
+   1040,
+   544,
+   1056
+  ],
+  "negative_rows": [
+   51,
+   176,
+   529,
+   656,
+   1026,
+   8225,
+   8352,
+   8705,
+   9856
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 112382,
+  "lost_vertices": 16319,
+  "sample_vertices": 11419,
+  "matching": [
+   0,
+   8,
+   11,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   128,
+   1024,
+   2048,
+   8192
+  ],
+  "positive_rows": [
+   1025,
+   130,
+   8194,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   27,
+   144,
+   1034,
+   2051,
+   3074,
+   8201,
+   9224,
+   10241,
+   11392
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 112503,
+  "lost_vertices": 12223,
+  "sample_vertices": 3513,
+  "matching": [
+   3,
+   7,
+   14,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   1,
+   8,
+   16,
+   32,
+   40,
+   128,
+   256,
+   1024,
+   2048,
+   2304
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   136,
+   2056,
+   1040,
+   2064,
+   1056
+  ],
+  "negative_rows": [
+   57,
+   312,
+   432,
+   1288,
+   2081,
+   2464,
+   3456
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 112510,
+  "lost_vertices": 12223,
+  "sample_vertices": 3770,
+  "matching": [
+   0,
+   7,
+   14,
+   18
+  ],
+  "gate_cap": 10,
+  "signals": [
+   2,
+   8,
+   16,
+   32,
+   40,
+   128,
+   512,
+   1024,
+   2048,
+   2560
+  ],
+  "positive_rows": [
+   130,
+   514,
+   136,
+   2056,
+   1040,
+   2064,
+   544,
+   1056
+  ],
+  "negative_rows": [
+   58,
+   176,
+   536,
+   656,
+   1034,
+   1544,
+   2082,
+   2208,
+   3074,
+   3712
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ },
+ {
+  "representative": 112603,
+  "lost_vertices": 16319,
+  "sample_vertices": 6543,
+  "matching": [
+   2,
+   5,
+   11,
+   18
+  ],
+  "gate_cap": 9,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   128,
+   256,
+   2048,
+   2304,
+   4096
+  ],
+  "positive_rows": [
+   129,
+   257,
+   130,
+   260,
+   4100,
+   136,
+   2056
+  ],
+  "negative_rows": [
+   15,
+   266,
+   2055,
+   2180,
+   6147,
+   6402,
+   6528
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 112627,
+  "lost_vertices": 16319,
+  "sample_vertices": 3225,
+  "matching": [
+   2,
+   3,
+   11,
+   14,
+   18
+  ],
+  "gate_cap": 6,
+  "signals": [
+   1,
+   8,
+   16,
+   128,
+   1024,
+   2048
+  ],
+  "positive_rows": [
+   129,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   25,
+   144,
+   1032,
+   2049,
+   3200
+  ],
+  "orbit_size": 336,
+  "stabilizer": 1
+ },
+ {
+  "representative": 16383,
+  "lost_vertices": 16287,
+  "sample_vertices": 11679,
+  "matching": [
+   14,
+   15,
+   18
+  ],
+  "gate_cap": 14,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   136,
+   2056,
+   1040,
+   2064
+  ],
+  "negative_rows": [
+   31,
+   148,
+   282,
+   400,
+   1038,
+   1290,
+   2055,
+   3078,
+   3204,
+   3330,
+   8201,
+   9480,
+   10241,
+   11648
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 32751,
+  "lost_vertices": 15775,
+  "sample_vertices": 11679,
+  "matching": [
+   4,
+   16,
+   18
+  ],
+  "gate_cap": 15,
+  "signals": [
+   1,
+   2,
+   4,
+   8,
+   16,
+   128,
+   256,
+   1024,
+   2048,
+   2304,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   8194,
+   260,
+   8196,
+   136,
+   2056,
+   1040,
+   2064,
+   8208
+  ],
+  "negative_rows": [
+   31,
+   148,
+   282,
+   400,
+   1038,
+   1290,
+   2055,
+   3078,
+   3204,
+   3330,
+   8201,
+   9480,
+   10241,
+   11648
+  ],
+  "orbit_size": 42,
+  "stabilizer": 8
+ },
+ {
+  "representative": 112511,
+  "lost_vertices": 12223,
+  "sample_vertices": 10167,
+  "matching": [
+   7,
+   14,
+   18
+  ],
+  "gate_cap": 14,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   32,
+   36,
+   128,
+   256,
+   512,
+   768,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   257,
+   1025,
+   130,
+   514,
+   8194,
+   260,
+   8196,
+   1040,
+   544,
+   1056
+  ],
+  "negative_rows": [
+   55,
+   180,
+   306,
+   432,
+   533,
+   660,
+   912,
+   1030,
+   1282,
+   1668,
+   8225,
+   8608,
+   8705,
+   10112
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 114621,
+  "lost_vertices": 16063,
+  "sample_vertices": 3771,
+  "matching": [
+   1,
+   14,
+   17,
+   19
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   2,
+   8,
+   16,
+   32,
+   128,
+   512,
+   1024,
+   2048,
+   2560
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   514,
+   136,
+   2056,
+   1040,
+   2064,
+   544,
+   1056
+  ],
+  "negative_rows": [
+   59,
+   176,
+   537,
+   656,
+   1034,
+   1544,
+   2083,
+   2208,
+   2561,
+   3074,
+   3712
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 121599,
+  "lost_vertices": 14271,
+  "sample_vertices": 9907,
+  "matching": [
+   8,
+   10,
+   17,
+   18
+  ],
+  "gate_cap": 11,
+  "signals": [
+   1,
+   2,
+   16,
+   32,
+   128,
+   512,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   129,
+   1025,
+   130,
+   514,
+   8194,
+   1040,
+   8208,
+   544,
+   1056
+  ],
+  "negative_rows": [
+   51,
+   176,
+   529,
+   656,
+   1026,
+   8225,
+   8352,
+   8705,
+   9856
+  ],
+  "orbit_size": 168,
+  "stabilizer": 2
+ },
+ {
+  "representative": 121847,
+  "lost_vertices": 14271,
+  "sample_vertices": 10039,
+  "matching": [
+   3,
+   10,
+   17,
+   18
+  ],
+  "gate_cap": 12,
+  "signals": [
+   1,
+   2,
+   4,
+   16,
+   32,
+   256,
+   512,
+   768,
+   1024,
+   8192
+  ],
+  "positive_rows": [
+   257,
+   1025,
+   514,
+   8194,
+   260,
+   8196,
+   1040,
+   8208,
+   544,
+   1056
+  ],
+  "negative_rows": [
+   55,
+   306,
+   533,
+   784,
+   1030,
+   1282,
+   1540,
+   8225,
+   8480,
+   8705,
+   9984
+  ],
+  "orbit_size": 84,
+  "stabilizer": 4
+ }
+]

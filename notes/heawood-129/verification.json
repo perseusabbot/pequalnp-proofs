@@ -1,0 +1,75 @@
+{
+  "completed_utc": "2026-11-25T05:17:41.432508+00:00",
+  "upstream": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "previous_commit": "b4df0749f5f6fad3286463e6d4cf4515197fb924",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "previous_modules": 103,
+  "new_modules": 42,
+  "audited_declarations": 116,
+  "new_theorems": {
+    "Checkpoint129.Heawood.representativeNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint129.Heawood.postedRepresentativeNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint129.FiveStar.controlWorks": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint129.FourStar.controlWorks": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint129.Heawood.allScreensValid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint129.Heawood.projectedBoundaryCircuit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint129.Heawood.projectedScreenNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint129.Heawood.allTransferredValid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "direct_projections": 109,
+  "transported_at_fourteen": 131,
+  "source_manifest_sha256": "6e8b77ccc63c6ecd7acd06dc43f90db76d085c5d450975de43aa4e0d4ba856c6",
+  "layer_masks": 613700,
+  "candidate_masks": 64512,
+  "candidate_orbits": 240,
+  "direct_last_use_states": 19337944,
+  "direct_availability_states": 17691619,
+  "kernel_global_loss_bound_at_26": 11,
+  "computational_global_loss_bound_at_26": 15,
+  "computational_unrestricted_opening_monotone_gate_floor": 20,
+  "previous_eleven_loss_numerical_replay": true,
+  "known_monotone_gates_upper": 27,
+  "full_upper_control_assignments": 16384,
+  "remaining_labeled_edge_masks": 10536,
+  "remaining_orbits": 63,
+  "smallest_unresolved_layer": 15,
+  "checked_data": {
+    "screens.json": "f01800d0d7e392187e945d692bc3e8eab58d52982fbac95f8802fcac39c2597d",
+    "transfers.json": "4cf7df391aad73f17dc9a88b85a724db9d12ff38f5a3ab492231541812fe077d",
+    "k4.json": "8e75a6499316306644132aad4000f0a38eb637011f8139c241433946d0e5bd8e",
+    "five_stars.json": "0fd6ec21d44433691055c74272048d6dd8fb683a2877acd9e58dc96e08885a51",
+    "results.json": "7c60fc891293784540c328842faaa5bb6a376a52f626b563bab59aca51a67905",
+    "frontier.json": "54a661a5e7f2d1f2daf32f1f12a3844d3b4ff2b5b5f367f07f0f12671724b98c",
+    "kernel.log": "ec865c66d53be3d50cee3013a0bde3016713396cabf999d31960b134d7d0a97d"
+  }
+}

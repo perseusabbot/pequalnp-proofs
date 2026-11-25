@@ -1,0 +1,9278 @@
+{
+  "layers": [
+    {
+      "losses": 12,
+      "checked": 293930,
+      "candidates": 6510,
+      "sorted_masks_sha256": "1b8117f720212c0c3c405f35e58b4a284c6a373557556e85d3771b8f29f53ab7",
+      "automorphisms": 336,
+      "representatives": 28,
+      "exhaustions": [
+        {
+          "representative": 4095,
+          "possible": false,
+          "last_use_states": 16838,
+          "root_supports": 1,
+          "available_states": 15308
+        },
+        {
+          "representative": 7167,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 8175,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 14207,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 14334,
+          "possible": false,
+          "last_use_states": 9,
+          "root_supports": 1,
+          "available_states": 9
+        },
+        {
+          "representative": 15615,
+          "possible": false,
+          "last_use_states": 258,
+          "root_supports": 1,
+          "available_states": 248
+        },
+        {
+          "representative": 15839,
+          "possible": false,
+          "last_use_states": 428,
+          "root_supports": 1,
+          "available_states": 409
+        },
+        {
+          "representative": 16095,
+          "possible": false,
+          "last_use_states": 56238,
+          "root_supports": 8,
+          "available_states": 51435
+        },
+        {
+          "representative": 16111,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 16335,
+          "possible": false,
+          "last_use_states": 3792,
+          "root_supports": 1,
+          "available_states": 3543
+        },
+        {
+          "representative": 16359,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 19455,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 20463,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 22399,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 23487,
+          "possible": false,
+          "last_use_states": 3792,
+          "root_supports": 1,
+          "available_states": 3543
+        },
+        {
+          "representative": 23519,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 23535,
+          "possible": false,
+          "last_use_states": 16838,
+          "root_supports": 1,
+          "available_states": 15308
+        },
+        {
+          "representative": 24495,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 24527,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 24551,
+          "possible": false,
+          "last_use_states": 3792,
+          "root_supports": 1,
+          "available_states": 3543
+        },
+        {
+          "representative": 24557,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 32711,
+          "possible": false,
+          "last_use_states": 1149459,
+          "root_supports": 8,
+          "available_states": 1051825
+        },
+        {
+          "representative": 48351,
+          "possible": false,
+          "last_use_states": 501,
+          "root_supports": 4,
+          "available_states": 472
+        },
+        {
+          "representative": 59231,
+          "possible": false,
+          "last_use_states": 428,
+          "root_supports": 1,
+          "available_states": 409
+        },
+        {
+          "representative": 59255,
+          "possible": false,
+          "last_use_states": 258,
+          "root_supports": 1,
+          "available_states": 248
+        },
+        {
+          "representative": 79742,
+          "possible": false,
+          "last_use_states": 9,
+          "root_supports": 1,
+          "available_states": 9
+        },
+        {
+          "representative": 79854,
+          "possible": false,
+          "last_use_states": 9,
+          "root_supports": 1,
+          "available_states": 9
+        },
+        {
+          "representative": 112499,
+          "possible": false,
+          "last_use_states": 9,
+          "root_supports": 1,
+          "available_states": 9
+        }
+      ]
+    },
+    {
+      "losses": 13,
+      "checked": 203490,
+      "candidates": 19950,
+      "sorted_masks_sha256": "1a530367e1a7405d4a5574d8a93d3ef16c64527b26e277f6458362c15ef91d79",
+      "automorphisms": 336,
+      "representatives": 75,
+      "exhaustions": [
+        {
+          "representative": 8191,
+          "possible": false,
+          "last_use_states": 16838,
+          "root_supports": 1,
+          "available_states": 15308
+        },
+        {
+          "representative": 14335,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 15359,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 15871,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 16127,
+          "possible": false,
+          "last_use_states": 56238,
+          "root_supports": 8,
+          "available_states": 51435
+        },
+        {
+          "representative": 16255,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 16351,
+          "possible": false,
+          "last_use_states": 42493,
+          "root_supports": 4,
+          "available_states": 38826
+        },
+        {
+          "representative": 16367,
+          "possible": false,
+          "last_use_states": 16838,
+          "root_supports": 1,
+          "available_states": 15308
+        },
+        {
+          "representative": 16375,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 20479,
+          "possible": false,
+          "last_use_states": 16838,
+          "root_supports": 1,
+          "available_states": 15308
+        },
+        {
+          "representative": 22527,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 23551,
+          "possible": false,
+          "last_use_states": 1016288,
+          "root_supports": 4,
+          "available_states": 932446
+        },
+        {
+          "representative": 24447,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 24511,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 24543,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 24559,
+          "possible": false,
+          "last_use_states": 16838,
+          "root_supports": 1,
+          "available_states": 15308
+        },
+        {
+          "representative": 24567,
+          "possible": false,
+          "last_use_states": 3792,
+          "root_supports": 1,
+          "available_states": 3543
+        },
+        {
+          "representative": 24573,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 32719,
+          "possible": false,
+          "last_use_states": 1356798,
+          "root_supports": 2,
+          "available_states": 1250233
+        },
+        {
+          "representative": 32727,
+          "possible": false,
+          "last_use_states": 42493,
+          "root_supports": 4,
+          "available_states": 38826
+        },
+        {
+          "representative": 39935,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 45051,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 46975,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 48383,
+          "possible": false,
+          "last_use_states": 428,
+          "root_supports": 1,
+          "available_states": 409
+        },
+        {
+          "representative": 48607,
+          "possible": false,
+          "last_use_states": 428,
+          "root_supports": 1,
+          "available_states": 409
+        },
+        {
+          "representative": 48863,
+          "possible": false,
+          "last_use_states": 56238,
+          "root_supports": 8,
+          "available_states": 51435
+        },
+        {
+          "representative": 49085,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 49118,
+          "possible": false,
+          "last_use_states": 428,
+          "root_supports": 1,
+          "available_states": 409
+        },
+        {
+          "representative": 52223,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 53243,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 55167,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 56191,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 56255,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 56287,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 56303,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 59263,
+          "possible": false,
+          "last_use_states": 43425,
+          "root_supports": 4,
+          "available_states": 39730
+        },
+        {
+          "representative": 59359,
+          "possible": false,
+          "last_use_states": 397,
+          "root_supports": 1,
+          "available_states": 378
+        },
+        {
+          "representative": 61279,
+          "possible": false,
+          "last_use_states": 428,
+          "root_supports": 1,
+          "available_states": 409
+        },
+        {
+          "representative": 61303,
+          "possible": false,
+          "last_use_states": 397,
+          "root_supports": 1,
+          "available_states": 378
+        },
+        {
+          "representative": 61403,
+          "possible": false,
+          "last_use_states": 3792,
+          "root_supports": 1,
+          "available_states": 3543
+        },
+        {
+          "representative": 61419,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 72703,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 79743,
+          "possible": false,
+          "last_use_states": 2007,
+          "root_supports": 1,
+          "available_states": 1876
+        },
+        {
+          "representative": 79855,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 79870,
+          "possible": false,
+          "last_use_states": 9,
+          "root_supports": 1,
+          "available_states": 9
+        },
+        {
+          "representative": 81151,
+          "possible": false,
+          "last_use_states": 397,
+          "root_supports": 1,
+          "available_states": 378
+        },
+        {
+          "representative": 81343,
+          "possible": false,
+          "last_use_states": 18,
+          "root_supports": 1,
+          "available_states": 18
+        },
+        {
+          "representative": 81375,
+          "possible": false,
+          "last_use_states": 397,
+          "root_supports": 1,
+          "available_states": 378
+        },
+        {
+          "representative": 81399,
+          "possible": false,
+          "last_use_states": 397,
+          "root_supports": 1,
+          "available_states": 378
+        },
+        {
+          "representative": 81405,
+          "possible": false,
+          "last_use_states": 9,
+          "root_supports": 1,
+          "available_states": 9
+        },
+        {
+          "representative": 81406,
+          "possible": false,
+          "last_use_states": 397,
+          "root_supports": 1,
+          "available_states": 378
+        },
+        {
+          "representative": 81775,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 81871,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 81886,
+          "possible": false,
+          "last_use_states": 282,
+          "root_supports": 1,
+          "available_states": 268
+        },
+        {
+          "representative": 81895,
+          "possible": false,
+          "last_use_states": 1966,
+          "root_supports": 1,
+          "available_states": 1839
+        },
+        {
+          "representative": 84991,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 85999,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 87039,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 89023,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 89055,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 89079,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 89083,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 90031,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 90087,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 92031,
+          "possible": false,
+          "last_use_states": 3792,
+          "root_supports": 1,
+          "available_states": 3543
+        },
+        {
+          "representative": 94159,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 95103,
+          "possible": false,
+          "last_use_states": 1150,
+          "root_supports": 1,
+          "available_states": 1080
+        },
+        {
+          "representative": 97199,
+          "possible": false,
+          "last_use_states": 3321,
+          "root_supports": 1,
+          "available_states": 3103
+        },
+        {
+          "representative": 97503,
+          "possible": false,
+          "last_use_states": 282,
+          "root_supports": 1,
+          "available_states": 268
+        },
+        {
+          "representative": 112379,
+          "possible": false,
+          "last_use_states": 428,
+          "root_supports": 1,
+          "available_states": 409
+        },
+        {
+          "representative": 112382,
+          "possible": false,
+          "last_use_states": 258,
+          "root_supports": 1,
+          "available_states": 248
+        },
+        {
+          "representative": 112503,
+          "possible": false,
+          "last_use_states": 4600,
+          "root_supports": 4,
+          "available_states": 4220
+        },
+        {
+          "representative": 112510,
+          "possible": false,
+          "last_use_states": 1877,
+          "root_supports": 4,
+          "available_states": 1692
+        },
+        {
+          "representative": 112603,
+          "possible": false,
+          "last_use_states": 441,
+          "root_supports": 2,
+          "available_states": 418
+        },
+        {
+          "representative": 112627,
+          "possible": false,
+          "last_use_states": 9,
+          "root_supports": 1,
+          "available_states": 9
+        }
+      ]
+    }
+  ],
+  "additional_checks": [
+    {
+      "representative": 16383,
+      "possible": false,
+      "last_use_states": 826210,
+      "root_supports": 2,
+      "available_states": 760157
+    },
+    {
+      "representative": 32751,
+      "possible": false,
+      "last_use_states": 12606086,
+      "root_supports": 2,
+      "available_states": 11502372
+    },
+    {
+      "representative": 112511,
+      "possible": false,
+      "last_use_states": 1756507,
+      "root_supports": 4,
+      "available_states": 1618963
+    },
+    {
+      "representative": 114621,
+      "possible": false,
+      "last_use_states": 33415,
+      "root_supports": 2,
+      "available_states": 30683
+    },
+    {
+      "representative": 121599,
+      "possible": false,
+      "last_use_states": 16838,
+      "root_supports": 1,
+      "available_states": 15308
+    },
+    {
+      "representative": 121847,
+      "possible": false,
+      "last_use_states": 33415,
+      "root_supports": 2,
+      "available_states": 30683
+    }
+  ],
+  "higher_layers": [
+    {
+      "losses": 14,
+      "checked": 116280,
+      "candidates": 38052,
+      "sorted_masks_sha256": "24eabaa4e75e0b6ddd13f9f3d12734f79598f70dfdbf0fa478e0a382995b92eb",
+      "representatives": 137,
+      "excluded": 38052,
+      "remaining": 0,
+      "certificates": [
+        {
+          "representative": 16383,
+          "size": 168,
+          "direct": true
+        },
+        {
+          "representative": 24575,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 32735,
+          "size": 84,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 32751,
+          "size": 42,
+          "direct": true
+        },
+        {
+          "representative": 40959,
+          "size": 336,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 45055,
+          "size": 168,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 47103,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 48127,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 48639,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 48895,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 49023,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 49087,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 49119,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 49135,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 49143,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 49147,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 49149,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 49150,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 53247,
+          "size": 336,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 55295,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 56319,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 57215,
+          "size": 336,
+          "source": 16111,
+          "permutation": [
+            0,
+            3,
+            5,
+            1,
+            2,
+            6,
+            4,
+            7,
+            10,
+            11,
+            8,
+            13,
+            9,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 57279,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 57311,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 57327,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 57335,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 57339,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 57341,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 59391,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10,
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 61311,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10,
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 61407,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 61423,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 61431,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 61435,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 65487,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 65495,
+          "size": 42,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 13
+        },
+        {
+          "representative": 73727,
+          "size": 168,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 79871,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 80895,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 81407,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 81663,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 81791,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 81855,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 81887,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 81903,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 81911,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 81915,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 81917,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 81918,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 86015,
+          "size": 336,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 88063,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 89087,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 89599,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 89855,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 89983,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            8,
+            13,
+            10,
+            12,
+            11,
+            9,
+            0,
+            1,
+            6,
+            3,
+            5,
+            4,
+            2
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 90047,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 90079,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 90095,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 90103,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 90107,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 90109,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 92159,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 93183,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 93695,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 93951,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 94079,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 94143,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 94175,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 94191,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 94199,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 94203,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0,
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 95231,
+          "size": 168,
+          "source": 4095,
+          "permutation": [
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            3,
+            13,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 95999,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            4,
+            1,
+            6,
+            2,
+            5,
+            7,
+            10,
+            12,
+            8,
+            9,
+            13,
+            11
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 96127,
+          "size": 84,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 96191,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            4,
+            1,
+            6,
+            2,
+            5,
+            7,
+            10,
+            12,
+            8,
+            9,
+            13,
+            11
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 96223,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            4,
+            2,
+            5,
+            1,
+            3,
+            6,
+            10,
+            8,
+            11,
+            7,
+            9,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 96247,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            4,
+            0,
+            3,
+            5,
+            1,
+            2,
+            6,
+            10,
+            11,
+            8,
+            13,
+            9,
+            12,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 97023,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 97215,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 97247,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            4,
+            2,
+            5,
+            1,
+            3,
+            6,
+            10,
+            8,
+            11,
+            7,
+            9,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 97263,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 97271,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            5,
+            2,
+            4,
+            3,
+            1,
+            6,
+            10,
+            8,
+            9,
+            7,
+            11,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 97535,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3,
+            10,
+            7,
+            11,
+            8,
+            12,
+            9,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 97759,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            4,
+            2,
+            5,
+            1,
+            3,
+            6,
+            10,
+            8,
+            11,
+            7,
+            9,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 97775,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 97783,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 98255,
+          "size": 168,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 112383,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 112511,
+          "size": 168,
+          "direct": true
+        },
+        {
+          "representative": 112575,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            10,
+            11,
+            8,
+            13,
+            9,
+            12,
+            0,
+            3,
+            5,
+            1,
+            2,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 112607,
+          "size": 84,
+          "source": 16095,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 112623,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            10,
+            11,
+            8,
+            13,
+            9,
+            12,
+            0,
+            3,
+            5,
+            1,
+            2,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 112631,
+          "size": 336,
+          "source": 112503,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 112635,
+          "size": 336,
+          "source": 112503,
+          "permutation": [
+            1,
+            4,
+            5,
+            2,
+            0,
+            3,
+            6,
+            13,
+            9,
+            11,
+            7,
+            8,
+            12,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 112637,
+          "size": 336,
+          "source": 23519,
+          "permutation": [
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8,
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 112638,
+          "size": 336,
+          "source": 112510,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 113407,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13,
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 113535,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 114047,
+          "size": 336,
+          "source": 23519,
+          "permutation": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3,
+            10,
+            7,
+            11,
+            8,
+            12,
+            9,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 114167,
+          "size": 168,
+          "source": 112510,
+          "permutation": [
+            4,
+            2,
+            3,
+            1,
+            5,
+            0,
+            6,
+            13,
+            11,
+            8,
+            10,
+            9,
+            7,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 114427,
+          "size": 336,
+          "source": 112503,
+          "permutation": [
+            3,
+            5,
+            4,
+            2,
+            0,
+            1,
+            6,
+            12,
+            11,
+            9,
+            7,
+            8,
+            13,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 114429,
+          "size": 336,
+          "source": 23519,
+          "permutation": [
+            7,
+            12,
+            10,
+            11,
+            9,
+            13,
+            8,
+            3,
+            0,
+            2,
+            1,
+            6,
+            4,
+            5
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 114621,
+          "size": 168,
+          "direct": true
+        },
+        {
+          "representative": 120575,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 120767,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 120815,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            7,
+            8,
+            13,
+            10,
+            12,
+            11,
+            9,
+            0,
+            1,
+            6,
+            3,
+            5,
+            4,
+            2
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 120823,
+          "size": 336,
+          "source": 23519,
+          "permutation": [
+            10,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            1
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 120829,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 121599,
+          "size": 168,
+          "direct": true
+        },
+        {
+          "representative": 121847,
+          "size": 84,
+          "direct": true
+        },
+        {
+          "representative": 122239,
+          "size": 168,
+          "source": 23535,
+          "permutation": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3,
+            10,
+            7,
+            11,
+            8,
+            12,
+            9,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 122591,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 122719,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            10,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            1
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 122799,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            7,
+            8,
+            13,
+            10,
+            12,
+            11,
+            9,
+            0,
+            1,
+            6,
+            3,
+            5,
+            4,
+            2
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 122861,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            7,
+            8,
+            13,
+            10,
+            12,
+            11,
+            9,
+            0,
+            1,
+            6,
+            3,
+            5,
+            4,
+            2
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 124671,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 129967,
+          "size": 168,
+          "source": 16111,
+          "permutation": [
+            0,
+            5,
+            6,
+            4,
+            1,
+            3,
+            2,
+            10,
+            8,
+            12,
+            7,
+            13,
+            11,
+            9
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 310527,
+          "size": 336,
+          "source": 15615,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 310751,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 311038,
+          "size": 336,
+          "source": 15615,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 311262,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 311286,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 321503,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            2,
+            4,
+            0,
+            1,
+            5,
+            3,
+            6,
+            13,
+            8,
+            11,
+            12,
+            9,
+            7,
+            10
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 323423,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10,
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 323447,
+          "size": 336,
+          "source": 15615,
+          "permutation": [
+            0,
+            3,
+            5,
+            1,
+            2,
+            6,
+            4,
+            7,
+            10,
+            11,
+            8,
+            13,
+            9,
+            12
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 327390,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 327515,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            4,
+            2,
+            3,
+            1,
+            5,
+            0,
+            6,
+            13,
+            11,
+            8,
+            10,
+            9,
+            7,
+            12
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 342014,
+          "size": 168,
+          "source": 14334,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 6
+        },
+        {
+          "representative": 343295,
+          "size": 168,
+          "source": 15615,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 343550,
+          "size": 336,
+          "source": 15615,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 343806,
+          "size": 168,
+          "source": 15615,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 343934,
+          "size": 168,
+          "source": 14334,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 6
+        },
+        {
+          "representative": 374747,
+          "size": 168,
+          "source": 15615,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 374771,
+          "size": 168,
+          "source": 14334,
+          "permutation": [
+            0,
+            5,
+            2,
+            4,
+            3,
+            1,
+            6,
+            10,
+            8,
+            9,
+            7,
+            11,
+            13,
+            12
+          ],
+          "projected_budget": 6
+        },
+        {
+          "representative": 376059,
+          "size": 168,
+          "source": 14334,
+          "permutation": [
+            0,
+            4,
+            2,
+            5,
+            1,
+            3,
+            6,
+            10,
+            8,
+            11,
+            7,
+            9,
+            12,
+            13
+          ],
+          "projected_budget": 6
+        },
+        {
+          "representative": 376062,
+          "size": 336,
+          "source": 15839,
+          "permutation": [
+            10,
+            9,
+            8,
+            12,
+            11,
+            13,
+            7,
+            5,
+            0,
+            1,
+            4,
+            3,
+            2,
+            6
+          ],
+          "projected_budget": 9
+        },
+        {
+          "representative": 388350,
+          "size": 168,
+          "source": 14334,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 6
+        }
+      ],
+      "open_representatives": []
+    },
+    {
+      "losses": 15,
+      "checked": 54264,
+      "candidates": 43428,
+      "sorted_masks_sha256": "a5a3bcf18484ebac59797ac31f2c3a57b2692d9f056ad130da0ca9630e237d89",
+      "representatives": 165,
+      "excluded": 42350,
+      "remaining": 1078,
+      "certificates": [
+        {
+          "representative": 49151,
+          "size": 336,
+          "source": 16383,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 57343,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 61439,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 65503,
+          "size": 168,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 65519,
+          "size": 84,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 81919,
+          "size": 336,
+          "source": 16383,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 90111,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 94207,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 96255,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 97279,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 97791,
+          "size": 336,
+          "source": 16383,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 98271,
+          "size": 336,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 98287,
+          "size": 168,
+          "source": 32751,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 15
+        },
+        {
+          "representative": 112639,
+          "size": 336,
+          "source": 112511,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 113663,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 114431,
+          "size": 336,
+          "source": 112511,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 114623,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 114683,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 114685,
+          "size": 168,
+          "source": 114621,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 120831,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            10,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            1
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 122367,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 122623,
+          "size": 336,
+          "source": 121599,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 122751,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            10,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            1
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 122815,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 122847,
+          "size": 336,
+          "source": 114621,
+          "permutation": [
+            8,
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5,
+            1
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 122863,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 122871,
+          "size": 168,
+          "source": 121847,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 122875,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 122877,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 124927,
+          "size": 336,
+          "source": 112511,
+          "permutation": [
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 125951,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 126971,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 128959,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 129983,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            0,
+            5,
+            1,
+            4,
+            6,
+            2,
+            3,
+            10,
+            7,
+            12,
+            8,
+            11,
+            13,
+            9
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 130031,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 130039,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            10,
+            11,
+            8,
+            13,
+            9,
+            12,
+            7,
+            4,
+            0,
+            3,
+            5,
+            1,
+            2,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 221119,
+          "size": 56,
+          "source": 32711,
+          "permutation": [
+            7,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            2
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 221181,
+          "size": 56,
+          "source": 32711,
+          "permutation": [
+            7,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            2
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 303103,
+          "size": 336,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 307199,
+          "size": 168,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 309247,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 310271,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 310783,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            0,
+            2,
+            1,
+            6,
+            4,
+            5,
+            3,
+            8,
+            7,
+            12,
+            10,
+            11,
+            9,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 311039,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 311167,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 311231,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 311263,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 311279,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 311287,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 311291,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 311293,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 311294,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 315391,
+          "size": 336,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 317439,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319231,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319359,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            10,
+            13,
+            8,
+            11,
+            12,
+            9,
+            0,
+            1,
+            5,
+            3,
+            6,
+            2,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319423,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            2
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319455,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            2,
+            4,
+            6,
+            1,
+            3,
+            5,
+            8,
+            10,
+            12,
+            7,
+            9,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319471,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 319479,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319483,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319485,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 319486,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 321535,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10,
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 323327,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 323455,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10,
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 323519,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            2
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 323551,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 323567,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 323575,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 323581,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0,
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 323582,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0,
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327295,
+          "size": 336,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 327359,
+          "size": 112,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 327391,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 327407,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327415,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327419,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327421,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327422,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327519,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327535,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327543,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327547,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10,
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 327549,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327583,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327599,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327607,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 327613,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 327631,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 327639,
+          "size": 84,
+          "source": 16095,
+          "permutation": [
+            0,
+            6,
+            3,
+            2,
+            4,
+            5,
+            1,
+            8,
+            7,
+            9,
+            10,
+            13,
+            12,
+            11
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 335871,
+          "size": 168,
+          "source": 4095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 342015,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 343039,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 343551,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            2,
+            1,
+            6,
+            4,
+            5,
+            3,
+            8,
+            7,
+            12,
+            10,
+            11,
+            9,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 343807,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 343935,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 343999,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 344055,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 344059,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 344061,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 344062,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 351743,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 352191,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            2
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 352247,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 352254,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 354303,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 355327,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 355839,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            0,
+            1,
+            6,
+            3,
+            5,
+            4,
+            8,
+            13,
+            10,
+            12,
+            11,
+            9,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 356287,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 356319,
+          "size": 336,
+          "source": 16111,
+          "permutation": [
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13,
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 356343,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 356349,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0,
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 356350,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0,
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 357375,
+          "size": 28,
+          "source": 4095,
+          "permutation": [
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            3,
+            13,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 358367,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            0,
+            2,
+            4,
+            6,
+            1,
+            3,
+            5,
+            8,
+            10,
+            12,
+            7,
+            9,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 359903,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            0,
+            2,
+            4,
+            6,
+            1,
+            3,
+            5,
+            8,
+            10,
+            12,
+            7,
+            9,
+            11,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 359931,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 359934,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 360411,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 360414,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 360435,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 374719,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            7,
+            10,
+            11,
+            8,
+            13,
+            9,
+            12,
+            0,
+            3,
+            5,
+            1,
+            2,
+            6,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 374751,
+          "size": 84,
+          "source": 16095,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 374775,
+          "size": 336,
+          "source": 112503,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 374779,
+          "size": 168,
+          "source": 24551,
+          "permutation": [
+            1,
+            6,
+            2,
+            5,
+            0,
+            3,
+            4,
+            9,
+            13,
+            11,
+            7,
+            10,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 374781,
+          "size": 336,
+          "source": 23519,
+          "permutation": [
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8,
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 374782,
+          "size": 168,
+          "source": 112510,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 376063,
+          "size": 336,
+          "source": 24495,
+          "permutation": [
+            10,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            1
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 376191,
+          "size": 336,
+          "source": 23519,
+          "permutation": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3,
+            10,
+            7,
+            11,
+            8,
+            12,
+            9,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 376311,
+          "size": 84,
+          "source": 112510,
+          "permutation": [
+            4,
+            2,
+            3,
+            1,
+            5,
+            0,
+            6,
+            13,
+            11,
+            8,
+            10,
+            9,
+            7,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 376318,
+          "size": 336,
+          "source": 112510,
+          "permutation": [
+            4,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 376574,
+          "size": 168,
+          "source": 112510,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 376765,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4,
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 376826,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 384383,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            8,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            1
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 384639,
+          "size": 84,
+          "source": 16111,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 384863,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            10,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            1
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 384887,
+          "size": 336,
+          "source": 16335,
+          "permutation": [
+            8,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            1
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 384891,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            13,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 384893,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 384894,
+          "size": 336,
+          "source": 16359,
+          "permutation": [
+            8,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            1
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 386815,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 387007,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 388479,
+          "size": 336,
+          "source": 23519,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 388603,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 388606,
+          "size": 168,
+          "source": 112503,
+          "permutation": [
+            2,
+            5,
+            0,
+            3,
+            4,
+            1,
+            6,
+            12,
+            8,
+            9,
+            13,
+            11,
+            7,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 388859,
+          "size": 336,
+          "source": 14207,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 388990,
+          "size": 336,
+          "source": 112503,
+          "permutation": [
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 389051,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4,
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 389053,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            4,
+            7,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 390909,
+          "size": 84,
+          "source": 23535,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 392950,
+          "size": 168,
+          "source": 112503,
+          "permutation": [
+            4,
+            2,
+            3,
+            1,
+            5,
+            0,
+            6,
+            13,
+            11,
+            8,
+            10,
+            9,
+            7,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 392954,
+          "size": 168,
+          "source": 16359,
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0,
+            13,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 393078,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            10,
+            11,
+            8,
+            13,
+            9,
+            12,
+            7,
+            4,
+            0,
+            3,
+            5,
+            1,
+            2,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 393117,
+          "size": 84,
+          "source": 23519,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 393146,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0,
+            13,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 523898,
+          "size": 14,
+          "source": 32711,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 13
+        }
+      ],
+      "open_representatives": [
+        {
+          "representative": 32767,
+          "size": 42
+        },
+        {
+          "representative": 114175,
+          "size": 336
+        },
+        {
+          "representative": 114686,
+          "size": 56
+        },
+        {
+          "representative": 121855,
+          "size": 168
+        },
+        {
+          "representative": 126463,
+          "size": 336
+        },
+        {
+          "representative": 126719,
+          "size": 112
+        },
+        {
+          "representative": 128895,
+          "size": 28
+        }
+      ]
+    },
+    {
+      "losses": 16,
+      "checked": 20349,
+      "candidates": 20349,
+      "sorted_masks_sha256": "21b2a98edd7d1df4de03a5ace4ce53851cdac15c1e480fc5843343557b093b6a",
+      "representatives": 85,
+      "excluded": 17346,
+      "remaining": 3003,
+      "certificates": [
+        {
+          "representative": 131055,
+          "size": 168,
+          "source": 32751,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 15
+        },
+        {
+          "representative": 221183,
+          "size": 168,
+          "source": 32751,
+          "permutation": [
+            7,
+            8,
+            12,
+            10,
+            13,
+            9,
+            11,
+            0,
+            3,
+            6,
+            1,
+            4,
+            5,
+            2
+          ],
+          "projected_budget": 15
+        },
+        {
+          "representative": 311295,
+          "size": 336,
+          "source": 16383,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 319487,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 323583,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 327423,
+          "size": 336,
+          "source": 16383,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 327551,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 327615,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 327647,
+          "size": 336,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 327663,
+          "size": 168,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 344063,
+          "size": 336,
+          "source": 16383,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 352255,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 356351,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 358399,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 359935,
+          "size": 168,
+          "source": 16383,
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 360415,
+          "size": 168,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 360439,
+          "size": 168,
+          "source": 32711,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 360443,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 360446,
+          "size": 168,
+          "source": 16383,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 374783,
+          "size": 336,
+          "source": 112511,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 375807,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 376319,
+          "size": 336,
+          "source": 114621,
+          "permutation": [
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12,
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 376575,
+          "size": 168,
+          "source": 112511,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 376767,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 376827,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 376829,
+          "size": 168,
+          "source": 114621,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 384511,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            3,
+            13,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 384767,
+          "size": 168,
+          "source": 121599,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 384895,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            10,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            1
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 384959,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 384991,
+          "size": 336,
+          "source": 16095,
+          "permutation": [
+            0,
+            6,
+            3,
+            2,
+            4,
+            5,
+            1,
+            8,
+            7,
+            9,
+            10,
+            13,
+            12,
+            11
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 385015,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            0,
+            6,
+            3,
+            2,
+            4,
+            5,
+            1,
+            8,
+            7,
+            9,
+            10,
+            13,
+            12,
+            11
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 385019,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            6,
+            5,
+            4,
+            7,
+            13,
+            10,
+            9,
+            11,
+            12,
+            8
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 385021,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            7,
+            9,
+            10,
+            13,
+            12,
+            11,
+            8,
+            1,
+            0,
+            6,
+            3,
+            2,
+            4,
+            5
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 385022,
+          "size": 336,
+          "source": 114621,
+          "permutation": [
+            4,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            7
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 387071,
+          "size": 168,
+          "source": 112511,
+          "permutation": [
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 388095,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            6,
+            7,
+            8,
+            11,
+            10,
+            9,
+            13,
+            12
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 388607,
+          "size": 336,
+          "source": 121847,
+          "permutation": [
+            8,
+            9,
+            13,
+            11,
+            7,
+            10,
+            12,
+            6,
+            2,
+            5,
+            0,
+            3,
+            4,
+            1
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 388991,
+          "size": 336,
+          "source": 112511,
+          "permutation": [
+            1,
+            0,
+            5,
+            3,
+            4,
+            2,
+            6,
+            7,
+            9,
+            8,
+            13,
+            11,
+            12,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 389055,
+          "size": 336,
+          "source": 121599,
+          "permutation": [
+            1,
+            3,
+            5,
+            0,
+            2,
+            4,
+            6,
+            7,
+            9,
+            11,
+            13,
+            8,
+            10,
+            12
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 389115,
+          "size": 336,
+          "source": 23551,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 389117,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0,
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 389118,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            0,
+            13,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 390911,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 391103,
+          "size": 84,
+          "source": 23551,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 391935,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            0,
+            5,
+            1,
+            4,
+            6,
+            2,
+            3,
+            10,
+            7,
+            12,
+            8,
+            11,
+            13,
+            9
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 392183,
+          "size": 84,
+          "source": 16095,
+          "permutation": [
+            0,
+            6,
+            3,
+            2,
+            4,
+            5,
+            1,
+            8,
+            7,
+            9,
+            10,
+            13,
+            12,
+            11
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 392951,
+          "size": 336,
+          "source": 114621,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 392957,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 393079,
+          "size": 336,
+          "source": 112511,
+          "permutation": [
+            4,
+            0,
+            3,
+            5,
+            1,
+            2,
+            6,
+            10,
+            11,
+            8,
+            13,
+            9,
+            12,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 393086,
+          "size": 168,
+          "source": 112511,
+          "permutation": [
+            4,
+            1,
+            3,
+            2,
+            0,
+            5,
+            6,
+            13,
+            11,
+            9,
+            10,
+            8,
+            12,
+            7
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 393119,
+          "size": 168,
+          "source": 16095,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 393135,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5,
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 393143,
+          "size": 336,
+          "source": 114621,
+          "permutation": [
+            11,
+            10,
+            9,
+            13,
+            12,
+            7,
+            8,
+            4,
+            6,
+            0,
+            3,
+            2,
+            1,
+            5
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 393147,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0,
+            13,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 393149,
+          "size": 168,
+          "source": 23551,
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5,
+            6,
+            7,
+            11,
+            9,
+            12,
+            8,
+            10,
+            13
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 393150,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0,
+            13,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 393179,
+          "size": 336,
+          "source": 121847,
+          "permutation": [
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10,
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 393181,
+          "size": 168,
+          "source": 121847,
+          "permutation": [
+            3,
+            5,
+            4,
+            2,
+            0,
+            1,
+            6,
+            12,
+            11,
+            9,
+            7,
+            8,
+            13,
+            10
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 393195,
+          "size": 336,
+          "source": 16367,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 393197,
+          "size": 168,
+          "source": 16367,
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0,
+            6,
+            5,
+            13,
+            12,
+            9,
+            8,
+            10,
+            11,
+            7
+          ],
+          "projected_budget": 11
+        },
+        {
+          "representative": 393210,
+          "size": 168,
+          "source": 16383,
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            0,
+            13,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 491262,
+          "size": 84,
+          "source": 121847,
+          "permutation": [
+            3,
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            7,
+            11,
+            8,
+            12,
+            9,
+            13,
+            10
+          ],
+          "projected_budget": 12
+        },
+        {
+          "representative": 523899,
+          "size": 84,
+          "source": 32711,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 523901,
+          "size": 42,
+          "source": 32711,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 900543,
+          "size": 168,
+          "source": 23535,
+          "permutation": [
+            0,
+            5,
+            1,
+            4,
+            6,
+            2,
+            3,
+            10,
+            7,
+            12,
+            8,
+            11,
+            13,
+            9
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 900591,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            0,
+            2,
+            1,
+            6,
+            4,
+            5,
+            3,
+            8,
+            7,
+            12,
+            10,
+            11,
+            9,
+            13
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 900605,
+          "size": 168,
+          "source": 24551,
+          "permutation": [
+            2,
+            5,
+            1,
+            3,
+            6,
+            0,
+            4,
+            12,
+            13,
+            10,
+            8,
+            11,
+            7,
+            9
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 901039,
+          "size": 168,
+          "source": 14207,
+          "permutation": [
+            0,
+            3,
+            4,
+            1,
+            6,
+            2,
+            5,
+            7,
+            10,
+            12,
+            8,
+            9,
+            13,
+            11
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 901054,
+          "size": 168,
+          "source": 23519,
+          "permutation": [
+            1,
+            5,
+            3,
+            6,
+            2,
+            4,
+            0,
+            9,
+            7,
+            10,
+            13,
+            8,
+            11,
+            12
+          ],
+          "projected_budget": 10
+        },
+        {
+          "representative": 912831,
+          "size": 168,
+          "source": 23519,
+          "permutation": [
+            1,
+            2,
+            0,
+            4,
+            6,
+            5,
+            3,
+            13,
+            7,
+            12,
+            9,
+            11,
+            10,
+            8
+          ],
+          "projected_budget": 10
+        }
+      ],
+      "open_representatives": [
+        {
+          "representative": 65535,
+          "size": 84
+        },
+        {
+          "representative": 98303,
+          "size": 168
+        },
+        {
+          "representative": 114687,
+          "size": 168
+        },
+        {
+          "representative": 122879,
+          "size": 336
+        },
+        {
+          "representative": 126975,
+          "size": 336
+        },
+        {
+          "representative": 129023,
+          "size": 168
+        },
+        {
+          "representative": 130047,
+          "size": 336
+        },
+        {
+          "representative": 131039,
+          "size": 168
+        },
+        {
+          "representative": 229359,
+          "size": 21
+        },
+        {
+          "representative": 376830,
+          "size": 168
+        },
+        {
+          "representative": 388863,
+          "size": 336
+        },
+        {
+          "representative": 392955,
+          "size": 336
+        },
+        {
+          "representative": 392958,
+          "size": 336
+        },
+        {
+          "representative": 901109,
+          "size": 42
+        }
+      ]
+    },
+    {
+      "losses": 17,
+      "checked": 5985,
+      "candidates": 5985,
+      "sorted_masks_sha256": "c17bd00b5fa668c5c03d0ecaff3e5cb70f793f05b20fb9f8af83814cd4780a46",
+      "representatives": 31,
+      "excluded": 1092,
+      "remaining": 4893,
+      "certificates": [
+        {
+          "representative": 393199,
+          "size": 336,
+          "source": 32751,
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "projected_budget": 15
+        },
+        {
+          "representative": 524029,
+          "size": 168,
+          "source": 32751,
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            5,
+            6,
+            2,
+            7,
+            13,
+            8,
+            9,
+            12,
+            11,
+            10
+          ],
+          "projected_budget": 15
+        },
+        {
+          "representative": 901055,
+          "size": 336,
+          "source": 112511,
+          "permutation": [
+            7,
+            10,
+            9,
+            8,
+            12,
+            11,
+            13,
+            0,
+            1,
+            4,
+            3,
+            2,
+            6,
+            5
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 913375,
+          "size": 168,
+          "source": 112511,
+          "permutation": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "projected_budget": 14
+        },
+        {
+          "representative": 916975,
+          "size": 84,
+          "source": 112511,
+          "permutation": [
+            2,
+            4,
+            3,
+            1,
+            6,
+            0,
+            5,
+            13,
+            12,
+            10,
+            8,
+            9,
+            7,
+            11
+          ],
+          "projected_budget": 14
+        }
+      ],
+      "open_representatives": [
+        {
+          "representative": 131071,
+          "size": 168
+        },
+        {
+          "representative": 229375,
+          "size": 84
+        },
+        {
+          "representative": 327679,
+          "size": 168
+        },
+        {
+          "representative": 360447,
+          "size": 168
+        },
+        {
+          "representative": 376831,
+          "size": 168
+        },
+        {
+          "representative": 385023,
+          "size": 336
+        },
+        {
+          "representative": 389119,
+          "size": 336
+        },
+        {
+          "representative": 391167,
+          "size": 84
+        },
+        {
+          "representative": 392191,
+          "size": 168
+        },
+        {
+          "representative": 392959,
+          "size": 336
+        },
+        {
+          "representative": 393087,
+          "size": 168
+        },
+        {
+          "representative": 393151,
+          "size": 336
+        },
+        {
+          "representative": 393183,
+          "size": 168
+        },
+        {
+          "representative": 393207,
+          "size": 168
+        },
+        {
+          "representative": 393211,
+          "size": 336
+        },
+        {
+          "representative": 393213,
+          "size": 336
+        },
+        {
+          "representative": 393214,
+          "size": 336
+        },
+        {
+          "representative": 491263,
+          "size": 168
+        },
+        {
+          "representative": 523903,
+          "size": 42
+        },
+        {
+          "representative": 524027,
+          "size": 168
+        },
+        {
+          "representative": 524221,
+          "size": 21
+        },
+        {
+          "representative": 900607,
+          "size": 168
+        },
+        {
+          "representative": 901111,
+          "size": 168
+        },
+        {
+          "representative": 901118,
+          "size": 84
+        },
+        {
+          "representative": 912895,
+          "size": 168
+        },
+        {
+          "representative": 913343,
+          "size": 42
+        }
+      ]
+    },
+    {
+      "losses": 18,
+      "checked": 1330,
+      "candidates": 1330,
+      "sorted_masks_sha256": "21f6c6605335daf609193c07a32582149580853533edc09d92e0435f28a5edeb",
+      "representatives": 11,
+      "excluded": 0,
+      "remaining": 1330,
+      "certificates": [],
+      "open_representatives": [
+        {
+          "representative": 262143,
+          "size": 14
+        },
+        {
+          "representative": 393215,
+          "size": 336
+        },
+        {
+          "representative": 491519,
+          "size": 84
+        },
+        {
+          "representative": 524031,
+          "size": 168
+        },
+        {
+          "representative": 524223,
+          "size": 84
+        },
+        {
+          "representative": 901119,
+          "size": 168
+        },
+        {
+          "representative": 913407,
+          "size": 168
+        },
+        {
+          "representative": 916991,
+          "size": 168
+        },
+        {
+          "representative": 917471,
+          "size": 56
+        },
+        {
+          "representative": 917495,
+          "size": 28
+        },
+        {
+          "representative": 1011711,
+          "size": 56
+        }
+      ]
+    },
+    {
+      "losses": 19,
+      "checked": 210,
+      "candidates": 210,
+      "sorted_masks_sha256": "55dd9e07a960af76f713d8483d67bac3c128422d6d36db2b554dba5690200f0c",
+      "representatives": 3,
+      "excluded": 0,
+      "remaining": 210,
+      "certificates": [],
+      "open_representatives": [
+        {
+          "representative": 524287,
+          "size": 42
+        },
+        {
+          "representative": 917503,
+          "size": 84
+        },
+        {
+          "representative": 1015807,
+          "size": 84
+        }
+      ]
+    },
+    {
+      "losses": 20,
+      "checked": 21,
+      "candidates": 21,
+      "sorted_masks_sha256": "310a78fe30f3279b3673c0f41ffd360dcfd85dcae60b8d3aa8f5d52d6f96f741",
+      "representatives": 1,
+      "excluded": 0,
+      "remaining": 21,
+      "certificates": [],
+      "open_representatives": [
+        {
+          "representative": 1048575,
+          "size": 21
+        }
+      ]
+    },
+    {
+      "losses": 21,
+      "checked": 1,
+      "candidates": 1,
+      "sorted_masks_sha256": "cd88470c9b717ce1553e8b334388b597d77f7e91f2748bf95c502b489629428d",
+      "representatives": 1,
+      "excluded": 0,
+      "remaining": 1,
+      "certificates": [],
+      "open_representatives": [
+        {
+          "representative": 2097151,
+          "size": 1
+        }
+      ]
+    }
+  ],
+  "small_controls": [
+    [
+      1,
+      0,
+      false
+    ],
+    [
+      1,
+      1,
+      true
+    ],
+    [
+      3,
+      1,
+      false
+    ],
+    [
+      3,
+      2,
+      true
+    ],
+    [
+      7,
+      2,
+      false
+    ],
+    [
+      7,
+      3,
+      true
+    ],
+    [
+      9,
+      1,
+      false
+    ],
+    [
+      9,
+      2,
+      true
+    ],
+    [
+      65,
+      2,
+      false
+    ],
+    [
+      65,
+      3,
+      true
+    ],
+    [
+      73,
+      3,
+      false
+    ],
+    [
+      73,
+      4,
+      true
+    ]
+  ],
+  "k4_control": {
+    "representative": 32711,
+    "vertices": 10,
+    "gates": 15,
+    "assignments": 1024,
+    "allowed_signals": 13
+  },
+  "five_star_control": {
+    "representative": 32751,
+    "vertices": 10,
+    "gates": 16,
+    "assignments": 1024,
+    "allowed_signals": 11
+  }
+}
