@@ -1,0 +1,135 @@
+{
+  "completed_utc": "2026-11-25T02:10:22.458632+00:00",
+  "project_revision": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "posted_statement_sha256": "bf50ee9438a2cbc76c31900460d9d0ccd4475800c3f2cdce47a58df9e0ef517c",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "modules_rebuilt": 64,
+  "module_manifest_sha256": "1d2f2b9e100963992f5b7d26b96859e6ee097a9238322ed2d96b5109d8d196d3",
+  "audited_declarations": 81,
+  "principal_theorems": {
+    "Checkpoint126.Heawood.gateFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.shortCircuits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.postedNineLost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.nineProfile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.ninePatterns": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.nineCount": [],
+    "Checkpoint126.Heawood.cycleBudget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.robust": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.safePath": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Heawood.auxiliaryPath": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Certificate.checked": [
+      "propext"
+    ],
+    "Checkpoint126.Certificate.numerical": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Cherry.lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint126.Zero.cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.eightCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.eightList": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "independent_edge_subsets": 2097152,
+  "cycle_counts": {
+    "6": 28,
+    "8": 21
+  },
+  "eight_edge_patterns_excluded": 357,
+  "nine_boundary_masks": 126,
+  "nine_masks_compact_json_sha256": "62a62c4570146b3463be5bd59b6075641df8813c329e5363c680ff78c9d4d521",
+  "graph_automorphisms": 336,
+  "nine_orbits": [
+    {
+      "representative": 511,
+      "size": 56
+    },
+    {
+      "representative": 3574,
+      "size": 56
+    },
+    {
+      "representative": 3647,
+      "size": 14
+    }
+  ],
+  "gate_floors_by_losses": [
+    27,
+    28,
+    28,
+    27,
+    28,
+    28,
+    27,
+    27,
+    27,
+    26,
+    25,
+    25,
+    23,
+    23,
+    22,
+    21,
+    20,
+    20,
+    18,
+    18,
+    17,
+    15
+  ],
+  "control_circuits": 22,
+  "assignments_per_control": 16384,
+  "packed_project_rows": 58
+}

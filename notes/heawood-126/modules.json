@@ -1,0 +1,465 @@
+{
+  "AuxiliaryPath": {
+    "requires": [
+      "CoreGeometry"
+    ],
+    "sha256": "2c2c7be6f3636ef8a5ef673eef875772df9a6d896af453fde450b36a997a6f20",
+    "source": "src/AuxiliaryPath.lean"
+  },
+  "BicliqueFormula": {
+    "requires": [
+      "StarFormula"
+    ],
+    "sha256": "4c22da427dc6807e2a4874f5992a8b44ce3789288cdca17f6b0fdf234f0f7f23",
+    "source": "src/BicliqueFormula.lean"
+  },
+  "BinaryBudget": {
+    "requires": [
+      "PrunedProgram"
+    ],
+    "sha256": "be7d8a3710adb5f6dd1ca5c98996b1454832b626569f62a5ed5c4395e219fc29",
+    "source": "src/BinaryBudget.lean"
+  },
+  "BipartitionCount": {
+    "requires": [],
+    "sha256": "fc6d03831fb2e33501e9e150d7cc8087baa5999173128327bc9bd5d1d6707ca6",
+    "source": "src/BipartitionCount.lean"
+  },
+  "BottomPairs": {
+    "requires": [
+      "OptimalStars"
+    ],
+    "sha256": "478727c0300978fbced57ce303d8bf514d25549a7559394016d05f926b8393a6",
+    "source": "src/BottomPairs.lean"
+  },
+  "BoundaryData": {
+    "requires": [],
+    "sha256": "87a7eab42907460722d554b408c1734557f332f3bb5035338ad8265826887a2f",
+    "source": "src/BoundaryData.lean"
+  },
+  "CherryBound": {
+    "requires": [
+      "BinaryBudget"
+    ],
+    "sha256": "1a529fa862602369082d27227e913eacf2cb25b300b95125911472de70e90011",
+    "source": "src/CherryBound.lean"
+  },
+  "ContractCircuit": {
+    "requires": [
+      "BinaryBudget",
+      "RegularBottom"
+    ],
+    "sha256": "9919536dd42e43d73063cccc9c96edd94f2bf6011a3cd05a5e8995cc3a040546",
+    "source": "src/ContractCircuit.lean"
+  },
+  "CoreGeometry": {
+    "requires": [
+      "CycleData",
+      "CherryBound",
+      "PathObstruction",
+      "VertexMasks"
+    ],
+    "sha256": "032205979cc5ade8d28d92076c33695aaf8ddc022c7ecebfed323e2c20b1be48",
+    "source": "src/CoreGeometry.lean"
+  },
+  "CoverBuild": {
+    "requires": [],
+    "sha256": "3985fe98b9beb84f9bc9f11312b6279970f8224774cb5063518e2af02fa4398f",
+    "source": "src/CoverBuild.lean"
+  },
+  "CycleAudit": {
+    "requires": [
+      "CycleData",
+      "MatchingTable"
+    ],
+    "sha256": "c70236939bdd68498fbf23f51bfa748fd9e64588cd008837fd449992206d9f1b",
+    "source": "src/CycleAudit.lean"
+  },
+  "CycleBudget": {
+    "requires": [
+      "AuxiliaryPath",
+      "ZeroPruning"
+    ],
+    "sha256": "0ad6bbc45cea91ea9b1e2cb314691c059ece0f87e8eeaff62287669577a5c558",
+    "source": "src/CycleBudget.lean"
+  },
+  "CycleData": {
+    "requires": [],
+    "sha256": "1330c277a8fb89364115bdcd683e46053c649fb219a4676e58f1b8db93de8f1e",
+    "source": "src/CycleData.lean"
+  },
+  "CycleNumbers": {
+    "requires": [
+      "CycleAudit",
+      "CoreGeometry"
+    ],
+    "sha256": "f30e7f279b9a35fd758e3b7aae880b4c6cd9c32a47f485516d8091a00453545d",
+    "source": "src/CycleNumbers.lean"
+  },
+  "DensePaths": {
+    "requires": [
+      "PathObstruction"
+    ],
+    "sha256": "cb4082396a09fb57004c6cfa874c87adecfcea38a1fd8b5903123cf304884d73",
+    "source": "src/DensePaths.lean"
+  },
+  "EdgeSeparation": {
+    "requires": [
+      "RegularBottom"
+    ],
+    "sha256": "73f86b1b996ce07848f16db6e1872e3ace7f12aecc85f1de3559eb968ab74ff7",
+    "source": "src/EdgeSeparation.lean"
+  },
+  "EightBoundary": {
+    "requires": [
+      "LossFloor"
+    ],
+    "sha256": "ba172a81c37b800b05d9a8dd76b2776e9e4503aa4072606be6315c08a8ef03d6",
+    "source": "src/EightBoundary.lean"
+  },
+  "EightPatterns": {
+    "requires": [
+      "EightBoundary",
+      "FiveCenters"
+    ],
+    "sha256": "7f2fff4ac51e031388f8a74945d58e8fa224c7abf0711cbacadbbf77edb2f28d",
+    "source": "src/EightPatterns.lean"
+  },
+  "ExactCleanFormula": {
+    "requires": [
+      "BicliqueFormula",
+      "BipartitionCount"
+    ],
+    "sha256": "00812d2fdda872b2969bd4e3749dc9094ac5be7bc70899feaca3325b2f2b22f4",
+    "source": "src/ExactCleanFormula.lean"
+  },
+  "FiveCenters": {
+    "requires": [
+      "SixLost",
+      "FourProfiles"
+    ],
+    "sha256": "ffd9e9ad1c51f8e74d3ee1812237e64f363dad7c001c9ee1ce5505da31716670",
+    "source": "src/FiveCenters.lean"
+  },
+  "ForcedInputs": {
+    "requires": [
+      "EdgeSeparation"
+    ],
+    "sha256": "e338e0e84a931a8b3ca625144a0b03b7b0d06549b4c41338db25d3f9b8f4d941",
+    "source": "src/ForcedInputs.lean"
+  },
+  "FourLost": {
+    "requires": [
+      "StarRestriction",
+      "RestrictionSupport"
+    ],
+    "sha256": "bb50df97ce8a6a9b3454539c636303c8c4edba72becc8d7ec072d4fe420dee0a",
+    "source": "src/FourLost.lean"
+  },
+  "FourProfiles": {
+    "requires": [
+      "FourLost"
+    ],
+    "sha256": "96440be3f2a971937671ddeb2c6539f555abd295cf33753bd1aa2fc4faff9a22",
+    "source": "src/FourProfiles.lean"
+  },
+  "HeawoodStages": {
+    "requires": [
+      "PhysicalStages"
+    ],
+    "sha256": "9bd542704a2fd98acc955a0c047a4e1067f3dde9150c6be7bc298a20bd9f6a11",
+    "source": "src/HeawoodStages.lean"
+  },
+  "L_meta_2084_child2": {
+    "requires": [],
+    "sha256": "73e7ab11d86fbc04dff4535f21cc5507a4511db4c8a68f445962ad30011d795e",
+    "source": "src/L_meta_2084_child2.lean"
+  },
+  "LossFloor": {
+    "requires": [
+      "DensePaths",
+      "VertexMasks",
+      "MaskAudit",
+      "PostedModel"
+    ],
+    "sha256": "df669b7a0f5f9f98a01389883b16065687cf2554e39885ebed4a9e0f32bc59b2",
+    "source": "src/LossFloor.lean"
+  },
+  "MaskAudit": {
+    "requires": [
+      "MatchingTable"
+    ],
+    "sha256": "c99e8f721e106c13d35a9674c8c3f79ab8bc9ef062dfd073c260a104ba3fb91d",
+    "source": "src/MaskAudit.lean"
+  },
+  "MatchingData": {
+    "requires": [],
+    "sha256": "9de5f17f375910a25a97119ecacc4349c6638ebbe5602272d07ca1e63af1b64b",
+    "source": "src/MatchingData.lean"
+  },
+  "MatchingTable": {
+    "requires": [
+      "MatchingData"
+    ],
+    "sha256": "f89688017e32e86d5d48eb4fcff730a01867cf00347b5d6c9ab3c4d1e3bad18e",
+    "source": "src/MatchingTable.lean"
+  },
+  "MissingStar": {
+    "requires": [
+      "PostedModel",
+      "OptimalStars"
+    ],
+    "sha256": "fc3bdd375b861b57ddada5f8f676d50dae8048c6ca7d8d8bca5126fb0ace36d3",
+    "source": "src/MissingStar.lean"
+  },
+  "NineData": {
+    "requires": [],
+    "sha256": "07fc953aa879b98953d9d49bede4423102f0494cb637b8a8b3ec27e05261e1e3",
+    "source": "src/NineData.lean"
+  },
+  "NineLossFloor": {
+    "requires": [
+      "CycleNumbers",
+      "CycleBudget",
+      "LossFloor"
+    ],
+    "sha256": "ec6a51b95fe60ec1a19eb8ecf3bef572e0b329ae1936bc48ba6744c670fb987d",
+    "source": "src/NineLossFloor.lean"
+  },
+  "NinePatterns": {
+    "requires": [
+      "NineProfile",
+      "EightPatterns"
+    ],
+    "sha256": "8c34412e387f30423e3f69f08d270aa50f5128e826e35813ef1264be2e07e8c9",
+    "source": "src/NinePatterns.lean"
+  },
+  "NineProfile": {
+    "requires": [
+      "NineData",
+      "NineLossFloor"
+    ],
+    "sha256": "0b751a86add8cd9165fac246460450bd0e3d1ec90da2cb13608dfc3d16dd9025",
+    "source": "src/NineProfile.lean"
+  },
+  "OptimalStars": {
+    "requires": [
+      "HeawoodStages",
+      "Sharp"
+    ],
+    "sha256": "1434e313652c7603f859550b494d931c8639624b74bfa3d9d77418515683e1d0",
+    "source": "src/OptimalStars.lean"
+  },
+  "PEqualNP.Outside.L_meta_3008": {
+    "requires": [],
+    "sha256": "0636fadba2e586876d1dda8bf98b5b60182de3a2295d58ae3946088ee06e1bb3",
+    "source": "src/PEqualNP/Outside/L_meta_3008.lean"
+  },
+  "PathObstruction": {
+    "requires": [
+      "ReadOnce",
+      "TerminalBudget"
+    ],
+    "sha256": "e64ce1f269fc76e19854e768527bbaa29c345aecd0806ff341da66f5df92a876",
+    "source": "src/PathObstruction.lean"
+  },
+  "PatternBlocks": {
+    "requires": [
+      "EightPatterns",
+      "BoundaryData"
+    ],
+    "sha256": "ac1914bd787ce3ab8e319c22810feaad9ade461907297dedce0363a4af98410d",
+    "source": "src/PatternBlocks.lean"
+  },
+  "PatternCount": {
+    "requires": [
+      "PatternBlocks"
+    ],
+    "sha256": "1279e9cc48b0a7050b678319d995422e84a0b6ececcea1e8a2de4c51aa9bd09b",
+    "source": "src/PatternCount.lean"
+  },
+  "PhysicalStages": {
+    "requires": [
+      "StageSupport"
+    ],
+    "sha256": "a106ddded6b07d5386a5dd98f1b3fcaa431d9c21ceacd57b9a510f9ec7f3a195",
+    "source": "src/PhysicalStages.lean"
+  },
+  "PostedModel": {
+    "requires": [
+      "PrunedEdges",
+      "PEqualNP.Outside.L_meta_3008"
+    ],
+    "sha256": "91faf2e6a3689934958cacf0571fa10574a4409a6c5c8ba4574cffa61cce9e6b",
+    "source": "src/PostedModel.lean"
+  },
+  "PrunedEdges": {
+    "requires": [
+      "PrunedProgram",
+      "HeawoodStages"
+    ],
+    "sha256": "109f344272582fe2913a6b8a141b74eb1b1900d18faecc5a93fe47620bdb1964",
+    "source": "src/PrunedEdges.lean"
+  },
+  "PrunedProgram": {
+    "requires": [
+      "SharedOR"
+    ],
+    "sha256": "58f196394ea7a0644d10d4a247f7e8b0986acea2c0cff3524ad8493d2d53e925",
+    "source": "src/PrunedProgram.lean"
+  },
+  "ReadOnce": {
+    "requires": [
+      "BinaryBudget"
+    ],
+    "sha256": "ac11a9502f046087422bbad4020d5a7931fe4ada5b0fdadc20fd9c4fa5ccf14c",
+    "source": "src/ReadOnce.lean"
+  },
+  "RegularBottom": {
+    "requires": [
+      "PrunedEdges"
+    ],
+    "sha256": "8c51ee09b142e32e445ccaee22713a3f41fa3802515b5d6030f77cf49c861061",
+    "source": "src/RegularBottom.lean"
+  },
+  "ResidualCircuit": {
+    "requires": [
+      "ResidualLibrary"
+    ],
+    "sha256": "2cf9c407555178a8d29172e7ade8af39762ae02b2605d7d54291510ab51160f0",
+    "source": "src/ResidualCircuit.lean"
+  },
+  "ResidualForms": {
+    "requires": [
+      "PrunedProgram"
+    ],
+    "sha256": "0e3633894429d268f1e59b97d1bfb165b828b43f1d2b2561893c12751d828aa9",
+    "source": "src/ResidualForms.lean"
+  },
+  "ResidualLibrary": {
+    "requires": [
+      "RegularBottom",
+      "ResidualSemantics"
+    ],
+    "sha256": "9323c72efc201c5e456c80ed380275608ec1d1f01a31ae93732ff19e0d3f1eb7",
+    "source": "src/ResidualLibrary.lean"
+  },
+  "ResidualSemantics": {
+    "requires": [
+      "ResidualForms"
+    ],
+    "sha256": "2e1ad59a8ccd8e2650ce89430e9f8166bd7c41947db6af03c7e2d1a225ba7f5f",
+    "source": "src/ResidualSemantics.lean"
+  },
+  "ResidualShapes": {
+    "requires": [
+      "ResidualForms"
+    ],
+    "sha256": "62ae9e7c5b4eb71ebf92a87dcb2dbb4d5bc1c1c7da15446ae388a8f72e0474e2",
+    "source": "src/ResidualShapes.lean"
+  },
+  "Restoration": {
+    "requires": [
+      "EdgeSeparation",
+      "ResidualCircuit"
+    ],
+    "sha256": "2d430716e92b3605266ebca5ee9217a410cc843ba6349793bf6436b386940ee4",
+    "source": "src/Restoration.lean"
+  },
+  "RestrictionSupport": {
+    "requires": [
+      "PrunedProgram"
+    ],
+    "sha256": "4f53eb083c4187f80f6a3da95e43c95c0e423be57fbc9faecf3a8079ac3cfa93",
+    "source": "src/RestrictionSupport.lean"
+  },
+  "SemanticFormula": {
+    "requires": [
+      "ExactCleanFormula"
+    ],
+    "sha256": "99c9984a3f3f2624eb9f33fa21d06c129f22497de1b61dd77e2763e95cce525c",
+    "source": "src/SemanticFormula.lean"
+  },
+  "SharedOR": {
+    "requires": [
+      "SemanticFormula",
+      "StarUnion"
+    ],
+    "sha256": "bccf15fb885045a9211b5196855aea70459f5a8b68cbdffd4ec540015627a4bb",
+    "source": "src/SharedOR.lean"
+  },
+  "Sharp": {
+    "requires": [
+      "Staged"
+    ],
+    "sha256": "8deb3b87b57f3af8c3cce9448bfbfa5503c8cbd0ab7edcbb894eb8c4b1493ff8",
+    "source": "src/Sharp.lean"
+  },
+  "SixLost": {
+    "requires": [
+      "PostedModel",
+      "ResidualShapes",
+      "Restoration"
+    ],
+    "sha256": "8957acc92aef03b90d0bef36d75a70d28a587cbcee6d0be966ddee0358b9243c",
+    "source": "src/SixLost.lean"
+  },
+  "StageSupport": {
+    "requires": [
+      "SharedOR",
+      "CoverBuild"
+    ],
+    "sha256": "855425c7ea1725ba58810523b3feb14a27aa84c2370e66dcce0c59336e84d925",
+    "source": "src/StageSupport.lean"
+  },
+  "Staged": {
+    "requires": [
+      "PhysicalStages",
+      "L_meta_2084_child2"
+    ],
+    "sha256": "d50c2e5a82f762a1c847a7d6d06c724019003760b2c5221350d547b62135056c",
+    "source": "src/Staged.lean"
+  },
+  "StarFormula": {
+    "requires": [],
+    "sha256": "8c8f22d94850964a39868d9cc7af0dd31c97f6cb168b75dd1f02357c46a16730",
+    "source": "src/StarFormula.lean"
+  },
+  "StarRestriction": {
+    "requires": [
+      "MissingStar",
+      "BottomPairs"
+    ],
+    "sha256": "4f27ae3780f4558afe16e733ffcda1e1e35a5bbad8de336b4287c688770a0910",
+    "source": "src/StarRestriction.lean"
+  },
+  "StarUnion": {
+    "requires": [],
+    "sha256": "4437b20c2f6ce732b1a14368571daa2e96b097fa5b47dbdb1171e4880c51fe54",
+    "source": "src/StarUnion.lean"
+  },
+  "TerminalBudget": {
+    "requires": [
+      "ContractCircuit",
+      "ForcedInputs"
+    ],
+    "sha256": "ee222375f36f08f1e67d01340bc971d74b93ff23357aa09de691e49412cbd2ca",
+    "source": "src/TerminalBudget.lean"
+  },
+  "VertexMasks": {
+    "requires": [
+      "ForcedInputs",
+      "FourProfiles",
+      "MatchingTable"
+    ],
+    "sha256": "a3f39b1babd7a315d473fd600dbae9d12ca6212ce25b4a12a6d4cc34104f639c",
+    "source": "src/VertexMasks.lean"
+  },
+  "ZeroPruning": {
+    "requires": [
+      "BinaryBudget"
+    ],
+    "sha256": "838fa1f6b81988771f0ccb71c6443361fb2b89765e7eccdfa5fb66dd65432a24",
+    "source": "src/ZeroPruning.lean"
+  }
+}

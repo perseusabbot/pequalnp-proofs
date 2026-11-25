@@ -1,0 +1,95 @@
+1/64 BoundaryData
+2/64 CycleData
+3/64 BipartitionCount
+4/64 MatchingData
+5/64 CoverBuild
+6/64 MatchingTable
+7/64 NineData
+8/64 L_meta_2084_child2
+9/64 PEqualNP.Outside.L_meta_3008
+10/64 StarFormula
+11/64 BicliqueFormula
+12/64 ExactCleanFormula
+13/64 SemanticFormula
+14/64 StarUnion
+15/64 SharedOR
+16/64 PrunedProgram
+17/64 BinaryBudget
+18/64 CherryBound
+19/64 ReadOnce
+20/64 ResidualForms
+21/64 ResidualSemantics
+22/64 CycleAudit
+23/64 RestrictionSupport
+24/64 StageSupport
+25/64 MaskAudit
+26/64 PhysicalStages
+27/64 ZeroPruning
+28/64 HeawoodStages
+29/64 Staged
+30/64 PrunedEdges
+31/64 Sharp
+32/64 PostedModel
+33/64 OptimalStars
+34/64 RegularBottom
+35/64 BottomPairs
+36/64 ContractCircuit
+37/64 EdgeSeparation
+38/64 MissingStar
+39/64 ResidualLibrary
+40/64 ForcedInputs
+41/64 ResidualCircuit
+42/64 Restoration
+43/64 StarRestriction
+44/64 TerminalBudget
+45/64 FourLost
+46/64 FourProfiles
+47/64 VertexMasks
+48/64 PathObstruction
+49/64 DensePaths
+50/64 LossFloor
+51/64 CoreGeometry
+52/64 AuxiliaryPath
+53/64 CycleBudget
+54/64 CycleNumbers
+55/64 NineLossFloor
+56/64 EightBoundary
+57/64 ResidualShapes
+58/64 SixLost
+59/64 FiveCenters
+60/64 EightPatterns
+61/64 NineProfile
+62/64 NinePatterns
+63/64 PatternBlocks
+64/64 PatternCount
+'Checkpoint126.Heawood.auxiliaryPath' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Cherry.lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.robust' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.safePath' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Certificate.checked' depends on axioms: [propext]
+'Checkpoint126.Heawood.cycleBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Certificate.numerical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightPatterns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.outsideEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.fiveCenterCase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.fiveCounts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.sixAtTwentyFive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.gateFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.shortCircuits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.postedEightLost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.gateFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.shortCircuits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.postedNineLost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.ninePatterns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.nineCount' does not depend on any axioms
+'Checkpoint126.Heawood.nineProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightList' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+/tmp/pnp126/release/src/ZeroPruning.lean:167:0: warning: automatically included section variable(s) unused in theorem `Checkpoint126.Zero.cost`:
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'Checkpoint126.Zero.cost' depends on axioms: [propext, Classical.choice, Quot.sound]
