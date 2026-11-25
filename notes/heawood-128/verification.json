@@ -1,0 +1,93 @@
+{
+  "completed_utc": "2026-11-25T04:41:05.960017+00:00",
+  "upstream": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "previous_commit": "c8bbec61bf9263a32bd5520029c30a8983a50615",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "previous_modules": 78,
+  "new_modules": 25,
+  "total_modules": 103,
+  "audited_declarations": 108,
+  "extension_declarations": {
+    "Checkpoint128.Heawood.boundaryDomain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Heawood.boundaryCircuit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Theta.localLower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Heawood.thetaBudget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Heawood.elevenLost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Heawood.postedElevenLost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Heawood.screenNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Heawood.labelWord": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Theta.rootNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Theta.controlWorks": [
+      "propext"
+    ],
+    "Checkpoint128.Theta.searchNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint128.Heawood.transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_manifest_sha256": "99b4ba4f862ba81db92165dad6ddd6985eccfe1ee90c5410440a8fde8aa502e2",
+  "kernel_loss_bound_at_26_gates": 11,
+  "computational_loss_bound_at_26_gates": 12,
+  "theta_required_gate_cap": 11,
+  "theta_exact_minimum": 13,
+  "theta_positive_control_assignments": 512,
+  "theta_search_states": {
+    "11": 2996,
+    "12": 56238
+  },
+  "availability_states_at_twelve_gates": 3016932,
+  "eleven_loss_masks_checked": 352716,
+  "eleven_loss_candidates_excluded": 1176,
+  "eleven_loss_orbits": 7,
+  "eleven_loss_search_states": 39160,
+  "eleven_loss_independent_states": 2526475,
+  "eleven_loss_control_assignments": 9216,
+  "data_sha256": {
+    "theta_search.json": "3bbf850e8ff8ad7f9bf09fe13dbf58c9e0eb95a47390f6b8cea7b93879416c52",
+    "boundary.json": "f28f19455fac8985a6f3079d1ed3fa3757c8c96672d8776d192ea039ca58c1fb",
+    "availability.json": "844657b7845aeb9342d024a6dadb54ade81ca9998b70c3ae6d0924f1708f5cb3",
+    "kernel.log": "4917ff1a30458ab5d97ae881ba98335f6cd6956558b04be6ed9e3ace7ac9f68a"
+  }
+}
