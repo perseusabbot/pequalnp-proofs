@@ -1,0 +1,179 @@
+{
+  "completed_utc": "2026-11-25T15:31:29.186181+00:00",
+  "upstream": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "previous_commit": "cfddabfa18fd5ac825c43a6328e9cdec0cfb7602",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "previous_modules": 145,
+  "new_modules": 9,
+  "audited_declarations": 142,
+  "new_theorems": {
+    "Checkpoint130.Prune.semantics": [
+      "propext"
+    ],
+    "Checkpoint130.Prune.library": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Prune.cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Cut.mandatory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Cut.split": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Cut.firstDistinct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Cut.untouched": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Cut.signedProjection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.edgeOnCorrect": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.fifteenValid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.goodEmbedding": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.coverPair": [
+      "propext"
+    ],
+    "Checkpoint130.Heawood.fiveKernelFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.nineteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.postedTwentyTwo": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.fifteenNecessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.vertexProgram": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.programNineteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.programTwentyTwo": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.postedNineteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Upper.control114175": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Upper.control114686": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Upper.control126463": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Upper.control126719": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.sixGateReduction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint130.Heawood.twentyTwo": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "kernel_unconditional_full_graph_gate_floor": 19,
+  "kernel_floor_conditional_on_the_five_star_exhaustion": 22,
+  "externally_certified_full_graph_gate_floor": 23,
+  "full_upper_control": {
+    "gates": 27,
+    "assignments": 16384
+  },
+  "previous_numerical_gate_floor": 20,
+  "smallest_unresolved_loss_count": 15,
+  "remaining_masks": 2500,
+  "remaining_orbits": 25,
+  "remaining_fifteen_loss_orbits": [
+    32767,
+    128895
+  ],
+  "minimum_losses_for_a_23_gate_circuit": 21,
+  "direct_exhaustions": 4,
+  "last_use_states": 260567,
+  "availability_states": 242313,
+  "prefix_certificates": 22,
+  "branching_prefixes": 324,
+  "certified_leaves": 38099,
+  "full_graph_certificate_leaves": 2831,
+  "positive_control_assignments": 3072,
+  "prior_exact_searches_and_frontier_replayed": true,
+  "parent_sha256": {
+    "results.json": "7c60fc891293784540c328842faaa5bb6a376a52f626b563bab59aca51a67905",
+    "screens.json": "f01800d0d7e392187e945d692bc3e8eab58d52982fbac95f8802fcac39c2597d",
+    "frontier.json": "54a661a5e7f2d1f2daf32f1f12a3844d3b4ff2b5b5f367f07f0f12671724b98c",
+    "sources.json": "6e8b77ccc63c6ecd7acd06dc43f90db76d085c5d450975de43aa4e0d4ba856c6",
+    "verification.json": "b6d92509e25d6bf709f011349405c8299e3f242a618877bf1b51cb9a6ad04ad7",
+    "available_search.cpp": "6a5aea037be6bd7511609043f5069f15e4ded48d62c3683f6a6762310f1680f8",
+    "live_search.cpp": "b607dccc510edf56967d8f7bc10d8ae340400033ce33426cfc4f016419f58f64"
+  },
+  "checked_sha256": {
+    "check.py": "51ea7c916a1c7890a12451a86ff2e61b6c7d3f1d28d7bd499e7aa9a47eb166dd",
+    "controls.json": "40f6bc01a38a9b28f7e3436a51aa26cfbbb24945b891bed394417c5cdf0fc816",
+    "controls.py": "2fdbdc435f91267b49baf18b95a5477469438e1110016bcf15a06ee0b166a23c",
+    "frontier.json": "e0a4a2a10eb1466f4e8003441d99febf8e2adaf38f53d334a221f066782b8b29",
+    "kernel.log": "2594f61a1945be3def63ae1b04a8f2d40ae1055294dd101166547a52cd21ae85",
+    "prefix.py": "aebd3c55335e1b55a96ba33095c1be3b1acdb31b38c29728b29f5b29ff0c0c3f",
+    "prefixes.json.gz": "df4cc856bec5434cf6e1174483c25e10415ebc2be55135c358d3043fc36dd799",
+    "replay.py": "739bc387f159d68e2e6584cf160bbc3aa2820f09c1bd9258f3d551342d551d33",
+    "results.json": "6660ef053cfe4a2e08247c17f2bf13e47b30f010d11c5ad8931824c0d76d1e50",
+    "sources.json": "e96c41086738f5229b35a93c67e537e3a5b88ade3f393bc72f3d17e86066f481",
+    "tables.py": "5a3640e26cd2868130aa32949e481e4f5be265434bb559c03ec067bc0efa27b2",
+    "transport.py": "ed609dbc98eeecf2467cd156cb264a11565d640222463fdda7c79e8bde0f2f21"
+  }
+}

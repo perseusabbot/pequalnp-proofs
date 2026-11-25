@@ -1,0 +1,618 @@
+{
+ "controls": [
+  [
+   1,
+   0,
+   false
+  ],
+  [
+   1,
+   1,
+   true
+  ],
+  [
+   3,
+   1,
+   false
+  ],
+  [
+   3,
+   2,
+   true
+  ],
+  [
+   7,
+   2,
+   false
+  ],
+  [
+   7,
+   3,
+   true
+  ],
+  [
+   9,
+   1,
+   false
+  ],
+  [
+   9,
+   2,
+   true
+  ],
+  [
+   65,
+   2,
+   false
+  ],
+  [
+   65,
+   3,
+   true
+  ],
+  [
+   73,
+   3,
+   false
+  ],
+  [
+   73,
+   4,
+   true
+  ]
+ ],
+ "direct": [
+  {
+   "mask": 114175,
+   "vertices": 10151,
+   "cap": 12,
+   "possible": false,
+   "last_use_states": 33015,
+   "root_supports": 2,
+   "available_states": 30292
+  },
+  {
+   "mask": 114686,
+   "vertices": 13727,
+   "cap": 13,
+   "possible": false,
+   "last_use_states": 72727,
+   "root_supports": 1,
+   "available_states": 67895
+  },
+  {
+   "mask": 126463,
+   "vertices": 10151,
+   "cap": 12,
+   "possible": false,
+   "last_use_states": 33015,
+   "root_supports": 2,
+   "available_states": 30292
+  },
+  {
+   "mask": 126719,
+   "vertices": 13727,
+   "cap": 13,
+   "possible": false,
+   "last_use_states": 121810,
+   "root_supports": 1,
+   "available_states": 113834
+  }
+ ],
+ "prefixes": [
+  {
+   "mask": 131039,
+   "vertices": 16319,
+   "cap": 18,
+   "symmetries": 2,
+   "branching_prefixes": 6,
+   "leaves": 695,
+   "depths": {
+    "1": 87,
+    "2": 102,
+    "3": 239,
+    "4": 267
+   },
+   "source_counts": {
+    "14207": 54,
+    "14334": 12,
+    "16095": 35,
+    "16335": 141,
+    "16383": 28,
+    "32711": 48,
+    "48351": 166,
+    "81895": 20,
+    "112510": 48,
+    "112511": 130,
+    "114686": 13
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 229359,
+   "vertices": 15807,
+   "cap": 18,
+   "symmetries": 16,
+   "branching_prefixes": 1,
+   "leaves": 14,
+   "depths": {
+    "1": 14
+   },
+   "source_counts": {
+    "32751": 14
+   },
+   "original_gate_floor": 26
+  },
+  {
+   "mask": 229375,
+   "vertices": 16319,
+   "cap": 19,
+   "symmetries": 4,
+   "branching_prefixes": 1,
+   "leaves": 54,
+   "depths": {
+    "1": 54
+   },
+   "source_counts": {
+    "32751": 54
+   },
+   "original_gate_floor": 26
+  },
+  {
+   "mask": 262143,
+   "vertices": 16319,
+   "cap": 19,
+   "symmetries": 24,
+   "branching_prefixes": 1,
+   "leaves": 17,
+   "depths": {
+    "1": 17
+   },
+   "source_counts": {
+    "32751": 17
+   },
+   "original_gate_floor": 24
+  },
+  {
+   "mask": 376831,
+   "vertices": 16383,
+   "cap": 19,
+   "symmetries": 2,
+   "branching_prefixes": 30,
+   "leaves": 3402,
+   "depths": {
+    "1": 72,
+    "2": 251,
+    "3": 726,
+    "4": 1724,
+    "5": 629
+   },
+   "source_counts": {
+    "4095": 17,
+    "14207": 44,
+    "14334": 36,
+    "16095": 6,
+    "16335": 4,
+    "16383": 7,
+    "48351": 1575,
+    "81343": 18,
+    "81886": 1,
+    "81895": 8,
+    "112503": 844,
+    "112510": 405,
+    "112511": 134,
+    "114686": 193,
+    "126719": 110
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 393183,
+   "vertices": 16383,
+   "cap": 19,
+   "symmetries": 2,
+   "branching_prefixes": 2,
+   "leaves": 155,
+   "depths": {
+    "1": 72,
+    "2": 83
+   },
+   "source_counts": {
+    "32711": 82,
+    "112511": 73
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 393207,
+   "vertices": 16383,
+   "cap": 19,
+   "symmetries": 2,
+   "branching_prefixes": 1,
+   "leaves": 74,
+   "depths": {
+    "1": 74
+   },
+   "source_counts": {
+    "16383": 1,
+    "32711": 41,
+    "112511": 32
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 393214,
+   "vertices": 16383,
+   "cap": 19,
+   "symmetries": 1,
+   "branching_prefixes": 9,
+   "leaves": 1333,
+   "depths": {
+    "1": 119,
+    "2": 414,
+    "3": 625,
+    "4": 175
+   },
+   "source_counts": {
+    "4095": 43,
+    "16095": 9,
+    "16335": 2,
+    "16383": 92,
+    "48351": 17,
+    "81895": 2,
+    "112503": 202,
+    "112510": 242,
+    "112511": 255,
+    "114686": 200,
+    "126719": 269
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 491519,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 4,
+   "branching_prefixes": 31,
+   "leaves": 5006,
+   "depths": {
+    "1": 44,
+    "2": 97,
+    "3": 536,
+    "4": 1735,
+    "5": 2362,
+    "6": 232
+   },
+   "source_counts": {
+    "4095": 109,
+    "14207": 166,
+    "14334": 59,
+    "16095": 1663,
+    "16335": 6,
+    "16383": 10,
+    "32711": 12,
+    "32751": 835,
+    "48351": 9,
+    "81343": 114,
+    "81895": 99,
+    "112503": 1289,
+    "112510": 103,
+    "112511": 500,
+    "114686": 32
+   },
+   "original_gate_floor": 26
+  },
+  {
+   "mask": 524027,
+   "vertices": 16383,
+   "cap": 19,
+   "symmetries": 2,
+   "branching_prefixes": 2,
+   "leaves": 159,
+   "depths": {
+    "1": 73,
+    "2": 86
+   },
+   "source_counts": {
+    "16383": 22,
+    "32711": 34,
+    "112510": 1,
+    "112511": 83,
+    "114686": 19
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 524223,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 4,
+   "branching_prefixes": 1,
+   "leaves": 50,
+   "depths": {
+    "1": 50
+   },
+   "source_counts": {
+    "32751": 50
+   },
+   "original_gate_floor": 26
+  },
+  {
+   "mask": 524287,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 8,
+   "branching_prefixes": 1,
+   "leaves": 33,
+   "depths": {
+    "1": 33
+   },
+   "source_counts": {
+    "32751": 33
+   },
+   "original_gate_floor": 24
+  },
+  {
+   "mask": 901119,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 2,
+   "branching_prefixes": 39,
+   "leaves": 4572,
+   "depths": {
+    "1": 51,
+    "2": 800,
+    "3": 3081,
+    "4": 640
+   },
+   "source_counts": {
+    "4095": 22,
+    "14207": 15,
+    "16095": 6,
+    "16335": 39,
+    "16383": 145,
+    "32751": 38,
+    "48351": 4,
+    "81895": 30,
+    "112503": 862,
+    "112510": 258,
+    "112511": 1136,
+    "114686": 900,
+    "126719": 1117
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 913407,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 2,
+   "branching_prefixes": 75,
+   "leaves": 11186,
+   "depths": {
+    "1": 53,
+    "2": 612,
+    "3": 2905,
+    "4": 4014,
+    "5": 1890,
+    "6": 1712
+   },
+   "source_counts": {
+    "4095": 145,
+    "14207": 2300,
+    "14334": 2892,
+    "15839": 9,
+    "16095": 153,
+    "16335": 2,
+    "16383": 521,
+    "32751": 46,
+    "48351": 1065,
+    "81343": 6,
+    "81405": 4,
+    "81886": 16,
+    "81895": 353,
+    "112503": 563,
+    "112510": 931,
+    "112511": 674,
+    "114686": 1240,
+    "126719": 266
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 916991,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 2,
+   "branching_prefixes": 40,
+   "leaves": 4606,
+   "depths": {
+    "1": 59,
+    "2": 563,
+    "3": 2604,
+    "4": 1380
+   },
+   "source_counts": {
+    "4095": 65,
+    "14207": 175,
+    "14334": 21,
+    "15615": 2,
+    "15839": 1,
+    "16095": 4,
+    "16335": 6,
+    "16383": 345,
+    "32711": 71,
+    "32751": 47,
+    "48351": 99,
+    "81886": 1,
+    "81895": 148,
+    "112503": 773,
+    "112510": 243,
+    "112511": 688,
+    "114686": 758,
+    "126719": 1159
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 917471,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 6,
+   "branching_prefixes": 20,
+   "leaves": 1859,
+   "depths": {
+    "1": 22,
+    "2": 649,
+    "3": 1188
+   },
+   "source_counts": {
+    "4095": 16,
+    "14207": 2,
+    "16095": 11,
+    "16383": 21,
+    "32711": 79,
+    "112503": 15,
+    "112510": 63,
+    "112511": 682,
+    "114686": 912,
+    "126719": 58
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 917495,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 12,
+   "branching_prefixes": 7,
+   "leaves": 499,
+   "depths": {
+    "1": 15,
+    "2": 195,
+    "3": 86,
+    "4": 203
+   },
+   "source_counts": {
+    "14334": 3,
+    "16335": 203,
+    "16383": 12,
+    "32711": 68,
+    "48351": 19,
+    "81895": 64,
+    "112511": 130
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 917503,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 4,
+   "branching_prefixes": 3,
+   "leaves": 157,
+   "depths": {
+    "1": 36,
+    "2": 121
+   },
+   "source_counts": {
+    "32711": 63,
+    "32751": 32,
+    "112511": 62
+   },
+   "original_gate_floor": 25
+  },
+  {
+   "mask": 1011711,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 6,
+   "branching_prefixes": 8,
+   "leaves": 723,
+   "depths": {
+    "1": 19,
+    "2": 339,
+    "3": 365
+   },
+   "source_counts": {
+    "4095": 1,
+    "14207": 4,
+    "16383": 204,
+    "32751": 14,
+    "81895": 9,
+    "112503": 1,
+    "112511": 346,
+    "114686": 26,
+    "126719": 118
+   },
+   "original_gate_floor": 27
+  },
+  {
+   "mask": 1015807,
+   "vertices": 16383,
+   "cap": 20,
+   "symmetries": 4,
+   "branching_prefixes": 1,
+   "leaves": 38,
+   "depths": {
+    "1": 38
+   },
+   "source_counts": {
+    "32751": 38
+   },
+   "original_gate_floor": 25
+  },
+  {
+   "mask": 1048575,
+   "vertices": 16383,
+   "cap": 21,
+   "symmetries": 16,
+   "branching_prefixes": 8,
+   "leaves": 636,
+   "depths": {
+    "1": 14,
+    "2": 196,
+    "3": 325,
+    "4": 101
+   },
+   "source_counts": {
+    "16095": 59,
+    "16383": 17,
+    "32711": 197,
+    "32751": 206,
+    "112510": 46,
+    "112511": 111
+   },
+   "original_gate_floor": 24
+  },
+  {
+   "mask": 2097151,
+   "vertices": 16383,
+   "cap": 22,
+   "symmetries": 336,
+   "branching_prefixes": 37,
+   "leaves": 2831,
+   "depths": {
+    "2": 85,
+    "3": 750,
+    "4": 1552,
+    "5": 444
+   },
+   "source_counts": {
+    "16095": 1131,
+    "32711": 588,
+    "32751": 828,
+    "81895": 6,
+    "112510": 152,
+    "112511": 126
+   },
+   "original_gate_floor": 23
+  }
+ ],
+ "rejected_controls": [
+  "A possible minimum-circuit gate is missing",
+  "Incorrect negative row lift",
+  "A positive implication fails",
+  "Gate count fails at this leaf"
+ ]
+}

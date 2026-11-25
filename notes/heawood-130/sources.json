@@ -1,0 +1,106 @@
+{
+  "ConstantPruning": {
+    "sha256": "b33894afb5c5758edcbeda44e8a6b842af111c92d4d2c6fd1289107e22daf2bd",
+    "imports": [
+      "ZeroPruning"
+    ],
+    "audited": [
+      "Checkpoint130.Prune.cost",
+      "Checkpoint130.Prune.library",
+      "Checkpoint130.Prune.semantics"
+    ]
+  },
+  "CutTransfer": {
+    "sha256": "c568da1ad294f568769b355e4b0299f5b376b40c99b21ab6c6fb66114ed9f415",
+    "imports": [
+      "ConstantPruning",
+      "CherryBound"
+    ],
+    "audited": [
+      "Checkpoint130.Cut.firstDistinct",
+      "Checkpoint130.Cut.mandatory",
+      "Checkpoint130.Cut.signedProjection",
+      "Checkpoint130.Cut.split",
+      "Checkpoint130.Cut.untouched"
+    ]
+  },
+  "EdgeRows": {
+    "sha256": "6131cf24f814ce9c9a3411ccba923be1ec965260f6e2ee90ed592243324bec0b",
+    "imports": [
+      "ForcedInputs"
+    ],
+    "audited": [
+      "Checkpoint130.Heawood.edgeOnCorrect"
+    ]
+  },
+  "FifteenScreens": {
+    "sha256": "b048733dfb07948b8173f364f744626fb2c86e8317d6b905d42c20a1acaf1a5c",
+    "imports": [
+      "ProjectedScreen"
+    ],
+    "audited": [
+      "Checkpoint130.Heawood.fifteenValid"
+    ]
+  },
+  "FiveEmbeddings": {
+    "sha256": "764533e6c2fb8a245c35c06b9ebca38de8ed9019d41a7078e5f9fc5ec899785a",
+    "imports": [
+      "ProjectedBlock14",
+      "EdgeRows"
+    ],
+    "audited": [
+      "Checkpoint130.Heawood.coverPair",
+      "Checkpoint130.Heawood.goodEmbedding"
+    ]
+  },
+  "KernelFloor": {
+    "sha256": "0a2f40f88f3b921dbd1aaf4c4658464fa5a12a4bab10ccbb1a78a208ad4a189a",
+    "imports": [
+      "TwentyTwo",
+      "ElevenLoss"
+    ],
+    "audited": [
+      "Checkpoint130.Heawood.fiveKernelFloor",
+      "Checkpoint130.Heawood.nineteen"
+    ]
+  },
+  "ProgramFloor": {
+    "sha256": "87b10512eab8e5457316a8a409ba03eadb41be698563a30aa7b3fc84ecb5bc93",
+    "imports": [
+      "KernelFloor",
+      "FifteenScreens",
+      "PostedModel"
+    ],
+    "audited": [
+      "Checkpoint130.Heawood.fifteenNecessary",
+      "Checkpoint130.Heawood.postedNineteen",
+      "Checkpoint130.Heawood.postedTwentyTwo",
+      "Checkpoint130.Heawood.programNineteen",
+      "Checkpoint130.Heawood.programTwentyTwo",
+      "Checkpoint130.Heawood.vertexProgram"
+    ]
+  },
+  "SampleControls": {
+    "sha256": "0b7515a9580c8ae189ef7b89d9e24ed13a71642cbdf76bd4754b48c436c2496f",
+    "imports": [
+      "ControlSemantics"
+    ],
+    "audited": [
+      "Checkpoint130.Upper.control114175",
+      "Checkpoint130.Upper.control114686",
+      "Checkpoint130.Upper.control126463",
+      "Checkpoint130.Upper.control126719"
+    ]
+  },
+  "TwentyTwo": {
+    "sha256": "d0d135d3883515b5977b25d100f73fc22619dd616b034d18904ee26ee18f9fca",
+    "imports": [
+      "CutTransfer",
+      "FiveEmbeddings"
+    ],
+    "audited": [
+      "Checkpoint130.Heawood.sixGateReduction",
+      "Checkpoint130.Heawood.twentyTwo"
+    ]
+  }
+}
