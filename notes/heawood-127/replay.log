@@ -1,0 +1,124 @@
+1/78 BoundaryData
+2/78 BipartitionCount
+3/78 CycleData
+4/78 MatchingData
+5/78 CoverBuild
+6/78 MatchingTable
+7/78 NineData
+8/78 L_meta_2084_child2
+9/78 OrbitData
+10/78 PEqualNP.Outside.L_meta_3008
+11/78 PatchData
+12/78 SmallData
+13/78 StarFormula
+14/78 BicliqueFormula
+15/78 ExactCleanFormula
+16/78 SemanticFormula
+17/78 StarUnion
+18/78 SharedOR
+19/78 PrunedProgram
+20/78 BinaryBudget
+21/78 CherryBound
+22/78 ReadOnce
+23/78 ResidualForms
+24/78 ResidualSemantics
+25/78 CycleAudit
+26/78 RestrictionSupport
+27/78 MaskAudit
+28/78 SmallChecks
+29/78 SmallBound
+30/78 StageSupport
+31/78 PhysicalStages
+32/78 SmallControls
+33/78 HeawoodStages
+34/78 Staged
+35/78 PrunedEdges
+36/78 Sharp
+37/78 OptimalStars
+38/78 PostedModel
+39/78 BottomPairs
+40/78 RegularBottom
+41/78 ContractCircuit
+42/78 MissingStar
+43/78 ResidualLibrary
+44/78 EdgeSeparation
+45/78 ResidualCircuit
+46/78 Restoration
+47/78 ForcedInputs
+48/78 TenData
+49/78 FloorTests
+50/78 StarRestriction
+51/78 FourLost
+52/78 FourProfiles
+53/78 TerminalBudget
+54/78 PathObstruction
+55/78 DensePaths
+56/78 VertexMasks
+57/78 CoreGeometry
+58/78 ResidualShapes
+59/78 AuxiliaryPath
+60/78 CycleNumbers
+61/78 LossFloor
+62/78 PatchGeometry
+63/78 SixLost
+64/78 FiveCenters
+65/78 ZeroPruning
+66/78 EightBoundary
+67/78 CycleBudget
+68/78 NineLossFloor
+69/78 EightPatterns
+70/78 PatchBudget
+71/78 FloorLogic
+72/78 OrbitProof
+73/78 NineProfile
+74/78 NinePatterns
+75/78 PatternBlocks
+76/78 PatternCount
+77/78 FloorAudit
+78/78 TenLossFloor
+'Checkpoint126.Heawood.auxiliaryPath' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Cherry.lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.robust' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.safePath' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Certificate.checked' depends on axioms: [propext]
+'Checkpoint126.Heawood.cycleBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Certificate.numerical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightPatterns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.outsideEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.fiveCenterCase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.fiveCounts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint124.Heawood.sixAtTwentyFive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Numbers.checked' depends on axioms: [propext]
+'Checkpoint127.Numbers.bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.gateFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.shortCircuits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.postedEightLost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.gateFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.shortCircuits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.postedNineLost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.ninePatterns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint126.Heawood.nineCount' does not depend on any axioms
+'Checkpoint126.Heawood.nineProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.oneOrbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.tenGeometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.tenCount' does not depend on any axioms
+'Checkpoint127.Heawood.patchBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.patchTruth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.regularMask' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightList' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint125.Heawood.eightCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Small.lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Small.checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Small.eightGateControls' depends on axioms: [propext]
+'Checkpoint127.Heawood.gateFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.shortCircuits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.tenProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Checkpoint127.Heawood.postedTenLost' depends on axioms: [propext, Classical.choice, Quot.sound]
+/tmp/pnp127/final/src/ZeroPruning.lean:167:0: warning: automatically included section variable(s) unused in theorem `Checkpoint126.Zero.cost`:
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'Checkpoint126.Zero.cost' depends on axioms: [propext, Classical.choice, Quot.sound]

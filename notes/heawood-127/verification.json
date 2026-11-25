@@ -1,0 +1,154 @@
+{
+  "completed_utc": "2026-11-25T02:52:08.143755+00:00",
+  "project_revision": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "posted_statement_sha256": "bf50ee9438a2cbc76c31900460d9d0ccd4475800c3f2cdce47a58df9e0ef517c",
+  "modules_rebuilt": 78,
+  "module_manifest_sha256": "90f0c74252727ba2f4da45558d6d1db54e660610b434f9244f07e70a1ae96b3e",
+  "audited_declarations": 96,
+  "principal_theorems": {
+    "Checkpoint127.Heawood.gateFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.shortCircuits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.tenProfile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.postedTenLost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.oneOrbit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.tenGeometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.tenCount": [],
+    "Checkpoint127.Heawood.patchBudget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.patchTruth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Heawood.regularMask": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Numbers.checked": [
+      "propext"
+    ],
+    "Checkpoint127.Numbers.bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Small.lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Small.checked": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint127.Small.eightGateControls": [
+      "propext"
+    ],
+    "Checkpoint126.Heawood.ninePatterns": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint125.Heawood.eightCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "independent_edge_subsets": 2097152,
+  "restrictions": {
+    "six_cycles": 28,
+    "subdivided_claws": 112,
+    "eight_cycles": 21
+  },
+  "nine_cases_excluded": 126,
+  "ten_boundary_masks": 84,
+  "ten_masks_compact_json_sha256": "23b9a1cf746e5ecf843386a02cdf69ab18bb54ddf39ef42254953c32ba3215b8",
+  "representative": 16071,
+  "orbit_size": 84,
+  "graph_automorphisms": 336,
+  "stabilizer": 4,
+  "small_bottom_cases": {
+    "six_cycle": 30,
+    "subdivided_claw": 110
+  },
+  "small_gate_optima": {
+    "six_cycle": 8,
+    "subdivided_claw": 8
+  },
+  "representative_extra_disjunctions": [
+    [
+      2,
+      4
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      10,
+      12
+    ]
+  ],
+  "restricted_gate_limit": 11,
+  "restricted_control_gates": 13,
+  "restricted_assignments_checked": 512,
+  "restricted_sat_outcome": "UNKNOWN",
+  "gate_floors_by_losses": [
+    27,
+    28,
+    28,
+    27,
+    28,
+    28,
+    27,
+    27,
+    27,
+    27,
+    26,
+    26,
+    24,
+    24,
+    23,
+    22,
+    21,
+    21,
+    19,
+    19,
+    18,
+    16
+  ],
+  "full_graph_control_circuits": 22,
+  "assignments_per_control": 16384,
+  "packed_rows": 58
+}

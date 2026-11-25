@@ -1,0 +1,110 @@
+{
+  "eleven_gates": {
+    "gates": 11,
+    "inputs": 12,
+    "positive_rows": 10,
+    "maximal_negative_rows": 11,
+    "cnf_variables": 1078,
+    "cnf_clauses": 16246,
+    "pinned_control": false,
+    "cnf_sha256": "0799fa3563494f3735a42e8fa0d9330d83e5e9b548d270bb476cbf063cbd4f3e",
+    "solver": "CaDiCaL 2.1.2",
+    "solver_status_line": "c UNKNOWN",
+    "status": "UNKNOWN",
+    "time_limit_seconds": 120
+  },
+  "one_gate_negative_control": {
+    "gates": 1,
+    "inputs": 12,
+    "positive_rows": 10,
+    "maximal_negative_rows": 11,
+    "cnf_variables": 88,
+    "cnf_clauses": 851,
+    "pinned_control": false,
+    "cnf_sha256": "5504f304047edd8b01a445ce4dc7269223692ee67811f57bcd4bb144d0f2a19a",
+    "solver": "CaDiCaL 2.1.2",
+    "solver_status_line": "s UNSATISFIABLE",
+    "status": "UNSATISFIABLE"
+  },
+  "positive_control": {
+    "gates": 13,
+    "inputs": 12,
+    "positive_rows": 10,
+    "maximal_negative_rows": 11,
+    "cnf_variables": 1300,
+    "cnf_clauses": 21068,
+    "pinned_control": true,
+    "circuit": [
+      [
+        "OR",
+        4,
+        5
+      ],
+      [
+        "OR",
+        6,
+        12
+      ],
+      [
+        "AND",
+        0,
+        13
+      ],
+      [
+        "OR",
+        5,
+        8
+      ],
+      [
+        "AND",
+        1,
+        15
+      ],
+      [
+        "OR",
+        4,
+        7
+      ],
+      [
+        "OR",
+        8,
+        17
+      ],
+      [
+        "AND",
+        2,
+        18
+      ],
+      [
+        "OR",
+        6,
+        7
+      ],
+      [
+        "AND",
+        3,
+        20
+      ],
+      [
+        "OR",
+        14,
+        16
+      ],
+      [
+        "OR",
+        19,
+        22
+      ],
+      [
+        "OR",
+        21,
+        23
+      ]
+    ],
+    "checked_assignments": 512,
+    "cnf_sha256": "39fc2b0518a6eea16f3fa0761c745d4100fc9f472ffb4dd10e7c5100daba4938",
+    "solver": "CaDiCaL 2.1.2",
+    "solver_status_line": "s SATISFIABLE",
+    "status": "SATISFIABLE"
+  }
+}
