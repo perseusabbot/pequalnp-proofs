@@ -125,6 +125,11 @@ def new_frontier(known):
         current.update(class_bounds=records,previous_orbits=len(items),previous_masks=prior['remaining'])
         result.append(current)
     updated.update(prior_remaining_masks=old['remaining_masks'],prior_remaining_orbits=old['remaining_orbits'],layers=result)
+    def at_budget(layers,gates):
+        classes=[r for layer in layers for r in layer['class_bounds'] if r['gate_floor']<=gates]
+        return dict(classes=len(classes),labeled_sets=sum(r['size'] for r in classes))
+    updated['gate_budgets']={str(g):dict(previous=at_budget(old['layers'],g),current=at_budget(result,g))
+                            for g in (24,25,26)}
     return updated
 
 

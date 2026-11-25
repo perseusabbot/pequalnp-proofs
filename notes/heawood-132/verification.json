@@ -1,5 +1,5 @@
 {
-  "completed_utc": "2026-11-25T19:45:55.227576+00:00",
+  "completed_utc": "2026-11-25T19:52:17.433032+00:00",
   "upstream": "048b39bb2c5b2c21da06d44218d16366086a68d9",
   "previous_commit": "3310da8700a412e9196909d0b699634a48d08fae",
   "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
@@ -293,7 +293,7 @@
     "gates": 27,
     "assignments": 16384
   },
-  "previous_25_gate_possible_masks": 246,
+  "previous_25_gate_possible_masks": 78,
   "possible_masks_at_25": 22,
   "possible_orbits_at_25": 2,
   "minimum_losses_at_24": 21,
@@ -324,6 +324,7 @@
   "posted_control_word": 2097151,
   "posted_tail_cap": 24,
   "verified_parent_public_numerical_replay": "3310da8700a412e9196909d0b699634a48d08fae",
+  "parent_signed_decisions_replayed": true,
   "parent_sha256": {
     "results.json": "70cbe3b89b2df0cc36f94b3d7af767754e582a4c4a82e4b5bf5e8462626167b5",
     "sources.json": "042fa2ec38bae0ecb7c7fb825cbc0972f16800a0971a37148feca6a054ca09d9",
@@ -332,13 +333,13 @@
     "basis.json": "0080e2f4f029a89ce0686d90b6c0ccf2887eb7ff61f29863f7aca4d8cdf17022"
   },
   "checked_sha256": {
-    "check.py": "5daaf03f4d0f80453721c4cad31ef0ffddc89dd18a2ac6d13d6cb9ec3157cf61",
+    "check.py": "fd258668a68d0cf3748280536ada6275d8ee6bf22cd57be9492baeb1b309e9a9",
     "completion.json": "b73e4d8f304eb42319dd06cafa52af795b754fb9b30110f0f201e47ae7561407",
     "completion.py": "b0ca37191a6dcfb692a7c4955d98c341a1272da41c0096ec360559cf5a312ff6",
     "controls.json": "dc6b9a88d7e080815ca2c8c55a1c967995083639c6d37326fcc83a52a83ce48d",
     "deletion_tables.py": "21dae39133c8a1d56a5a55878fcb17548590beda0e00be5c9d66848e25a9609e",
     "deletions.json": "498ac0cf73c2d5800c8042ecbc735ed2e44340d3d43f83cf9351ebadcfe23d28",
-    "frontier.json": "207195df2e53edb303cf8a8c02fe82ed80a7e0458034ee8a9e597e6619d31d00",
+    "frontier.json": "b1e5bb176649ab911dce638986aeafe250fb4113b5331c9991b595522378e60a",
     "kernel.log": "37f4e813bc1bfaa524bf407e0cc933a1724d659ecaa9c69d3d23cc9e78e1c61a",
     "projections.json": "5e1ce366e5e7b8366e07098db23d00f174d78eb14d9a7d9127c457aa471a8bf3",
     "reduced_search.py": "3ba6e7d0caf51632c9b0ee2ec8d73319fc7cb6a3acd6e31b6c223a5f8e8f995e",

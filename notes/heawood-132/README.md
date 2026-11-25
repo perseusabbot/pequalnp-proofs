@@ -1,6 +1,6 @@
 # Heawood circuit bounds at Checkpoint 132
 
-Any circuit with at most **25 gates must lose at least 20 of the 21 Heawood edge inputs**. Just 22 labeled loss sets remain at that budget, down from 246. At 26 gates, 246 sets in six symmetry classes remain. The unrestricted minimum is between 24 and 27 gates. The posted question L-meta-3541 asks for a circuit with at most 26 gates and one of 65 prescribed openings. It remains open. [Class inventory](frontier.json) · [Previous checkpoint](../heawood-131/README.md)
+Any circuit with at most **25 gates must lose at least 20 of the 21 Heawood edge inputs**. Just 22 labeled loss sets remain at that budget, down from 78 in four classes at Checkpoint 131. The 14 labeled 18-loss stars and the 42 labeled members of 19-loss class 524287 account for the reduction. At 26 gates, 246 sets in six symmetry classes remain. The unrestricted minimum is between 24 and 27 gates. The posted question L-meta-3541 asks for a circuit with at most 26 gates and one of 65 prescribed openings. It remains open. [Class inventory](frontier.json) · [Previous checkpoint](../heawood-131/README.md)
 
 ## The three surviving edges
 
@@ -28,7 +28,7 @@ Lean proves that a local program of at most 22 gates, expressed in the posted wi
 | 20 | 25 | 21 | 21 |
 | 21 | 24 | 1 | 1 |
 
-The 13-vertex bound also gives 26 gates for the 19-loss representative 524287. For representatives 917503 and 1015807, a separate 12-vertex test has exact cost 20. Its lower-bound search exhausted 7,443,710 states, and an explicit circuit attains 20 on all 4,096 assignments. Charging two retained edges, a matching of size two and two outside vertices gives $20+2+2+2=26$ in each case. The census verifies the transfers and labeled orbits under all 336 graph automorphisms. [Class-by-class transfers](frontier.json) · [Explicit circuits](controls.json)
+The 13-vertex bound also gives 26 gates for the 19-loss representative 524287. A separate 12-vertex test gives an independent route to the existing 26-gate bounds for representatives 917503 and 1015807. Its exact cost is 20. Its lower-bound search exhausted 7,443,710 states, and an explicit circuit attains 20 on all 4,096 assignments. Charging two retained edges, a matching of size two and two outside vertices gives $20+2+2+2=26$ in each case. The census verifies the transfers and labeled orbits under all 336 graph automorphisms. [Class-by-class transfers](frontier.json) · [Explicit circuits](controls.json)
 
 ## Unconditional Lean lower bound
 

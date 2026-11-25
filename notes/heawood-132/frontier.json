@@ -545,5 +545,37 @@
    ],
    "remaining_sha256": "cd88470c9b717ce1553e8b334388b597d77f7e91f2748bf95c502b489629428d"
   }
- ]
+ ],
+ "gate_budgets": {
+  "24": {
+   "previous": {
+    "classes": 1,
+    "labeled_sets": 1
+   },
+   "current": {
+    "classes": 1,
+    "labeled_sets": 1
+   }
+  },
+  "25": {
+   "previous": {
+    "classes": 4,
+    "labeled_sets": 78
+   },
+   "current": {
+    "classes": 2,
+    "labeled_sets": 22
+   }
+  },
+  "26": {
+   "previous": {
+    "classes": 6,
+    "labeled_sets": 246
+   },
+   "current": {
+    "classes": 6,
+    "labeled_sets": 246
+   }
+  }
+ }
 }
