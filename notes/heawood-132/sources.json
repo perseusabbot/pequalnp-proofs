@@ -1,0 +1,240 @@
+{
+  "DeletionRanks0": {
+    "sha256": "a295934d93963c77d3e2c9c41230ffee9cce392ecb46276d2b8510d3d1317a9e",
+    "imports": [
+      "InducedCertificate"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.rank129",
+      "Checkpoint132.Induced.rank387",
+      "Checkpoint132.Induced.rank903",
+      "Checkpoint132.Induced.rank907"
+    ]
+  },
+  "DeletionRanks1": {
+    "sha256": "a2a102e484d1f81224cca49b35bba9895e8dc32b41882f945c27cc4690ebb338",
+    "imports": [
+      "DeletionRanks0"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.rank2030",
+      "Checkpoint132.Induced.rank3770",
+      "Checkpoint132.Induced.rank963",
+      "Checkpoint132.Induced.rank967"
+    ]
+  },
+  "DeletionRanks2": {
+    "sha256": "4998b82210a5346a6b39f228e7eacb5a654759c05d0256c03631096d997f6b2f",
+    "imports": [
+      "DeletionRanks1"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.rank2031",
+      "Checkpoint132.Induced.rank4027",
+      "Checkpoint132.Induced.rank4059",
+      "Checkpoint132.Induced.rank4091"
+    ]
+  },
+  "DeletionRanks3": {
+    "sha256": "07ac01ccf4cb0b1b52ae373f5f7d9cfa58c9a6f29c1804f18d601720c0b4ac68",
+    "imports": [
+      "DeletionRanks2"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.rank16383",
+      "Checkpoint132.Induced.rank8127",
+      "Checkpoint132.Induced.rank8191"
+    ]
+  },
+  "InducedCertificate": {
+    "sha256": "903ca517d9def823ccf6bb7dc41a27cf40e47666dff9b1bb6d1abfd49a839a1c",
+    "imports": [
+      "InducedCut",
+      "RebuiltPrefix"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.certified",
+      "Checkpoint132.Induced.relabel"
+    ]
+  },
+  "InducedCut": {
+    "sha256": "bbae7c0080b4ee5b481dd34c559bfb21964467c7cb6da634ffefb36e8ba99d86",
+    "imports": [
+      "InducedModel"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.fromChoices",
+      "Checkpoint132.Induced.liftCorrect",
+      "Checkpoint132.Induced.restriction"
+    ]
+  },
+  "InducedModel": {
+    "sha256": "64cfe898a7c5dc2f68f98d0f11b7a9eebbbdae36b8f6733046ab6833dc4486ab",
+    "imports": [
+      "FullRowFloor"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.cutUsed",
+      "Checkpoint132.Induced.inputFloor"
+    ]
+  },
+  "InducedProgram": {
+    "sha256": "bac235d5004866b9311626d4790aa14a9719cdd39be61a74c7da8767117e62a2",
+    "imports": [
+      "DeletionRanks3",
+      "RebuiltPrefix"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.postedTwenty",
+      "Checkpoint132.Induced.programOfInducedFloor",
+      "Checkpoint132.Induced.programTwenty"
+    ]
+  },
+  "InducedSeeds": {
+    "sha256": "06caaceb4c216c470bfecbcca036a04fcc45349dd9fdc5425abb0d5166056868",
+    "imports": [
+      "InducedCertificate",
+      "ThetaSound"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.seedFloor"
+    ]
+  },
+  "OpeningControl132": {
+    "sha256": "6d936818f5fb6d217abca93091023c9e17992cafcf8cf13f96b11c3e1e76c83d",
+    "imports": [
+      "OpeningLift132"
+    ],
+    "audited": [
+      "Checkpoint132.Completion.control",
+      "Checkpoint132.Completion.localControl"
+    ]
+  },
+  "OpeningLift132": {
+    "sha256": "0b0e393e9b6de15714e2d0acaa5451f37573ed82cc130df40f2d2aff85439b1b",
+    "imports": [
+      "OpeningRows132"
+    ],
+    "audited": [
+      "Checkpoint132.Opening.postedWitness"
+    ]
+  },
+  "OpeningRows132": {
+    "sha256": "16a757ea50e55547c59dcf273d526b133265582b329b8652cf729faa29f84394",
+    "imports": [
+      "WordTransport132"
+    ],
+    "audited": [
+      "Checkpoint132.Opening.boundedBase",
+      "Checkpoint132.Opening.dimensions",
+      "Checkpoint132.Opening.negativeLinks",
+      "Checkpoint132.Opening.positiveLinks"
+    ]
+  },
+  "RetainedCost": {
+    "sha256": "d6a10bfd5b42cc6152daa914b9d00eb40563faa91e3b79592a9caea5c7e33c6e",
+    "imports": [
+      "SpecificSupports"
+    ],
+    "audited": [
+      "Checkpoint132.Retained.projectedAvailable",
+      "Checkpoint132.Retained.projectedCost"
+    ]
+  },
+  "SeedData": {
+    "sha256": "de1c70fc30ef3155aec072b46aff2cbe8bed1889115c0977eb10ea8c30ff4866",
+    "imports": [
+      "InducedSeeds"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.small1959",
+      "Checkpoint132.Induced.small1963",
+      "Checkpoint132.Induced.small2019",
+      "Checkpoint132.Induced.small3771"
+    ]
+  },
+  "SeedProgram": {
+    "sha256": "207f79e3a2f23992fdb3299a2eb754af6b5d05f2a228ccfc79c884b207bac48d",
+    "imports": [
+      "SeedRanks1",
+      "InducedProgram"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.postedTwentyOne",
+      "Checkpoint132.Induced.programTwentyOne"
+    ]
+  },
+  "SeedRanks0": {
+    "sha256": "1fdc24e7a19654709144f71aa8eab9762d783ab4393d66fff65ec5904e06fb7f",
+    "imports": [
+      "SeedData"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.seed1959",
+      "Checkpoint132.Induced.seed1963",
+      "Checkpoint132.Induced.seed2019",
+      "Checkpoint132.Induced.seed3771"
+    ]
+  },
+  "SeedRanks1": {
+    "sha256": "86349f1ffe5e88089f7c5a482ba01bf2afd1712ab389a5994ee379a2125ef6a8",
+    "imports": [
+      "SeedRanks0"
+    ],
+    "audited": [
+      "Checkpoint132.Induced.seed16383",
+      "Checkpoint132.Induced.seed4091",
+      "Checkpoint132.Induced.seed8127",
+      "Checkpoint132.Induced.seed8191"
+    ]
+  },
+  "SpecificSupports": {
+    "sha256": "893aa1051c794727fb613081a022213d3d862eaddd545ae8f5627aca323bd3d8",
+    "imports": [
+      "ProjectedScreen"
+    ],
+    "audited": [
+      "Checkpoint132.Bank.circuitBook"
+    ]
+  },
+  "StarBudget": {
+    "sha256": "e20c7044a14c8126ae791db5452fbcd57aba79ad24658185fd18c6ffdad09cd1",
+    "imports": [
+      "RetainedCost"
+    ],
+    "audited": [
+      "Checkpoint132.Star.screenCost",
+      "Checkpoint132.Star.starEquality",
+      "Checkpoint132.Star.starValid"
+    ]
+  },
+  "StarRestriction132": {
+    "sha256": "40038ecbfdae5d84099dc6788d3eff53ed6f4ce4ee7c18c4d8904d20cf36ddd6",
+    "imports": [
+      "StarShape"
+    ],
+    "audited": [
+      "Checkpoint132.Star.necessary"
+    ]
+  },
+  "StarShape": {
+    "sha256": "ba6ce8484a617ba68013909119fc97479ef64cd643fca9dede69192389175518",
+    "imports": [
+      "StarBudget"
+    ],
+    "audited": [
+      "Checkpoint132.Star.starGates"
+    ]
+  },
+  "WordTransport132": {
+    "sha256": "b9f3c41b6c319674d4eff6e522cf6d6b1623299164296342c3522df693a66b64",
+    "imports": [
+      "PostedModel"
+    ],
+    "audited": [
+      "Checkpoint132.Word.bits",
+      "Checkpoint132.Word.sizes",
+      "Checkpoint132.Word.unchanged"
+    ]
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "completed_utc": "2026-11-25T19:45:55.227576+00:00",
+  "upstream": "048b39bb2c5b2c21da06d44218d16366086a68d9",
+  "previous_commit": "3310da8700a412e9196909d0b699634a48d08fae",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "previous_modules": 161,
+  "new_modules": 22,
+  "audited_declarations": 225,
+  "new_theorems": {
+    "Checkpoint132.Induced.rank129": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank387": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank903": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank907": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank963": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank967": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank3770": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank2030": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank2031": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank4027": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank4059": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank4091": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank8127": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank8191": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.rank16383": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.relabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.certified": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.liftCorrect": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.restriction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.fromChoices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.inputFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.cutUsed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.programOfInducedFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.programTwenty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.postedTwenty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seedFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Completion.control": [
+      "propext"
+    ],
+    "Checkpoint132.Completion.localControl": [
+      "propext"
+    ],
+    "Checkpoint132.Opening.postedWitness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Opening.dimensions": [
+      "propext"
+    ],
+    "Checkpoint132.Opening.positiveLinks": [
+      "propext"
+    ],
+    "Checkpoint132.Opening.negativeLinks": [
+      "propext"
+    ],
+    "Checkpoint132.Opening.boundedBase": [
+      "propext"
+    ],
+    "Checkpoint132.Retained.projectedAvailable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Retained.projectedCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.small1959": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.small1963": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.small2019": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.small3771": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.programTwentyOne": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.postedTwentyOne": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed1959": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed1963": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed2019": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed3771": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed4091": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed8127": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed8191": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Induced.seed16383": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Bank.circuitBook": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Star.starValid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Star.screenCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Star.starEquality": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Star.necessary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Star.starGates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Word.bits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Word.sizes": [
+      "propext",
+      "Quot.sound"
+    ],
+    "Checkpoint132.Word.unchanged": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "kernel_unconditional_full_gate_floor": 20,
+  "previous_unconditional_full_gate_floor": 19,
+  "kernel_floor_conditional_on_four_seeds": 21,
+  "numerical_full_gate_floor": 24,
+  "upper_control": {
+    "gates": 27,
+    "assignments": 16384
+  },
+  "previous_25_gate_possible_masks": 246,
+  "possible_masks_at_25": 22,
+  "possible_orbits_at_25": 2,
+  "minimum_losses_at_24": 21,
+  "minimum_losses_at_25": 20,
+  "minimum_losses_at_26": 18,
+  "possible_masks_at_26": 246,
+  "possible_orbits_at_26": 6,
+  "deletion_nodes": 15,
+  "deletion_placements": 89,
+  "seed_deletion_placements": 34,
+  "signed_decisions": 43,
+  "signed_states": 10614558,
+  "finite_seed_cases": 4,
+  "direct_seed_states": 47803,
+  "availability_seed_states": 43880,
+  "signed_oracle_controls": 99,
+  "damaged_inputs_rejected": 7,
+  "local_upper_controls": 46,
+  "local_upper_assignments": 58624,
+  "local_star_floor": 22,
+  "local_star_upper": 23,
+  "reduced_local_inputs": 15,
+  "reduced_instance_sha256": "fd060881790a19b0be9d0ee3340f6e434052c415d568ae5f93d8194839b4aaf9",
+  "posted_opening": 20,
+  "posted_opening_key": 284,
+  "posted_control_tail": 25,
+  "posted_control_gates": 27,
+  "posted_control_word": 2097151,
+  "posted_tail_cap": 24,
+  "verified_parent_public_numerical_replay": "3310da8700a412e9196909d0b699634a48d08fae",
+  "parent_sha256": {
+    "results.json": "70cbe3b89b2df0cc36f94b3d7af767754e582a4c4a82e4b5bf5e8462626167b5",
+    "sources.json": "042fa2ec38bae0ecb7c7fb825cbc0972f16800a0971a37148feca6a054ca09d9",
+    "frontier.json": "f776a3407b98b009aba44b93adb9c4da2082e464bc1a8243931c247e3e1bda67",
+    "verification.json": "44df9d38499ebb53cae341b37bcf8085a2885fa79267acb222e541be3342fb89",
+    "basis.json": "0080e2f4f029a89ce0686d90b6c0ccf2887eb7ff61f29863f7aca4d8cdf17022"
+  },
+  "checked_sha256": {
+    "check.py": "5daaf03f4d0f80453721c4cad31ef0ffddc89dd18a2ac6d13d6cb9ec3157cf61",
+    "completion.json": "b73e4d8f304eb42319dd06cafa52af795b754fb9b30110f0f201e47ae7561407",
+    "completion.py": "b0ca37191a6dcfb692a7c4955d98c341a1272da41c0096ec360559cf5a312ff6",
+    "controls.json": "dc6b9a88d7e080815ca2c8c55a1c967995083639c6d37326fcc83a52a83ce48d",
+    "deletion_tables.py": "21dae39133c8a1d56a5a55878fcb17548590beda0e00be5c9d66848e25a9609e",
+    "deletions.json": "498ac0cf73c2d5800c8042ecbc735ed2e44340d3d43f83cf9351ebadcfe23d28",
+    "frontier.json": "207195df2e53edb303cf8a8c02fe82ed80a7e0458034ee8a9e597e6619d31d00",
+    "kernel.log": "37f4e813bc1bfaa524bf407e0cc933a1724d659ecaa9c69d3d23cc9e78e1c61a",
+    "projections.json": "5e1ce366e5e7b8366e07098db23d00f174d78eb14d9a7d9127c457aa471a8bf3",
+    "reduced_search.py": "3ba6e7d0caf51632c9b0ee2ec8d73319fc7cb6a3acd6e31b6c223a5f8e8f995e",
+    "replay.py": "e9018b6f51a407229f0238cf7a71282ccf0c036bf3088915b3cf40f8e7ea642f",
+    "results.json": "6b2b5e1fc323ef98491c9becc816bfe3df14accd1be98da0f737459776e4c077",
+    "seed-deletions.json": "4aa69ea3061c1063005f3701bde375c50958160c68c72f166c6238c11271c7e6",
+    "seed_tables.py": "4d3dfe922f4a3d1b780535ed43825f8329a432b57a52b388301dd82f53842eb6",
+    "sources.json": "2f4c0d794fb30572fe8fe2e236008b0526d790546d40028d851739414789fc0c",
+    "symmetry_search.cpp": "f17e1a9a41998cae37448abcba311093a743ed4523a294ebdac749f4562bb4e9"
+  }
+}

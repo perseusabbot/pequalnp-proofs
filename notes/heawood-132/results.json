@@ -1,0 +1,556 @@
+{
+ "decisions": [
+  {
+   "mask": 262143,
+   "vertices": 13983,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 1119
+  },
+  {
+   "mask": 917503,
+   "vertices": 13231,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 1968
+  },
+  {
+   "mask": 917503,
+   "vertices": 14799,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 13412
+  },
+  {
+   "mask": 2097151,
+   "vertices": 10143,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 4814
+  },
+  {
+   "mask": 262143,
+   "vertices": 7583,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 53,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 3206
+  },
+  {
+   "mask": 262143,
+   "vertices": 10143,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 19573
+  },
+  {
+   "mask": 524287,
+   "vertices": 4027,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 54,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 6312
+  },
+  {
+   "mask": 524287,
+   "vertices": 11167,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 58,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 3074
+  },
+  {
+   "mask": 262143,
+   "vertices": 11167,
+   "cap": 14,
+   "engine": "signed",
+   "signed_tests": 42,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 16,
+   "expanded_states": 30785
+  },
+  {
+   "mask": 917503,
+   "vertices": 7087,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 28,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 432
+  },
+  {
+   "mask": 917503,
+   "vertices": 7149,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 29,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 561
+  },
+  {
+   "mask": 917503,
+   "vertices": 7150,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 19,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 330
+  },
+  {
+   "mask": 917503,
+   "vertices": 7599,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 40,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 467
+  },
+  {
+   "mask": 917503,
+   "vertices": 7631,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 45,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 994
+  },
+  {
+   "mask": 917503,
+   "vertices": 7661,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 40,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 412
+  },
+  {
+   "mask": 917503,
+   "vertices": 7855,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 31,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 535
+  },
+  {
+   "mask": 917503,
+   "vertices": 7869,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 35,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 83
+  },
+  {
+   "mask": 917503,
+   "vertices": 8053,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 34,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 199
+  },
+  {
+   "mask": 917503,
+   "vertices": 8060,
+   "cap": 12,
+   "engine": "signed",
+   "signed_tests": 16,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 1
+  },
+  {
+   "mask": 917503,
+   "vertices": 8060,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 17,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 172
+  },
+  {
+   "mask": 917503,
+   "vertices": 11727,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 35,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 686
+  },
+  {
+   "mask": 917503,
+   "vertices": 14127,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 20,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 64
+  },
+  {
+   "mask": 1015807,
+   "vertices": 4075,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 39,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 210
+  },
+  {
+   "mask": 1015807,
+   "vertices": 7147,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 28,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 921
+  },
+  {
+   "mask": 1015807,
+   "vertices": 8045,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 31,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 132
+  },
+  {
+   "mask": 1015807,
+   "vertices": 8057,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 21,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 777
+  },
+  {
+   "mask": 1015807,
+   "vertices": 12019,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 37,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 258
+  },
+  {
+   "mask": 1015807,
+   "vertices": 12147,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 19,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 668
+  },
+  {
+   "mask": 2097151,
+   "vertices": 3999,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 31,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 161
+  },
+  {
+   "mask": 262143,
+   "vertices": 6047,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 28,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 875
+  },
+  {
+   "mask": 524287,
+   "vertices": 3999,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 28,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 896
+  },
+  {
+   "mask": 524287,
+   "vertices": 4059,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 32,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 1066
+  },
+  {
+   "mask": 524287,
+   "vertices": 7071,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 29,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 420
+  },
+  {
+   "mask": 524287,
+   "vertices": 7099,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 24,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 1450
+  },
+  {
+   "mask": 524287,
+   "vertices": 7119,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 34,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 1434
+  },
+  {
+   "mask": 524287,
+   "vertices": 11227,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 23,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 2,
+   "expanded_states": 2042
+  },
+  {
+   "mask": 262143,
+   "vertices": 3999,
+   "cap": 13,
+   "engine": "signed",
+   "signed_tests": 19,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 16,
+   "expanded_states": 6965
+  },
+  {
+   "mask": 917503,
+   "vertices": 12151,
+   "cap": 16,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 569
+  },
+  {
+   "mask": 917503,
+   "vertices": 14015,
+   "cap": 16,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 1190
+  },
+  {
+   "mask": 917503,
+   "vertices": 8061,
+   "cap": 15,
+   "engine": "signed",
+   "signed_tests": 61,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 323
+  },
+  {
+   "mask": 1015807,
+   "vertices": 8061,
+   "cap": 15,
+   "engine": "signed",
+   "signed_tests": 64,
+   "symmetries": 0,
+   "possible": false,
+   "root_supports": 1,
+   "expanded_states": 229
+  },
+  {
+   "mask": 262143,
+   "vertices": 16319,
+   "cap": 21,
+   "engine": "symmetry",
+   "signed_tests": 64,
+   "symmetries": 24,
+   "possible": false,
+   "root_supports": 8,
+   "expanded_states": 3061063
+  },
+  {
+   "mask": 262143,
+   "vertices": 8127,
+   "cap": 19,
+   "engine": "symmetry",
+   "signed_tests": 64,
+   "symmetries": 6,
+   "possible": false,
+   "root_supports": 8,
+   "expanded_states": 7443710
+  }
+ ],
+ "seeds": [
+  {
+   "vertices": 1959,
+   "cap": 10,
+   "positive": 8,
+   "negative": 9,
+   "direct": {
+    "possible": false,
+    "distinct_states": 1966,
+    "unfolded_states": 14320
+   },
+   "independent": {
+    "possible": false,
+    "last_use_states": 1966,
+    "root_supports": 1,
+    "available_states": 1839
+   }
+  },
+  {
+   "vertices": 1963,
+   "cap": 10,
+   "positive": 8,
+   "negative": 7,
+   "direct": {
+    "possible": false,
+    "distinct_states": 3321,
+    "unfolded_states": 31761
+   },
+   "independent": {
+    "possible": false,
+    "last_use_states": 3321,
+    "root_supports": 1,
+    "available_states": 3103
+   }
+  },
+  {
+   "vertices": 2019,
+   "cap": 11,
+   "positive": 9,
+   "negative": 9,
+   "direct": {
+    "possible": false,
+    "distinct_states": 16838,
+    "unfolded_states": 396901
+   },
+   "independent": {
+    "possible": false,
+    "last_use_states": 16838,
+    "root_supports": 1,
+    "available_states": 15308
+   }
+  },
+  {
+   "vertices": 3771,
+   "cap": 12,
+   "positive": 10,
+   "negative": 11,
+   "direct": {
+    "possible": false,
+    "distinct_states": 25678,
+    "unfolded_states": 620578
+   },
+   "independent": {
+    "possible": false,
+    "last_use_states": 25678,
+    "root_supports": 1,
+    "available_states": 23630
+   }
+  }
+ ],
+ "ordinary_controls": 66,
+ "symmetry_controls": 33,
+ "damaged_symmetries_rejected": 3,
+ "damaged_projections_rejected": [
+  "unproved lower bound",
+  "repeated permutation entry",
+  "missing negative lift",
+  "incorrect lift"
+ ]
+}
