@@ -1,0 +1,151 @@
+{
+  "previous_commit": "86491e858c4639dc12b151b97e2fa94b09ef539b",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "upstream": "501dda8586110abcaebe0ea32060309d020bb2ee",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "modules": {
+    "FiveBoundary": {
+      "source_sha256": "cbe6ad599d388f4ac145b2e817e9b9bb43480efc4dcb0ffcfbde706db57b9fa9",
+      "audits": {
+        "Checkpoint135.FiveBoundary.exhausted": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.FiveBoundary.movingLower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "HomologyBoundary": {
+      "source_sha256": "c903cee6325d44134b3376941f484631e74d3d4037e9112eb550e843b3e68685",
+      "audits": {
+        "Checkpoint135.HomologyBoundary.exhausted": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.HomologyBoundary.movingLower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "OrbitDivisibility": {
+      "source_sha256": "4e7b67705bf0cab26e10257813d9b02cbd86e0c6ddae7e512ce950d88d0e4fa9",
+      "audits": {
+        "Checkpoint135.OrbitDivisibility.orbitMultiplier": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.OrbitDivisibility.thirteenOrbit": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.OrbitDivisibility.smallOrbit": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.OrbitDivisibility.noNine": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.OrbitDivisibility.fifteenOrbit": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "OrbitGeometry": {
+      "source_sha256": "add901409ecb95f192e30902c47bdba23c41b6a896f040d92d9bc4dc026d938b",
+      "audits": {}
+    },
+    "OrbitSearch": {
+      "source_sha256": "3e457f32074d56400b80106df8e1e6dd1be7e30687ec7cf219af8f153cb3f873",
+      "audits": {}
+    },
+    "TriangleBoundary": {
+      "source_sha256": "2f96aff934421c5b307d7229ff4850cf95c5b724fc1a4d334d1a882eba274dc7",
+      "audits": {
+        "Checkpoint135.TriangleBoundary.exhausted": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.TriangleBoundary.movingLower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Witnesses": {
+      "source_sha256": "cfaa4f8302dc32b6892700141e0b0e5f3196035d2ab6191ccd46c61314f44308",
+      "audits": {
+        "Checkpoint135.Witnesses.Triangle.action": [
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.Witnesses.Triangle.upper": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.Witnesses.Homology.action": [
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.Witnesses.Homology.upper": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.Witnesses.Polarity.board": [
+          "propext"
+        ],
+        "Checkpoint135.Witnesses.Polarity.holes": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint135.Witnesses.Polarity.fixedFamily": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  },
+  "audited_declarations": 18,
+  "file_sha256": {
+    "README.md": "1343f6ad7117c48c92fe0a9b5b006f9fb2f9ec891b210816f4b29031fc0aaf53",
+    "actions.json": "88557bbc01649b0d52b4ffb44a76e7cd43aea44fdf18c9d66d99d59f28d851e1",
+    "boundary.cpp": "439294f66ba310b88631e2da9688279dfbb94aca14fc598a264ac8cdf9f71e58",
+    "budget.cpp": "4df64de1c6b0dc542232b94bb913e7ca03676f37c3f30d272dfa88871e78d9e4",
+    "build_certificates.py": "624c7fe1fd35ee0a955e43d3bed43a63ae5fdffa3300b3e006d76874ee2d9278",
+    "dualities.py": "f6bb21484e40e31232ae7e4ca03f80a1b81f2af46f7fb7ad1e7417f47299ed80",
+    "four.cpp": "66a7611e7112dede9fb9bd33d87109d0b9fe8fce73520c1e9451130f270a47f4",
+    "geometry.py": "9d5e3d131ed5bb5b85802d0f368a6db527ebc5395d38f8c7bbaee13f9e6638f6",
+    "local.py": "98176abdd82217449f62e1dedf9a41db83711c7cdbf1e4d43c63d39f1cdef403",
+    "nearcover.cpp": "9bcd4850205e9413ff88322a43b7f6e0a58b50624333c896cbf6d25490ebbf2d",
+    "replay.py": "57e180ce5cbc79dc1c5b7804782e617486701c5494ad55fd151c43ec8ede6d10",
+    "results.json": "d4f08982a6d5baf6bb9da7b1d90a7f936c929b8ec2a9dce6c3b4a1e60f768cbc",
+    "search.py": "f3085f02f66e24a526e3407abcaad423a40ea817c9df2c9ca445cbf411d245a8",
+    "src/FiveBoundary.lean": "cbe6ad599d388f4ac145b2e817e9b9bb43480efc4dcb0ffcfbde706db57b9fa9",
+    "src/HomologyBoundary.lean": "c903cee6325d44134b3376941f484631e74d3d4037e9112eb550e843b3e68685",
+    "src/OrbitDivisibility.lean": "4e7b67705bf0cab26e10257813d9b02cbd86e0c6ddae7e512ce950d88d0e4fa9",
+    "src/OrbitGeometry.lean": "add901409ecb95f192e30902c47bdba23c41b6a896f040d92d9bc4dc026d938b",
+    "src/OrbitSearch.lean": "3e457f32074d56400b80106df8e1e6dd1be7e30687ec7cf219af8f153cb3f873",
+    "src/TriangleBoundary.lean": "2f96aff934421c5b307d7229ff4850cf95c5b724fc1a4d334d1a882eba274dc7",
+    "src/Witnesses.lean": "cfaa4f8302dc32b6892700141e0b0e5f3196035d2ab6191ccd46c61314f44308",
+    "two_groups.py": "2102dd3a9b97fd531fa25b3528c02361dd38624305b81ca494d2376aba6b3a7f"
+  }
+}

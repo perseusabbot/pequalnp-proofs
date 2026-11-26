@@ -1,0 +1,265 @@
+{
+  "symmetry": {
+    "classes": {
+      "triangle3": {
+        "order": 3,
+        "fixed_rows": 3,
+        "cell_orbits": 114,
+        "fixed_maximal": 62,
+        "moving_maximal_orbits": 8391,
+        "boundary_orbits": 45,
+        "max_single_boundary": 16,
+        "boundary_triples": 0,
+        "normalizer": 216,
+        "conjugate_subgroups": 1120,
+        "four_moving_three_fixed": {
+          "classes": 1480,
+          "choices": 37820,
+          "final_queries": 305954
+        },
+        "five_moving": {
+          "classes": 123,
+          "choices": 5376,
+          "final_queries": 37684
+        },
+        "invariant_minimum": 16,
+        "upper_stabilizer": 9,
+        "upper_images": 26880,
+        "upper_order_three_by_fixed_rows": {
+          "0": 6,
+          "3": 2
+        },
+        "independent": {
+          "four_moving_three_fixed": {
+            "leader_classes": 69,
+            "boundary_completions_tested": 40249
+          },
+          "five_moving": {
+            "leader_classes": 123,
+            "final_queries": 37684
+          }
+        }
+      },
+      "homology3": {
+        "order": 3,
+        "fixed_rows": 6,
+        "cell_orbits": 126,
+        "fixed_maximal": 197,
+        "moving_maximal_orbits": 8346,
+        "boundary_orbits": 40,
+        "max_single_boundary": 20,
+        "boundary_triples": 0,
+        "normalizer": 720,
+        "conjugate_subgroups": 336,
+        "four_moving_three_fixed": {
+          "classes": 9623,
+          "choices": 1254890,
+          "final_queries": 2874
+        },
+        "five_moving": {
+          "classes": 9,
+          "choices": 676,
+          "final_queries": 0
+        },
+        "invariant_minimum": 16,
+        "upper_stabilizer": 3,
+        "upper_images": 80640,
+        "upper_order_three_by_fixed_rows": {
+          "6": 2
+        },
+        "independent": {
+          "four_moving_three_fixed": {
+            "leader_classes": 43,
+            "boundary_completions_tested": 3398793
+          },
+          "five_moving": {
+            "leader_classes": 9,
+            "final_queries": 0
+          }
+        }
+      }
+    },
+    "group": {
+      "group_order": 241920,
+      "elements_of_prime_order": {
+        "3": 4832,
+        "5": 8064,
+        "7": 5760
+      },
+      "order_three_by_fixed_rows": {
+        "0": 1920,
+        "3": 2240,
+        "6": 672
+      },
+      "subgroups_of_order_three": 2416,
+      "orbit_divisor_at_most_14": 945,
+      "orbit_divisor_at_most_15": 315
+    }
+  },
+  "dualities": {
+    "orthogonal": {
+      "absolute_vertices": 5,
+      "conjugate_polarities": 1008,
+      "centralizer": 240,
+      "boundary_cells": 70,
+      "moving_maximal_pairs": 12582,
+      "upper_moving_pairs": 4,
+      "lower_moving_pairs": 4
+    },
+    "unitary": {
+      "absolute_vertices": 9,
+      "conjugate_polarities": 280,
+      "centralizer": 864,
+      "boundary_cells": 108,
+      "moving_maximal_pairs": 12613,
+      "upper_moving_pairs": 7,
+      "five_pair_test": {
+        "classes": 19,
+        "choices": 2229,
+        "final_queries": 0
+      },
+      "lower_moving_pairs": 7,
+      "six_pair_test": {
+        "first_classes": 36,
+        "distinct_unions": 14777,
+        "final_queries": 542517
+      }
+    }
+  },
+  "two_group": {
+    "128": {
+      "subgroups": 1,
+      "conjugacy_classes": 1,
+      "admitting_cover_at_most": {
+        "13": 0,
+        "14": 0,
+        "15": 0
+      }
+    },
+    "64": {
+      "subgroups": 7,
+      "conjugacy_classes": 7,
+      "admitting_cover_at_most": {
+        "13": 0,
+        "14": 0,
+        "15": 0
+      }
+    },
+    "32": {
+      "subgroups": 31,
+      "conjugacy_classes": 19,
+      "admitting_cover_at_most": {
+        "13": 0,
+        "14": 0,
+        "15": 0
+      }
+    },
+    "16": {
+      "subgroups": 79,
+      "conjugacy_classes": 35,
+      "admitting_cover_at_most": {
+        "13": 0,
+        "14": 0,
+        "15": 0
+      }
+    }
+  },
+  "combined_orbit_divisors": {
+    "at_most_14": 15120,
+    "at_most_15": 5040
+  },
+  "independent_orbit_divisor_at_most_13": 1890,
+  "unrestricted_nearcover": {
+    "rectangle_permutation": [
+      0,
+      1,
+      11,
+      6,
+      13,
+      9,
+      3,
+      8,
+      7,
+      5,
+      10,
+      2,
+      12,
+      4
+    ],
+    "fixed_rectangles": 4,
+    "holes": [
+      [
+        6,
+        18
+      ],
+      [
+        13,
+        10
+      ]
+    ],
+    "seven": {
+      "seed_subsets": 3432,
+      "subset_orbits": 1741,
+      "by_stabilizer": {
+        "1": 1660,
+        "2": 80,
+        "4": 1
+      },
+      "distinct_images": 411324480
+    },
+    "fixed": {
+      "radius": 8,
+      "subsets": 3003,
+      "states": 350375076,
+      "largest": 1389988
+    },
+    "any": {
+      "radius": 7,
+      "subsets": 3432,
+      "states": 233013747,
+      "largest": 807579
+    }
+  },
+  "unrestricted_minimum_interval": [
+    13,
+    15
+  ],
+  "upstream": "501dda8586110abcaebe0ea32060309d020bb2ee",
+  "desk_updated": "2026-11-26T04:09:27.261Z",
+  "desk": {
+    "L-meta-9341": {
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9341.lean",
+      "title": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 13 all-0 rectangles",
+      "pr_numbers": []
+    },
+    "L-meta-9345": {
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9345.lean",
+      "title": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 13 all-0 rectangles",
+      "pr_numbers": []
+    },
+    "L-meta-9348": {
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9348.lean",
+      "title": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 14 all-0 rectangles",
+      "pr_numbers": []
+    },
+    "L-meta-9350": {
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9350.lean",
+      "title": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 14 all-0 rectangles",
+      "pr_numbers": []
+    },
+    "L-meta-9338": {
+      "ledger": "checked",
+      "file": "lean/PEqualNP/Outside/L_meta_9338.lean",
+      "file_sha256": "d036a648649d11adbb25b8ed6d9e7ac34d1edd24e56b14e8891e6408502a093a"
+    },
+    "L-meta-9351": {
+      "ledger": "checked",
+      "file": "lean/PEqualNP/Outside/L_meta_9351.lean",
+      "file_sha256": "44969209a8127ad236e3afd380c9c6a5ea432999a83c627a65b93f29584e1a61"
+    }
+  }
+}
