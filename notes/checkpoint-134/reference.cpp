@@ -1,0 +1,104 @@
+// Directly search every fixed pair on the 112-cell translation quotient.
+#include <algorithm>
+#include <array>
+#include <bit>
+#include <cstdint>
+#include <iostream>
+#include <vector>
+
+using Word = std::uint64_t;
+
+struct Mask {
+    Word low, high;
+    int size() const { return std::popcount(low) + std::popcount(high); }
+    bool empty() const { return low == 0 && high == 0; }
+    Mask operator&(Mask other) const { return {low & other.low, high & other.high}; }
+    Mask operator|(Mask other) const { return {low | other.low, high | other.high}; }
+    Mask without(Mask other) const { return {low & ~other.low, high & ~other.high}; }
+    bool operator==(const Mask&) const = default;
+    bool operator<(Mask other) const {
+        return high == other.high ? low < other.low : high < other.high;
+    }
+};
+
+template<class Function>
+void eachCell(Mask mask, Function f) {
+    for (Word w = mask.low; w; w &= w-1) f(std::countr_zero(w));
+    for (Word w = mask.high; w; w &= w-1) f(64 + std::countr_zero(w));
+}
+
+bool fourSuffice(Mask need, const std::vector<Mask>& moving, std::uint64_t& queries) {
+    if (need.empty()) return true;
+    std::vector<Mask> words;
+    for (Mask m : moving) words.push_back(m & need);
+    std::sort(words.begin(), words.end());
+    words.erase(std::unique(words.begin(), words.end()), words.end());
+    std::sort(words.begin(), words.end(), [](Mask a, Mask b) {
+        return a.size() == b.size() ? a < b : a.size() > b.size();
+    });
+    std::array<std::vector<int>,112> contains;
+    for (int i = 0; i < static_cast<int>(words.size()); ++i)
+        eachCell(words[i], [&](int c) { contains[c].push_back(i); });
+    auto canFinish = [&](Mask missing) {
+        ++queries;
+        if (missing.empty()) return true;
+        int rarest = -1;
+        eachCell(missing, [&](int c) {
+            if (rarest < 0 || contains[c].size() < contains[rarest].size()) rarest = c;
+        });
+        for (int d : contains[rarest])
+            if (missing.without(words[d]).empty()) return true;
+        return false;
+    };
+
+    // Order the first member by total area and the second by marginal area.
+    // Among the final two members at least one must hit half of what remains.
+    const int required = need.size();
+    for (int first = 0; first < static_cast<int>(words.size()); ++first) {
+        int area = words[first].size();
+        if (4*area < required) break;
+        Mask left = need.without(words[first]);
+        if (left.empty()) return true;
+        int missing = left.size();
+        std::array<std::vector<int>,113> buckets;
+        for (int i = first+1; i < static_cast<int>(words.size()); ++i) {
+            int gain = (words[i] & left).size();
+            if (gain >= missing - 2*area) buckets[gain].push_back(i);
+        }
+        std::vector<int> choices;
+        for (int gain = area; gain >= 0; --gain)
+            choices.insert(choices.end(), buckets[gain].begin(), buckets[gain].end());
+        for (int second = 0; second < static_cast<int>(choices.size()); ++second) {
+            Mask b = words[choices[second]];
+            if (3*(b & left).size() < missing) break;
+            Mask rest = left.without(b);
+            if (rest.empty()) return true;
+            int half = (rest.size()+1)/2;
+            for (int third = second+1; third < static_cast<int>(choices.size()); ++third) {
+                Mask c = words[choices[third]];
+                if ((c & left).size() < half) break;
+                if ((c & rest).size() >= half && canFinish(rest.without(c))) return true;
+            }
+        }
+    }
+    return false;
+}
+
+int main() {
+    std::vector<Mask> fixed(14), moving(8407);
+    for (auto* list : {&fixed, &moving})
+        for (auto& m : *list) if (!(std::cin >> m.low >> m.high)) return 1;
+    const Mask board{~Word(0), (Word(1) << 48)-1};
+    int excluded = 0;
+    std::uint64_t queries = 0;
+    for (int i = 0; i < 14; ++i) {
+        for (int j = i+1; j < 14; ++j) {
+            if (fourSuffice(board.without(fixed[i] | fixed[j]), moving, queries)) {
+                std::cerr << "Cover found for fixed pair " << i << ' ' << j << '\n';
+                return 2;
+            }
+            ++excluded;
+        }
+    }
+    std::cout << excluded << ' ' << queries << '\n';
+}

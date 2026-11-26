@@ -1,0 +1,22 @@
+import Projection
+
+namespace Checkpoint134.FixedPool
+open PEqualNP.Outside.L_meta_9338 (ValidOn scanned combine)
+set_option maxRecDepth 16000
+set_option maxHeartbeats 0
+def rectRows : Array ℕ := #[
+  16513,33026,66052,132104,214669,264208,429338,528416,577955,858676,1056832,1155910,1337553,1717352
+]
+def rectCols : Array ℕ := #[
+  363286,726572,1453144,809137,264208,1618274,528416,1139397,66052,1056832,181643,132104,33026,16513
+]
+def dense : Array ℕ := #[
+  363286,1523731922944,6390994899331710976,7462971579784562732957696,2436889841112399212709904,31301971548976710609095396163584,10221056808137100467466001186816,46219433310343804652068452547065544704,2679387438280800269685127822409007620,42870219454596673039094518641867096064,15452477493655006329719438454432168308375552,11238165449930913694341410366041390296596480,2809541362483367239331249930150375776616706,1404771351088223782145049186856701003825152
+]
+abbrev Index := Fin 14
+def mask (i : Index) := dense.getD i.val 0
+def contains (i : Index) (p q : Fin 21) : Prop :=
+  (rectRows.getD i.val 0).testBit p.val=true ∧ (rectCols.getD i.val 0).testBit q.val=true
+instance (i : Index) (p q : Fin 21) : Decidable (contains i p q) := by unfold contains; infer_instance
+theorem maskAt : ∀ (i : Index) (z : Cell), contains i (emb (rowOf z)) (colOf z) ↔ (mask i).testBit z.val=true := by decide +kernel
+end Checkpoint134.FixedPool
