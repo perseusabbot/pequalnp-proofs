@@ -90,6 +90,7 @@
   "independent_sat": {
     "scope": "All six degree-four cases at budget 14",
     "formulas": 6,
+    "solver": "CaDiCaL 2.1.2",
     "checked_rup_clauses": [
       2838,
       7283,
@@ -113,21 +114,21 @@
     "replay.py": "d226f57ef72eab4eda3b61b6862de918ce2fac8874487822339e6782f8943040",
     "results.json": "f2eaa1558715bc54480dde747a4feb5dba5bd8724386e256242049a72c9b71e8",
     "witnesses.json": "3f8ea4ff6086150e187d7bcc2339a1c8a97f91ddeb82d42399bcc09d346a5b94",
-    "sat.py": "b3d5cd499b276268204cd6c5a851b5d08243a13f4a5341005e798caec3045245",
+    "sat.py": "16232a1330dce678c3dfb28231593d8e0a94f2b47db65362daa815c72383dcc6",
     "sat-results.json": "8f179e0c8673334ef822e45f19420a44d77c3c06519799287b8d0146ebfa0d95",
-    "pairs.py": "56dc01a19561064dd0df184910ed51935ea21d4643631bbf9de14155fbd7ca4a"
+    "pairs.py": "4a39282c49da46fff5e2470f3146507139f4549fb6784b17aaded88d86ba2292"
   },
   "two_exceptions_at_13": {
     "representatives": 2487,
     "represented_ordered_pairs": 402926972,
-    "excluded": 949,
-    "states": 105266111,
+    "excluded": 2487,
+    "states": 205143184,
     "signature": {
       "input_sha256": "e1e8cab716db2a306105340e753031581dff0cc78ece914a1f0b6041ee75f560",
       "inventory_sha256": "5ecdadb28aff8c5b2fadcc14f7d6ca5d6be712876680e0a03af2c58c46d61d69",
       "solver_sha256": "d09b1a249c81c46d8bbf43019833743df28cba63c20063ef8e5fadd3479411d7",
       "hexad_budget": 11
     },
-    "complete": false
+    "complete": true
   }
 }

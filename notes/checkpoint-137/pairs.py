@@ -1,4 +1,4 @@
-"""Search the next open case: two exceptional rectangles and eleven 6-by-6 rectangles."""
+"""Cover the board with two exceptional rectangles and the remaining 6-by-6 rectangles."""
 import argparse
 from datetime import datetime,timezone
 from hashlib import sha256
@@ -57,8 +57,8 @@ def pair_boxes(case):
     return [(w & BOARD,w >> 21) for w in case[:2]]
 
 
-def confirmed(case, ids, hexads):
-    require(len(ids) == len(set(ids)) <= 11 and all(0 <= h < len(hexads) for h in ids),
+def confirmed(case, ids, hexads, budget):
+    require(len(ids) == len(set(ids)) <= budget and all(0 <= h < len(hexads) for h in ids),
             'Invalid witness indices')
     boxes = [*pair_boxes(case),*[hexads[i] for i in ids]]
     require(covered_rows(boxes) == list(ROWS),'Candidate fails on the posted board')
@@ -68,9 +68,11 @@ def confirmed(case, ids, hexads):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('directory',type=Path)
+    ap.add_argument('--total',type=int,choices=(13,14),default=13,help='Total number of rectangles allowed')
     ap.add_argument('--stop-after',type=int,help='Pause after this many additional decisions')
     args = ap.parse_args()
     require(args.stop_after is None or args.stop_after >= 0,'Negative stop count')
+    budget = args.total-2
     folder = args.directory.resolve()
     folder.mkdir(parents=True,exist_ok=True)
     lock = lock_directory(folder,'pairs.py')
@@ -80,7 +82,7 @@ def main():
     prefix = ' '.join(map(str,ROWS))+'\n'+''.join(f'{a} {b}\n' for a,b in hexads)
     signature = dict(input_sha256=sha256(prefix.encode()).hexdigest(),
                      inventory_sha256=sha256(json.dumps(pairs,separators=(',',':')).encode()).hexdigest(),
-                     solver_sha256=sha256(source.read_bytes()).hexdigest(),hexad_budget=11)
+                     solver_sha256=sha256(source.read_bytes()).hexdigest(),hexad_budget=budget)
     journal = folder/'decisions.json'
     if journal.exists():
         record = json.loads(journal.read_text())
@@ -98,7 +100,7 @@ def main():
     if record['candidate'] is not None:
         found = record['candidate']
         require(found['case'] == len(excluded) and
-                confirmed(pairs[found['case']],found['ids'],hexads) == found['rectangles'],
+                confirmed(pairs[found['case']],found['ids'],hexads,budget) == found['rectangles'],
                 'Saved candidate differs')
         status('candidate')
         return
@@ -114,13 +116,13 @@ def main():
                     for n in range(start,stop):
                         status('running')
                         fill = covered_rows(pair_boxes(pairs[n]))
-                        proc.stdin.write('11 0 -1 0\n'+' '.join(map(str,fill))+'\n')
+                        proc.stdin.write(f'{budget} 0 -1 0\n'+' '.join(map(str,fill))+'\n')
                         proc.stdin.flush()
                         line = proc.stdout.readline().split()
                         require(len(line) >= 2 and int(line[1]) > 0,'Missing pair-search result')
                         if line[0] == 'COVER':
                             ids = list(map(int,line[2:]))
-                            record['candidate'] = dict(case=n,ids=ids,rectangles=confirmed(pairs[n],ids,hexads))
+                            record['candidate'] = dict(case=n,ids=ids,rectangles=confirmed(pairs[n],ids,hexads,budget))
                             atomic(journal,record)
                             status('candidate')
                             return

@@ -71,23 +71,29 @@ theorem allFourAtFourteen (T : Finset Box) (size : six T) (limit : T.card ≤ 14
   have hi := least i
   omega
 
+theorem cardJoin (A B C : Finset V) :
+    (A ∪ B ∪ C).card + (A ∩ B).card + (A ∩ C).card + (B ∩ C).card =
+      A.card + B.card + C.card + (A ∩ B ∩ C).card := by
+  have h₁ := card_union_add_card_inter A B
+  have h₂ := card_union_add_card_inter (A ∪ B) C
+  have h₃ := card_union_add_card_inter (A ∩ C) (B ∩ C)
+  have unionInter : (A ∪ B) ∩ C = A ∩ C ∪ B ∩ C := by
+    ext x
+    simp only [mem_inter,mem_union]
+    tauto
+  have interInter : (A ∩ C) ∩ (B ∩ C) = A ∩ B ∩ C := by
+    ext x
+    simp only [mem_inter]
+    tauto
+  rw [← unionInter,interInter] at h₃
+  omega
+
 /-- Three six-sets meeting pairwise can cover sixteen positions only around a single common point. -/
 theorem tightTriple {A B C : Finset V} (ha : A.card = 6) (hb : B.card = 6) (hc : C.card = 6)
     (ab : 0 < (A ∩ B).card) (ac : 0 < (A ∩ C).card) (bc : 0 < (B ∩ C).card)
     (full : (A ∪ B ∪ C).card = 16) :
     (A ∩ B).card = 1 ∧ (A ∩ C).card = 1 ∧ (B ∩ C).card = 1 ∧ (A ∩ B ∩ C).card = 1 := by
-  have h₁ := card_union_add_card_inter A B
-  have h₂ := card_union_add_card_inter (A ∪ B) C
-  have h₃ := card_union_add_card_inter (A ∩ C) (B ∩ C)
-  have un : (A ∪ B) ∩ C = A ∩ C ∪ B ∩ C := by
-    ext x
-    simp only [mem_inter, mem_union]
-    tauto
-  have it : (A ∩ C) ∩ (B ∩ C) = A ∩ B ∩ C := by
-    ext x
-    simp only [mem_inter]
-    tauto
-  rw [← un,it] at h₃
+  have total := cardJoin A B C
   have left := card_le_card (inter_subset_left (s₁ := A ∩ B) (s₂ := C))
   have mid : (A ∩ B ∩ C).card ≤ (A ∩ C).card := card_le_card (by
     intro x hx
@@ -145,6 +151,7 @@ theorem sixteenCover :
 #print axioms atLeastThree
 #print axioms threeOrFour
 #print axioms allFourAtFourteen
+#print axioms cardJoin
 #print axioms tightTriple
 #print axioms extendFamily
 #print axioms isolateException

@@ -4,13 +4,13 @@ The 21 by 21 matrix has 336 zero entries. An all-zero rectangle is the product o
 
 **Exactly 16 rectangles are necessary and sufficient when every rectangle must fit inside a legal 6 by 6 rectangle.** Each such rectangle can be enlarged to 6 by 6. An exhaustive search rules out 15, and an explicit family of 16 covers the board. There is also a 15-member family of 6 by 6 rectangles that misses just two cells. With labels starting at zero, they are row 8, column 16 and row 10, column 16. [Witness masks](witnesses.json) · [Lean certificate](src/MaximumRectangles.lean)
 
-**Every cover of size at most 14 requires at least two rectangles that cannot fit inside any legal 6 by 6 rectangle.** All row and column labels were available. These statements apply to families with arbitrary symmetry.
+**Every cover of size at most 14 requires at least two rectangles that cannot fit inside any legal 6 by 6 rectangle.** All row and column labels were available. At size 13, at least **three** rectangles must each fail to fit inside any legal 6 by 6 rectangle. These statements apply to families with arbitrary symmetry.
 
 ## Geometry and the seven cases at size 15
 
 Enumerating all choices of six rows and their common zero columns gives 168 distinct 6 by 6 rectangles. An independent computation closes arbitrary row sets under their common columns and gives 25,235 nonempty maximal rectangles. The two inventories agree on the 168 rectangles of area 36. Every other maximal rectangle has area at most 28.
 
-Every row and column has 16 zeros and lies in 48 of the maximum rectangles. Each zero lies in 18 maximum rectangles. For two distinct maximum rectangles, the number of shared rows equals the number of shared columns. Fixing one rectangle, exactly 10 others share zero rows with it, 72 share one, 45 share two, and 40 share three. A triple through a given row can cover all 16 of its zeros in 96 ways. Each such triple meets in one common column. Checking the local unions shows that a triple that falls short covers at most 14 zeros in that row.
+Every row and column has 16 zeros and lies in 48 of the maximum rectangles. Each zero lies in 18 maximum rectangles. For two distinct maximum rectangles, the number of shared rows equals the number of shared columns. Fixing one rectangle, exactly 10 others share zero rows with it, 72 share one, 45 share two, and 40 share three. A triple through a given row can cover all 16 of its zeros in 96 ways. Each such triple meets in one common column and covers all sixteen zeros of that column as well. Lean proves this for every triple on the posted board. Checking the local unions shows that a triple that falls short covers at most 14 zeros in that row.
 
 In a complete cover by these rectangles, each row and column must belong to at least three. If a label belongs to exactly three, a board symmetry takes it to row zero. The stabilizer of that row takes any of its 96 covering triples to the same representative. Otherwise every label belongs to at least four rectangles. Fifteen rectangles supply only 90 row memberships, so some row belongs to exactly four. The 7,320 covering quadruples through that row split into six orbits under its stabilizer. The search excludes the triple case and all six quadruple cases at budget 15. Symmetry only identifies different names for the same case. The chosen cover itself can have a trivial stabilizer. [Orbit sizes and decisions](results.json)
 
@@ -40,7 +40,7 @@ An uncovered cell must lie in some remaining rectangle. Branching on the first s
 
 As an independent check, a direct Boolean formula covers each zero and enforces degree four on every label. At budget 14 this is precisely the case in which no label has degree three. CaDiCaL finds contradictions for all six quadruple representatives. A separate checker verifies each learned clause by reverse unit propagation from the original clauses, through to the empty clause. [SAT encoding and proof checker](sat.py) · [Formula digests](sat-results.json)
 
-Lean checks the explicit 16-rectangle witness on the original board, the incidence count, the local degree lower bound, the degree-three or degree-four split, the equality case at size 14, equality of the row and column overlaps for every pair of maximum rectangles, the common-point calculation for three six-element sets, and the lifting of arbitrary subrectangles to allowed extensions. The search exclusions and orbit inventories are exhaustive computations outside the Lean kernel. [Axiom and computation receipts](verification.json)
+Lean checks the explicit 16-rectangle witness on the original board, the incidence count, the local degree lower bound, the degree-three or degree-four split, the equality case at size 14, equality of the row and column overlaps for every pair of maximum rectangles, the common-point calculation for three six-element sets, and the lifting of arbitrary subrectangles to allowed extensions. The exhaustive search exclusions and orbit inventories use the numerical programs. The files under `certificates/` contain the six additional LRAT contradictions and can be checked directly with Python. [Axiom and computation receipts](verification.json)
 
 ## Reproduction
 
@@ -48,18 +48,20 @@ Run these commands from this directory in a checkout containing the preceding ch
 
 ```sh
 python3 -B replay.py --jobs 2
+python3 -B sat.py --verify-traces certificates
 python3 -B sat.py --solver cadical
 python3 -B proofs.py /path/to/upstream --build /tmp/checkpoint-137-lean
 ```
 
 ## Checking two exceptional rectangles at size 13
 
-Allowing two exceptional maximal rectangles leaves room for eleven 6 by 6 rectangles. Choose a representative of the first shape, then use its stabilizer to enumerate every possible position of the second rectangle. Different shapes are ordered by their shape index. For equal shapes both orientations are allowed, so some unordered pairs occur twice. This convention gives 2,487 cases and accounts for 402,926,972 pairs with the stated orientation convention. The solver begins with the union of the two exceptional rectangles already covered. [Pair search](pairs.py) · [Saved decisions](resume/two-other/decisions.json)
+Allowing two exceptional maximal rectangles leaves room for eleven 6 by 6 rectangles. Choose a representative of the first shape, then use its stabilizer to enumerate every possible position of the second rectangle. Different shapes are ordered by their shape index. For equal shapes both orientations are allowed, so some unordered pairs occur twice. This convention gives 2,487 cases and accounts for 402,926,972 pairs with the stated orientation convention. The solver begins with the union of the two exceptional rectangles already covered. All 2,487 cases at total size 13 were excluded in 205,143,184 states. A pair of identical maximal extensions reduces to the single-exception case. This exhausts all 314,164,711 unordered choices of two distinct exceptional maximal rectangles. The search at size 14 with two exceptions is still in progress. [Pair search](pairs.py) · [Saved decisions](resume/two-other/decisions.json)
 
-To restart a saved search, copy its directory under `resume/` to a writable location and run the corresponding command. The pair journal stores a consecutive prefix of the deterministic case order. Its signature binds the board, rectangle order, pair inventory, budget and solver source. The other two journals preserve the earlier unrestricted one-hole search and reduced Heawood circuit search.
+To restart a saved search, copy its directory under `resume/` to a writable location and run the corresponding command. The pair journal stores a consecutive prefix of the deterministic case order. Its signature binds the board, rectangle order, pair inventory, budget and solver source. Starting in an empty directory replays all pair cases from scratch. The other journals preserve the size-14 pair search, the unrestricted one-hole search and the reduced Heawood circuit search.
 
 ```sh
-python3 -B pairs.py /path/to/two-other
+python3 -B pairs.py /path/to/two-other --total 13
+python3 -B pairs.py /path/to/two-other-14 --total 14
 python3 -B ../checkpoint-136/windows.py near-nine /path/to/near-nine
 python3 -B ../checkpoint-136/heawood.py /path/to/heawood
 ```

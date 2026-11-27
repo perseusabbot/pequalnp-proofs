@@ -1,5 +1,6 @@
 """Check the six degree-four cases at size 14 by an independent direct SAT encoding."""
 import argparse
+import gzip
 from hashlib import sha256
 from itertools import combinations
 import json
@@ -44,7 +45,8 @@ def check_rup(clauses, path):
     known = dict(enumerate(clauses,1))
     derived = 0
     empty = False
-    with path.open() as stream:
+    reader = gzip.open if path.suffix == '.gz' else open
+    with reader(path,'rt') as stream:
         for line in stream:
             fields = line.split()
             if len(fields) > 1 and fields[1] == 'd':
@@ -81,7 +83,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--solver',default='cadical')
     ap.add_argument('--output',type=Path)
-    ap.add_argument('--proof-dir',type=Path,help='Save the checked LRAT traces here')
+    traces = ap.add_mutually_exclusive_group()
+    traces.add_argument('--proof-dir',type=Path,help='Save the checked LRAT traces here')
+    traces.add_argument('--verify-traces',type=Path,help='Check saved LRAT or gzipped LRAT files directly')
     args = ap.parse_args()
     boxes = six_rectangles()
     roots = json.loads((HERE/'results.json').read_text())['geometry']['pure_roots']
@@ -114,14 +118,20 @@ def main():
             base.clauses.extend([[i+1] for i in root['ids']])
             data = base.dimacs()
             path.write_text(data)
-            proof = Path(temp)/'case.lrat'
-            result = subprocess.run([args.solver,'-q','--plain','--lrat','--no-binary',str(path),str(proof)],
-                                    capture_output=True,text=True)
-            require(result.returncode == 20 and 's UNSATISFIABLE' in result.stdout,'Unexpected SAT result')
+            name = 'root-'+'-'.join(map(str,root['ids']))+'.lrat'
+            if args.verify_traces:
+                proof = args.verify_traces/name
+                if not proof.exists():
+                    proof = args.verify_traces/(name+'.gz')
+            else:
+                proof = Path(temp)/'case.lrat'
+                result = subprocess.run([args.solver,'-q','--plain','--lrat','--no-binary',str(path),str(proof)],
+                                        capture_output=True,text=True)
+                require(result.returncode == 20 and 's UNSATISFIABLE' in result.stdout,'Unexpected SAT result')
             derived = check_rup(base.clauses,proof)
             if args.proof_dir:
                 args.proof_dir.mkdir(parents=True,exist_ok=True)
-                (args.proof_dir/('root-'+'-'.join(map(str,root['ids']))+'.lrat')).write_bytes(proof.read_bytes())
+                (args.proof_dir/name).write_bytes(proof.read_bytes())
             del base.clauses[start:]
             report.append(dict(ids=root['ids'],dimacs_sha256=sha256(data.encode()).hexdigest(),
                                variables=base.variables,clauses=start+4,decision='UNSAT'))

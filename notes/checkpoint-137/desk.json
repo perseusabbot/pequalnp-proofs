@@ -126,5 +126,54 @@
       }
     },
     "standalone_listed": false
+  },
+  "follow_up": {
+    "observed_utc": "2026-11-27T22:36:23.242666+00:00",
+    "ledger_utc": "2026-11-27T22:35:51.375Z",
+    "hub_utc": "2026-11-27T22:35:51.375Z",
+    "groups": {
+      "gaps": [
+        "L-meta-9341",
+        "L-meta-9348",
+        "L-meta-9345",
+        "L-meta-9350"
+      ],
+      "checked": []
+    },
+    "construction_card_status": {
+      "L-meta-9341": {
+        "parallel": 1,
+        "held": 1,
+        "level": "open"
+      },
+      "L-meta-9348": {
+        "parallel": 1,
+        "held": 1,
+        "level": "open"
+      }
+    },
+    "open_title_queries": {
+      "L-meta-9341": {
+        "count": 0,
+        "pr_numbers": []
+      },
+      "L-meta-9345": {
+        "count": 0,
+        "pr_numbers": []
+      },
+      "L-meta-9348": {
+        "count": 0,
+        "pr_numbers": []
+      },
+      "L-meta-9350": {
+        "count": 0,
+        "pr_numbers": []
+      }
+    },
+    "heawood_reductions": {
+      "R-L-meta-3541-1": "open",
+      "R-L-meta-3541-17": "open",
+      "R-L-meta-3541-317": "open"
+    }
   }
 }
