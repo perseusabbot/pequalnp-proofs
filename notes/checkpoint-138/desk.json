@@ -1,0 +1,73 @@
+{
+  "observed_utc": "2026-11-27T23:45:59.530779+00:00",
+  "ledger_utc": "2026-11-27T23:44:40.790Z",
+  "hub_utc": "2026-11-27T23:44:40.790Z",
+  "groups": {
+    "gaps": [
+      "L-meta-9341",
+      "L-meta-9348",
+      "L-meta-9345",
+      "L-meta-9350"
+    ],
+    "checked": []
+  },
+  "construction_card_status": {
+    "L-meta-9341": {
+      "parallel": 1,
+      "held": 1,
+      "level": "open"
+    },
+    "L-meta-9348": {
+      "parallel": 1,
+      "held": 1,
+      "level": "open"
+    }
+  },
+  "open_title_queries": {
+    "L-meta-9341": {
+      "count": 0,
+      "pr_numbers": []
+    },
+    "L-meta-9345": {
+      "count": 0,
+      "pr_numbers": []
+    },
+    "L-meta-9348": {
+      "count": 0,
+      "pr_numbers": []
+    },
+    "L-meta-9350": {
+      "count": 0,
+      "pr_numbers": []
+    }
+  },
+  "heawood_reductions": {
+    "R-L-meta-3541-1": "open",
+    "R-L-meta-3541-17": "open",
+    "R-L-meta-3541-317": "open"
+  },
+  "hub_source": "https://pequalnp.com/desk/status",
+  "ledger_source": "https://data.pequalnp.com/data/desk/gaps.json",
+  "posted_bounds": {
+    "L-meta-9338": {
+      "author": "JLDC",
+      "pull_request": "https://github.com/open-goat/pequalnp-proofs/pull/21189",
+      "merge_commit": "721765c220700d7eeb53d31477aa2a46cfcb806e",
+      "file": "lean/PEqualNP/Outside/L_meta_9338.lean",
+      "pinned_and_live_sha256": "d036a648649d11adbb25b8ed6d9e7ac34d1edd24e56b14e8891e6408502a093a"
+    },
+    "L-meta-9351": {
+      "author": "DPS0340",
+      "pull_request": "https://github.com/open-goat/pequalnp-proofs/pull/13338",
+      "merge_commit": "f5bb520ba709e142fe3d8a6cfa228079b2e24767",
+      "file": "lean/PEqualNP/Outside/L_meta_9351.lean",
+      "pinned_and_live_sha256": "44969209a8127ad236e3afd380c9c6a5ea432999a83c627a65b93f29584e1a61"
+    }
+  },
+  "cards": {
+    "L-meta-9341": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 13 all-0 rectangles",
+    "L-meta-9345": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 13 all-0 rectangles",
+    "L-meta-9348": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 14 all-0 rectangles",
+    "L-meta-9350": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 14 all-0 rectangles"
+  }
+}
