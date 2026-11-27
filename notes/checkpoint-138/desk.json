@@ -64,6 +64,8 @@
       "pinned_and_live_sha256": "44969209a8127ad236e3afd380c9c6a5ea432999a83c627a65b93f29584e1a61"
     }
   },
+  "checked_sources_at": "b09551e9cb2cf5d75dae8c5535868baa9868cf9f",
+  "checked_bounds_utc": "2026-11-27T23:51:27.878630+00:00",
   "cards": {
     "L-meta-9341": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 13 all-0 rectangles",
     "L-meta-9345": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 13 all-0 rectangles",

@@ -1,0 +1,174 @@
+{
+  "hole": [
+    0,
+    1
+  ],
+  "tight": [
+    {
+      "label": 1,
+      "ids": [
+        1,
+        7,
+        155
+      ],
+      "multiplicity": 720,
+      "states": 27797338
+    },
+    {
+      "label": 1,
+      "ids": [
+        1,
+        64,
+        109
+      ],
+      "multiplicity": 240,
+      "states": 28752030
+    },
+    {
+      "label": 3,
+      "ids": [
+        0,
+        12,
+        116
+      ],
+      "multiplicity": 720,
+      "states": 28100919
+    },
+    {
+      "label": 3,
+      "ids": [
+        0,
+        43,
+        161
+      ],
+      "multiplicity": 180,
+      "states": 27330750
+    },
+    {
+      "label": 3,
+      "ids": [
+        0,
+        103,
+        148
+      ],
+      "multiplicity": 180,
+      "states": 28462355
+    },
+    {
+      "label": 3,
+      "ids": [
+        2,
+        6,
+        155
+      ],
+      "multiplicity": 360,
+      "states": 28597371
+    },
+    {
+      "label": 3,
+      "ids": [
+        2,
+        33,
+        165
+      ],
+      "multiplicity": 720,
+      "states": 29291249
+    },
+    {
+      "label": 3,
+      "ids": [
+        4,
+        56,
+        165
+      ],
+      "multiplicity": 720,
+      "states": 29730983
+    }
+  ],
+  "surplus": [
+    {
+      "id": 107,
+      "multiplicity": 90,
+      "states": 695803,
+      "profiles": 1
+    },
+    {
+      "id": 152,
+      "multiplicity": 60,
+      "states": 456185,
+      "profiles": 1
+    },
+    {
+      "id": 166,
+      "multiplicity": 18,
+      "states": 1714703,
+      "profiles": 1
+    }
+  ],
+  "tight_input_sha256": "658347c640406abe48ac93714f572e2816cabbde5c0a4dcedf4255e91c53fe56",
+  "surplus_input_sha256": "1b93c0a122f24b9881b2918fa81ae92dade552381635f0260e0a9243eeaaaaa6",
+  "total_states": 230929686,
+  "positive_controls": [
+    {
+      "ids": [
+        11,
+        32,
+        33,
+        41,
+        43,
+        48,
+        61,
+        68,
+        88,
+        108,
+        109,
+        126,
+        140,
+        152,
+        157,
+        160
+      ],
+      "states": 2,
+      "profiles": 1
+    },
+    {
+      "ids": [
+        6,
+        30,
+        35,
+        39,
+        57,
+        59,
+        67,
+        87,
+        96,
+        108,
+        134,
+        138,
+        141,
+        154,
+        164
+      ],
+      "states": 2,
+      "profiles": 1
+    },
+    {
+      "ids": [
+        11,
+        32,
+        33,
+        41,
+        43,
+        48,
+        61,
+        68,
+        88,
+        108,
+        109,
+        126
+      ],
+      "states": 2,
+      "profiles": 1
+    }
+  ]
+}

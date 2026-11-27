@@ -181,5 +181,6 @@ if __name__ == '__main__':
     else:
         reference = json.loads((HERE/(args.mode+'.json')).read_text())
         require(reference==result,'Calculated receipt differs from the published receipt')
-    print(args.mode,result.get('total_states',result.get('states')),'states,',
-          result.get('representatives',len(result.get('tight',[]))+len(result.get('surplus',[]))),'search cases')
+    count = result['representatives'] if args.mode=='pairs' else (
+        len(result['tight'])+len(result['surplus']) if args.mode=='near' else 1)
+    print(args.mode,result.get('total_states',result.get('states')),'states,',count,'search cases')
