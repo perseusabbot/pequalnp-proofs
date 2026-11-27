@@ -157,7 +157,7 @@ def instances(out,order,ambient,members,product,dual):
         with (out/f'class-{i}.sym').open('w') as f:
             print(len(sym),file=f)
             for perm in sorted(sym):print(*perm,file=f)
-        r.update(id=i,cell_orbits=len(orbits),quotient_symmetries=len(sym),candidate_rectangles=box_count,distinct_costs=dict(sorted(Counter(pool.values()).items())))
+        r.update(id=i,cell_orbits=len(orbits),quotient_symmetries=len(sym),candidate_rectangles=box_count,distinct_costs={str(c):count for c,count in sorted(Counter(pool.values()).items())})
         with (out/f'class-{i}.in').open('w') as f:
             print(len(orbits),15,sum(c<=15 for c in pool.values()),file=f)
             for m,c in sorted(pool.items()):
