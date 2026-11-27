@@ -1,0 +1,219 @@
+{
+  "previous_commit": "1c741f3d851fc3b9bd77420c66d0c5cede21b11b",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "upstream": "501dda8586110abcaebe0ea32060309d020bb2ee",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "modules": {
+    "Board": {
+      "source_sha256": "6fafaadd3c247d772e372c8f73917f7837a4dd22fb9a62e5c972a0a8197c1e37",
+      "audits": {
+        "Checkpoint138.zeroOfInc": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.walkInc": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.transportPattern": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.passBit": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Compression": {
+      "source_sha256": "37e7cc56b6f09bdecb26501f288d43333927f870dcda90cecab64b9880a43b4d",
+      "audits": {
+        "Checkpoint138.fourTests": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.transposeCrown": []
+      }
+    },
+    "Degrees": {
+      "source_sha256": "8c178ee89f35912c3597a7e3e584b592f2b3d66c7e97b3c38b0d02ef8c1ce7cb",
+      "audits": {
+        "Checkpoint138.degreeBalance": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.surplusBox": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "LocalData": {
+      "source_sha256": "7e68d535868acceff16f1cf624654a7adf087fde11a88ee0ed4cccbbdbe341f8",
+      "audits": {
+        "Checkpoint138.routeOK": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.sitesOK": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.idsOK": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.masksOK": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "NearWitness": {
+      "source_sha256": "61c838213b970cda6e151407d39983c289a20be70285a52a3c96bb221da781ce",
+      "audits": {
+        "Checkpoint138.nearWitness": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "FourCells": {
+      "source_sha256": "fd69e1f4e09f73297f27cc047524d2921ea4b252e468dbcbf428c4df836bbde9",
+      "audits": {
+        "Checkpoint138.noFive": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.compressCells": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.compressRectangles": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.sharpFour": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PrivateCells": {
+      "source_sha256": "56d44bcfd6e361849a04be3341a8ed5e481c18f8f68fe33ee367a112afda65f3",
+      "audits": {
+        "Checkpoint138.fourPrivateCells": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.privateInside": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.fourNecessary": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  },
+  "audited_declarations": 20,
+  "original_board": {
+    "rows": 21,
+    "columns": 21,
+    "zero_cells": 336,
+    "maximal_rectangles": 25235,
+    "maximum_rectangles": 168
+  },
+  "four_cells": {
+    "upper": 4,
+    "sharp": 4,
+    "sharp_cells": [
+      [
+        2,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    "label_obstruction_orbits": 3,
+    "compatible_cell_obstruction_orbits": 20
+  },
+  "maximum_coverage_with_fifteen": {
+    "exact": 334,
+    "witness_holes": [
+      [
+        8,
+        16
+      ],
+      [
+        10,
+        16
+      ]
+    ],
+    "tight_roots": 8,
+    "surplus_roots": 3,
+    "states": 230929686,
+    "all_168_profiles_states": 48177803,
+    "positive_controls": 3
+  },
+  "two_exceptions_through_14": {
+    "representatives": 2487,
+    "physical_unordered_pairs": 314164711,
+    "total_states": 139466144,
+    "total_root_profiles": 9702177
+  },
+  "three_exceptions_two_small_through_14": {
+    "cases": 3394,
+    "physical_unordered_triples": 267935185,
+    "total_states": 481656,
+    "total_root_profiles": 28018
+  },
+  "reference_cases": 261,
+  "reference_states": 2192606337,
+  "signed_inputs_and_results": {
+    "degree_search.cpp": "2bd83c90a285b8d2dc0468f5a59ffd8212011e8db9a3dbf54f2e87dbee035eb7",
+    "desk.json": "fbbb09b9d16e081e68688f63f46f39095a9282f2790292d9046264d60614a64d",
+    "frontier.py": "00d2417381bda93e1e3e2294a3887d9469783bd878db25398806e476c628df38",
+    "geometry.json": "8374009a70ff0ea1bbc2ba9f998364e6457d491d741fe0da867fa6e8f9cada38",
+    "local_data.py": "1fa3a24f80e08787919d5577ee4f667b30580a9669ea1d6e17a131eee1da2725",
+    "near.json": "4ee25e6cb42c6902b1006e0efce0cb20fea5cb26cd714d86a3c9b5acc9341a6f",
+    "obstructions.py": "cbb502683a2ec083da2907e300ae57dd406d89421577b07071bc82247f996574",
+    "pairs.json": "66d8661d0c293497c5f4a1fe712fcb4c4fdd9861db452e25dd6b6d554036d21c",
+    "proofs.py": "49fcffce9bbe3273166879f2a9adebe27f97558d37d6474a3858a69ef04fc6f8",
+    "reference.json": "c58e0b0192b51183e4d6c64c9ccd951d88be8f4bf3fe16c7c582ab78091bb1aa",
+    "reference.py": "2acac0f116da480aeb7e78d5901c901c27c9196e8f86fae4e54b8f77b07bd080",
+    "replay.py": "462bf7342df96c44fcd61b24032aeea35b4eb9d2475315bef212c62329f3d238",
+    "triples.json": "dac7ad0730be62540d0331e3d5bd6af9c0c4e9493b214cab73bb7383a4cdd2e7",
+    "triples.py": "59584ad2baed63b0b7ead8824acc1f5672fbc69ce4c848ca35d8d66462164c3b",
+    "whole.json": "04f7ef001dc6d193850a228299d776c5ba777335a2e0c04703196bd25d0b5115"
+  }
+}
