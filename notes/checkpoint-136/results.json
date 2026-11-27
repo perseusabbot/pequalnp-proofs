@@ -1,0 +1,1430 @@
+{
+  "frames": {
+    "seed": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "trace": [
+      [
+        21,
+        0,
+        1
+      ],
+      [
+        28,
+        0,
+        2
+      ],
+      [
+        41,
+        0,
+        3
+      ],
+      [
+        22,
+        1,
+        2
+      ],
+      [
+        29,
+        1,
+        3
+      ],
+      [
+        23,
+        2,
+        3
+      ],
+      [
+        30,
+        2,
+        4
+      ],
+      [
+        24,
+        3,
+        4
+      ],
+      [
+        16,
+        21,
+        23
+      ],
+      [
+        17,
+        22,
+        24
+      ],
+      [
+        15,
+        22,
+        41
+      ],
+      [
+        7,
+        24,
+        28
+      ],
+      [
+        8,
+        28,
+        29
+      ],
+      [
+        9,
+        29,
+        30
+      ],
+      [
+        13,
+        30,
+        41
+      ],
+      [
+        26,
+        0,
+        9
+      ],
+      [
+        38,
+        0,
+        17
+      ],
+      [
+        27,
+        1,
+        7
+      ],
+      [
+        39,
+        1,
+        13
+      ],
+      [
+        25,
+        4,
+        8
+      ],
+      [
+        32,
+        4,
+        15
+      ],
+      [
+        35,
+        7,
+        9
+      ],
+      [
+        33,
+        7,
+        13
+      ],
+      [
+        34,
+        8,
+        13
+      ],
+      [
+        36,
+        8,
+        15
+      ],
+      [
+        37,
+        9,
+        16
+      ],
+      [
+        14,
+        21,
+        34
+      ],
+      [
+        5,
+        22,
+        25
+      ],
+      [
+        18,
+        23,
+        25
+      ],
+      [
+        6,
+        23,
+        26
+      ],
+      [
+        19,
+        24,
+        26
+      ],
+      [
+        20,
+        25,
+        27
+      ],
+      [
+        10,
+        27,
+        30
+      ],
+      [
+        11,
+        28,
+        32
+      ],
+      [
+        12,
+        29,
+        32
+      ],
+      [
+        40,
+        2,
+        12
+      ],
+      [
+        31,
+        3,
+        5
+      ]
+    ],
+    "levels": [
+      {
+        "point": 0,
+        "choices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "remaining": 5760
+      },
+      {
+        "point": 1,
+        "choices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "remaining": 288
+      },
+      {
+        "point": 2,
+        "choices": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          18,
+          19,
+          20
+        ],
+        "remaining": 18
+      },
+      {
+        "point": 3,
+        "choices": [
+          3,
+          6,
+          9,
+          10,
+          12,
+          13,
+          18,
+          19,
+          20
+        ],
+        "remaining": 2
+      },
+      {
+        "point": 4,
+        "choices": [
+          4,
+          14
+        ],
+        "remaining": 1
+      }
+    ],
+    "side_preserving": 120960,
+    "including_dualities": 241920
+  },
+  "sylow_order": 256,
+  "legal_nonempty_rectangles": 5833331,
+  "orders": {
+    "8": {
+      "order": 8,
+      "side_swapping_generator": [
+        41,
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "classes": [
+        {
+          "subgroup": [
+            0,
+            1,
+            9,
+            20,
+            30,
+            33,
+            61,
+            64
+          ],
+          "normalizer": 128,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 2,
+          "full_conjugates": 1890,
+          "exchanges_axes": false,
+          "id": 0,
+          "cell_orbits": 58,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 23,
+            "2": 94,
+            "4": 696,
+            "8": 2590
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 0
+        },
+        {
+          "subgroup": [
+            0,
+            1,
+            13,
+            24,
+            44,
+            75,
+            129,
+            187
+          ],
+          "normalizer": 32,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 24,
+          "full_conjugates": 7560,
+          "exchanges_axes": false,
+          "id": 1,
+          "cell_orbits": 56,
+          "quotient_symmetries": 4,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 25,
+            "2": 69,
+            "4": 556,
+            "8": 2694
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 1871
+        },
+        {
+          "subgroup": [
+            0,
+            1,
+            14,
+            25,
+            30,
+            48,
+            61,
+            79
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 20,
+          "full_conjugates": 3780,
+          "exchanges_axes": false,
+          "id": 2,
+          "cell_orbits": 56,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 27,
+            "2": 64,
+            "4": 526,
+            "8": 2710
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 48045
+        },
+        {
+          "subgroup": [
+            0,
+            1,
+            30,
+            53,
+            61,
+            84,
+            148,
+            206
+          ],
+          "normalizer": 32,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 8,
+          "full_conjugates": 7560,
+          "exchanges_axes": true,
+          "id": 3,
+          "cell_orbits": 58,
+          "quotient_symmetries": 4,
+          "candidate_rectangles": 26755,
+          "distinct_costs": {
+            "1": 7,
+            "2": 134,
+            "4": 786,
+            "8": 2903
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 0
+        },
+        {
+          "subgroup": [
+            0,
+            1,
+            30,
+            61,
+            105,
+            112,
+            163,
+            170
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 4,
+          "full_conjugates": 3780,
+          "exchanges_axes": false,
+          "id": 4,
+          "cell_orbits": 52,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 17,
+            "2": 61,
+            "4": 404,
+            "8": 2808
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 133
+        },
+        {
+          "subgroup": [
+            0,
+            1,
+            30,
+            61,
+            129,
+            187,
+            215,
+            238
+          ],
+          "normalizer": 192,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 4,
+          "full_conjugates": 1260,
+          "exchanges_axes": false,
+          "id": 5,
+          "cell_orbits": 62,
+          "quotient_symmetries": 24,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 47,
+            "2": 218,
+            "4": 710,
+            "8": 2606
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 358
+        },
+        {
+          "subgroup": [
+            0,
+            1,
+            30,
+            61,
+            217,
+            228,
+            240,
+            251
+          ],
+          "normalizer": 32,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 8,
+          "full_conjugates": 7560,
+          "exchanges_axes": true,
+          "id": 6,
+          "cell_orbits": 56,
+          "quotient_symmetries": 4,
+          "candidate_rectangles": 26457,
+          "distinct_costs": {
+            "1": 27,
+            "2": 119,
+            "4": 646,
+            "8": 2849
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 948
+        },
+        {
+          "subgroup": [
+            0,
+            2,
+            9,
+            19,
+            61,
+            64,
+            150,
+            159
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 4,
+          "full_conjugates": 3780,
+          "exchanges_axes": false,
+          "id": 7,
+          "cell_orbits": 44,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 3,
+            "2": 10,
+            "4": 79,
+            "8": 2996
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 0
+        },
+        {
+          "subgroup": [
+            0,
+            3,
+            14,
+            35,
+            50,
+            107,
+            128,
+            162
+          ],
+          "normalizer": 192,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 12,
+          "full_conjugates": 1260,
+          "exchanges_axes": false,
+          "id": 8,
+          "cell_orbits": 44,
+          "quotient_symmetries": 24,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 3,
+            "2": 30,
+            "4": 83,
+            "8": 2980
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 6
+        },
+        {
+          "subgroup": [
+            0,
+            3,
+            14,
+            36,
+            50,
+            110,
+            129,
+            204
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 4,
+          "in_sylow": 36,
+          "full_conjugates": 3780,
+          "exchanges_axes": false,
+          "id": 9,
+          "cell_orbits": 52,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 17,
+            "2": 49,
+            "4": 422,
+            "8": 2816
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 485362
+        },
+        {
+          "subgroup": [
+            0,
+            3,
+            14,
+            50,
+            61,
+            79,
+            151,
+            191
+          ],
+          "normalizer": 256,
+          "sylow_conjugacy_classes": 4,
+          "in_sylow": 9,
+          "full_conjugates": 945,
+          "exchanges_axes": false,
+          "id": 10,
+          "cell_orbits": 48,
+          "quotient_symmetries": 32,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 11,
+            "2": 36,
+            "4": 264,
+            "8": 2856
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 6932
+        },
+        {
+          "subgroup": [
+            0,
+            4,
+            9,
+            27,
+            56,
+            61,
+            64,
+            152
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 12,
+          "full_conjugates": 3780,
+          "exchanges_axes": true,
+          "id": 11,
+          "cell_orbits": 52,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 27503,
+          "distinct_costs": {
+            "1": 7,
+            "2": 58,
+            "4": 665,
+            "8": 3033
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 701
+        },
+        {
+          "subgroup": [
+            0,
+            4,
+            14,
+            51,
+            53,
+            141,
+            149,
+            229
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 12,
+          "full_conjugates": 3780,
+          "exchanges_axes": true,
+          "id": 12,
+          "cell_orbits": 52,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 27505,
+          "distinct_costs": {
+            "1": 3,
+            "2": 63,
+            "4": 700,
+            "8": 3018
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 36
+        },
+        {
+          "subgroup": [
+            0,
+            4,
+            14,
+            51,
+            61,
+            79,
+            152,
+            157
+          ],
+          "normalizer": 192,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 4,
+          "full_conjugates": 1260,
+          "exchanges_axes": true,
+          "id": 13,
+          "cell_orbits": 56,
+          "quotient_symmetries": 24,
+          "candidate_rectangles": 27357,
+          "distinct_costs": {
+            "1": 15,
+            "2": 149,
+            "4": 789,
+            "8": 2884
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 102
+        },
+        {
+          "subgroup": [
+            0,
+            4,
+            42,
+            61,
+            122,
+            140,
+            152,
+            177
+          ],
+          "normalizer": 32,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 8,
+          "full_conjugates": 7560,
+          "exchanges_axes": true,
+          "id": 14,
+          "cell_orbits": 52,
+          "quotient_symmetries": 4,
+          "candidate_rectangles": 26843,
+          "distinct_costs": {
+            "1": 7,
+            "2": 44,
+            "4": 515,
+            "8": 3015
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 0
+        },
+        {
+          "subgroup": [
+            0,
+            4,
+            61,
+            152,
+            168,
+            221,
+            245,
+            254
+          ],
+          "normalizer": 32,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 8,
+          "full_conjugates": 7560,
+          "exchanges_axes": true,
+          "id": 15,
+          "cell_orbits": 50,
+          "quotient_symmetries": 4,
+          "candidate_rectangles": 26465,
+          "distinct_costs": {
+            "1": 15,
+            "2": 91,
+            "4": 375,
+            "8": 2987
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 28
+        },
+        {
+          "subgroup": [
+            0,
+            5,
+            38,
+            61,
+            92,
+            164,
+            189,
+            190
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 12,
+          "full_conjugates": 3780,
+          "exchanges_axes": true,
+          "id": 16,
+          "cell_orbits": 44,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 25239,
+          "distinct_costs": {
+            "1": 7,
+            "2": 10,
+            "4": 99,
+            "8": 2985
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 4
+        },
+        {
+          "subgroup": [
+            0,
+            5,
+            61,
+            84,
+            92,
+            122,
+            140,
+            148
+          ],
+          "normalizer": 128,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 6,
+          "full_conjugates": 1890,
+          "exchanges_axes": true,
+          "id": 17,
+          "cell_orbits": 50,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 26189,
+          "distinct_costs": {
+            "1": 3,
+            "2": 23,
+            "4": 339,
+            "8": 3060
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 4
+        },
+        {
+          "subgroup": [
+            0,
+            5,
+            61,
+            92,
+            114,
+            240,
+            250,
+            251
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 12,
+          "full_conjugates": 3780,
+          "exchanges_axes": true,
+          "id": 18,
+          "cell_orbits": 48,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 25817,
+          "distinct_costs": {
+            "1": 3,
+            "2": 79,
+            "4": 210,
+            "8": 3024
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 0
+        },
+        {
+          "subgroup": [
+            0,
+            5,
+            61,
+            92,
+            248,
+            249,
+            252,
+            253
+          ],
+          "normalizer": 128,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 6,
+          "full_conjugates": 1890,
+          "exchanges_axes": true,
+          "id": 19,
+          "cell_orbits": 46,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 25441,
+          "distinct_costs": {
+            "1": 11,
+            "2": 125,
+            "4": 91,
+            "8": 2998
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 46
+        },
+        {
+          "subgroup": [
+            0,
+            6,
+            61,
+            73,
+            93,
+            96,
+            119,
+            121
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 12,
+          "full_conjugates": 3780,
+          "exchanges_axes": false,
+          "id": 20,
+          "cell_orbits": 50,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 19,
+            "2": 36,
+            "4": 244,
+            "8": 2865
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 6373
+        },
+        {
+          "subgroup": [
+            0,
+            9,
+            25,
+            48,
+            61,
+            64,
+            163,
+            170
+          ],
+          "normalizer": 128,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 2,
+          "full_conjugates": 1890,
+          "exchanges_axes": false,
+          "id": 21,
+          "cell_orbits": 46,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 11,
+            "2": 28,
+            "4": 88,
+            "8": 2914
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 0
+        },
+        {
+          "subgroup": [
+            0,
+            9,
+            61,
+            64,
+            172,
+            180,
+            198,
+            227
+          ],
+          "normalizer": 128,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 6,
+          "full_conjugates": 1890,
+          "exchanges_axes": true,
+          "id": 22,
+          "cell_orbits": 44,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 25237,
+          "distinct_costs": {
+            "1": 3,
+            "2": 11,
+            "4": 99,
+            "8": 2996
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 7
+        },
+        {
+          "subgroup": [
+            0,
+            9,
+            61,
+            64,
+            222,
+            225,
+            230,
+            255
+          ],
+          "normalizer": 128,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 6,
+          "full_conjugates": 1890,
+          "exchanges_axes": true,
+          "id": 23,
+          "cell_orbits": 44,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 25241,
+          "distinct_costs": {
+            "1": 11,
+            "2": 9,
+            "4": 99,
+            "8": 3026
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 43
+        },
+        {
+          "subgroup": [
+            0,
+            14,
+            24,
+            31,
+            153,
+            213,
+            238,
+            244
+          ],
+          "normalizer": 384,
+          "sylow_conjugacy_classes": 4,
+          "in_sylow": 30,
+          "full_conjugates": 630,
+          "exchanges_axes": false,
+          "id": 24,
+          "cell_orbits": 56,
+          "quotient_symmetries": 48,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 35,
+            "2": 96,
+            "4": 512,
+            "8": 2738
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 14304319
+        },
+        {
+          "subgroup": [
+            0,
+            14,
+            61,
+            79,
+            84,
+            148,
+            249,
+            252
+          ],
+          "normalizer": 192,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 4,
+          "full_conjugates": 1260,
+          "exchanges_axes": true,
+          "id": 25,
+          "cell_orbits": 52,
+          "quotient_symmetries": 24,
+          "candidate_rectangles": 25805,
+          "distinct_costs": {
+            "1": 15,
+            "2": 85,
+            "4": 385,
+            "8": 2820
+          },
+          "excluded_through": 15,
+          "profiles": 26,
+          "search_states": 136
+        }
+      ],
+      "subgroups_in_sylow": 271,
+      "subgroups_in_group": 89775,
+      "excluded_subgroups": {
+        "13": 89775,
+        "14": 89775,
+        "15": 89775
+      }
+    },
+    "4": {
+      "order": 4,
+      "side_swapping_generator": [
+        41,
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "classes": [
+        {
+          "subgroup": [
+            0,
+            1,
+            30,
+            61
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 20,
+          "full_conjugates": 3780,
+          "exchanges_axes": false,
+          "id": 0,
+          "cell_orbits": 102,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 117,
+            "2": 839,
+            "4": 5856
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 1381247
+        },
+        {
+          "subgroup": [
+            0,
+            1,
+            53,
+            84
+          ],
+          "normalizer": 24,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 32,
+          "full_conjugates": 10080,
+          "exchanges_axes": true,
+          "id": 1,
+          "cell_orbits": 98,
+          "quotient_symmetries": 6,
+          "candidate_rectangles": 26045,
+          "distinct_costs": {
+            "1": 31,
+            "2": 829,
+            "4": 6088
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 863772
+        },
+        {
+          "subgroup": [
+            0,
+            3,
+            14,
+            50
+          ],
+          "normalizer": 128,
+          "sylow_conjugacy_classes": 4,
+          "in_sylow": 18,
+          "full_conjugates": 1890,
+          "exchanges_axes": false,
+          "id": 2,
+          "cell_orbits": 88,
+          "quotient_symmetries": 32,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 23,
+            "2": 198,
+            "4": 6160
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 505514
+        },
+        {
+          "subgroup": [
+            0,
+            4,
+            14,
+            51
+          ],
+          "normalizer": 32,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 24,
+          "full_conjugates": 7560,
+          "exchanges_axes": true,
+          "id": 3,
+          "cell_orbits": 96,
+          "quotient_symmetries": 8,
+          "candidate_rectangles": 26371,
+          "distinct_costs": {
+            "1": 55,
+            "2": 814,
+            "4": 6172
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 1354570
+        },
+        {
+          "subgroup": [
+            0,
+            6,
+            73,
+            96
+          ],
+          "normalizer": 64,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 20,
+          "full_conjugates": 3780,
+          "exchanges_axes": false,
+          "id": 4,
+          "cell_orbits": 90,
+          "quotient_symmetries": 16,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 33,
+            "2": 193,
+            "4": 6122
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 179255
+        },
+        {
+          "subgroup": [
+            0,
+            14,
+            24,
+            153
+          ],
+          "normalizer": 192,
+          "sylow_conjugacy_classes": 7,
+          "in_sylow": 60,
+          "full_conjugates": 1260,
+          "exchanges_axes": false,
+          "id": 5,
+          "cell_orbits": 96,
+          "quotient_symmetries": 48,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 63,
+            "2": 534,
+            "4": 6010
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 55404759
+        },
+        {
+          "subgroup": [
+            0,
+            14,
+            61,
+            79
+          ],
+          "normalizer": 2304,
+          "sylow_conjugacy_classes": 2,
+          "in_sylow": 9,
+          "full_conjugates": 105,
+          "exchanges_axes": false,
+          "id": 6,
+          "cell_orbits": 96,
+          "quotient_symmetries": 576,
+          "candidate_rectangles": 25235,
+          "distinct_costs": {
+            "1": 59,
+            "2": 540,
+            "4": 5912
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 9063335
+        },
+        {
+          "subgroup": [
+            0,
+            61,
+            84,
+            148
+          ],
+          "normalizer": 192,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 4,
+          "full_conjugates": 1260,
+          "exchanges_axes": true,
+          "id": 7,
+          "cell_orbits": 94,
+          "quotient_symmetries": 48,
+          "candidate_rectangles": 25713,
+          "distinct_costs": {
+            "1": 15,
+            "2": 449,
+            "4": 6200
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 172725
+        },
+        {
+          "subgroup": [
+            0,
+            61,
+            240,
+            251
+          ],
+          "normalizer": 192,
+          "sylow_conjugacy_classes": 1,
+          "in_sylow": 4,
+          "full_conjugates": 1260,
+          "exchanges_axes": true,
+          "id": 8,
+          "cell_orbits": 90,
+          "quotient_symmetries": 48,
+          "candidate_rectangles": 25341,
+          "distinct_costs": {
+            "1": 127,
+            "2": 199,
+            "4": 6204
+          },
+          "excluded_through": 14,
+          "profiles": 20,
+          "search_states": 56774
+        }
+      ],
+      "subgroups_in_sylow": 191,
+      "subgroups_in_group": 30975,
+      "excluded_subgroups": {
+        "13": 30975,
+        "14": 30975,
+        "15": 0
+      }
+    }
+  },
+  "orbit_divisors": {
+    "13": 120960,
+    "14": 120960,
+    "15": 20160
+  },
+  "unrestricted_minimum_interval": [
+    13,
+    15
+  ]
+}
