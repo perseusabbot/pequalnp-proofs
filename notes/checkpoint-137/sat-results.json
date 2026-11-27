@@ -1,0 +1,74 @@
+[
+  {
+    "ids": [
+      0,
+      2,
+      5,
+      55
+    ],
+    "dimacs_sha256": "76d9bc86f482ebe746f4ace8f754580408b0cbb522c6942f051addbab550cf4e",
+    "variables": 7980,
+    "clauses": 21676,
+    "decision": "UNSAT"
+  },
+  {
+    "ids": [
+      0,
+      2,
+      13,
+      166
+    ],
+    "dimacs_sha256": "3a2c1916589369f70f2ff1f98cbb0d0391ad6d0958bad7849a879edc1379e26e",
+    "variables": 7980,
+    "clauses": 21676,
+    "decision": "UNSAT"
+  },
+  {
+    "ids": [
+      0,
+      2,
+      29,
+      163
+    ],
+    "dimacs_sha256": "0cda7bd579a093ad51550a9b0f231a08eedb3050bb91a6b6267d8927071db649",
+    "variables": 7980,
+    "clauses": 21676,
+    "decision": "UNSAT"
+  },
+  {
+    "ids": [
+      0,
+      7,
+      22,
+      133
+    ],
+    "dimacs_sha256": "51b9342755d31be5cf3481e477292a419b6483f2aebe98b8ec197aae6aaf67ef",
+    "variables": 7980,
+    "clauses": 21676,
+    "decision": "UNSAT"
+  },
+  {
+    "ids": [
+      0,
+      7,
+      22,
+      166
+    ],
+    "dimacs_sha256": "a9e53a9b2052f75316999591d3baf61bbe579c82c8991971b4b7abb951ce2f54",
+    "variables": 7980,
+    "clauses": 21676,
+    "decision": "UNSAT"
+  },
+  {
+    "ids": [
+      0,
+      7,
+      76,
+      144
+    ],
+    "dimacs_sha256": "947ba88bcbac46d9331f7d0715339d5106cd279b0459a0f1d5bfdef878cc722b",
+    "variables": 7980,
+    "clauses": 21676,
+    "decision": "UNSAT"
+  }
+]

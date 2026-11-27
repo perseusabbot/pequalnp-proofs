@@ -1,0 +1,133 @@
+{
+  "previous_commit": "6cc1434644a35ff1d0a796004537ea5a7acd3815",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "upstream": "501dda8586110abcaebe0ea32060309d020bb2ee",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "modules": {
+    "MaximumRectangles": {
+      "source_sha256": "18cd1eec8d6cc6dae6356d1937097d3ce85badb045656e90972a2ad3582c77d3",
+      "audits": {
+        "Checkpoint137.incidences": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint137.atLeastThree": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint137.threeOrFour": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint137.allFourAtFourteen": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint137.tightTriple": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint137.extendFamily": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint137.isolateException": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint137.sixteenCover": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Overlaps": {
+      "source_sha256": "383f676be35cee364235941bff046a78d225fa357fbae9b1c8da5fe175bb1369",
+      "audits": {
+        "Checkpoint137.balancedPairs": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  },
+  "audited_declarations": 9,
+  "posted_board": {
+    "rows": 21,
+    "columns": 21,
+    "zeros": 336,
+    "maximum_area": 36,
+    "maximum_rectangles": 168,
+    "unrestricted_lower_bound": 13,
+    "unrestricted_upper_bound": 15
+  },
+  "maximum_rectangles_only": {
+    "minimum": 16,
+    "excluded_through": 15,
+    "cases": 7,
+    "states": 32356831,
+    "witness": {
+      "rectangles": 16,
+      "covered": 336,
+      "holes": []
+    }
+  },
+  "one_exception": {
+    "excluded_through": 14,
+    "orbits": 8,
+    "cases": 357,
+    "states": 42890728
+  },
+  "independent_sat": {
+    "scope": "All six degree-four cases at budget 14",
+    "formulas": 6,
+    "checked_rup_clauses": [
+      2838,
+      7283,
+      5651,
+      3361,
+      3760,
+      3170
+    ],
+    "certificates": {
+      "root-0-2-13-166.lrat": "a134cd39b1ab9d78bbd1115f8dd68ecf61819c9683fa80604f256ead84bfcd6c",
+      "root-0-2-29-163.lrat": "d4bb1180a72125415f6a4f8d2f50037dffd0889eff18e53b769ec54ac06c29f9",
+      "root-0-2-5-55.lrat": "9e941fccae7db56cf20fb5a875175ab214ed6a2aa36b98816b152152a9de109c",
+      "root-0-7-22-133.lrat": "f0e53b87c0f32c0c787179e00a49d677d774599331e30ea6fd63151438aee1a3",
+      "root-0-7-22-166.lrat": "15f1f73a3e8cab9a7dd8644c633a356d37671d562bcfc46027c0665fd9528c27",
+      "root-0-7-76-144.lrat": "af88b338b89574fb6d007ddbd4db1b71cb8add3cb2108b799e94ae3d4b2282e8"
+    }
+  },
+  "numerical_sha256": {
+    "hexads.cpp": "d09b1a249c81c46d8bbf43019833743df28cba63c20063ef8e5fadd3479411d7",
+    "rectangles.py": "9dfc38f9eb80ec6757b1ef6a55170b36e195cbc6bedcdc7eac650a10ea3f92d9",
+    "replay.py": "d226f57ef72eab4eda3b61b6862de918ce2fac8874487822339e6782f8943040",
+    "results.json": "f2eaa1558715bc54480dde747a4feb5dba5bd8724386e256242049a72c9b71e8",
+    "witnesses.json": "3f8ea4ff6086150e187d7bcc2339a1c8a97f91ddeb82d42399bcc09d346a5b94",
+    "sat.py": "b3d5cd499b276268204cd6c5a851b5d08243a13f4a5341005e798caec3045245",
+    "sat-results.json": "8f179e0c8673334ef822e45f19420a44d77c3c06519799287b8d0146ebfa0d95",
+    "pairs.py": "56dc01a19561064dd0df184910ed51935ea21d4643631bbf9de14155fbd7ca4a"
+  },
+  "two_exceptions_at_13": {
+    "representatives": 2487,
+    "represented_ordered_pairs": 402926972,
+    "excluded": 949,
+    "states": 105266111,
+    "signature": {
+      "input_sha256": "e1e8cab716db2a306105340e753031581dff0cc78ece914a1f0b6041ee75f560",
+      "inventory_sha256": "5ecdadb28aff8c5b2fadcc14f7d6ca5d6be712876680e0a03af2c58c46d61d69",
+      "solver_sha256": "d09b1a249c81c46d8bbf43019833743df28cba63c20063ef8e5fadd3479411d7",
+      "hexad_budget": 11
+    },
+    "complete": false
+  }
+}

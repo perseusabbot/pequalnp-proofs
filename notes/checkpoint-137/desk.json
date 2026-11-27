@@ -1,0 +1,130 @@
+{
+  "desk_snapshot_utc": "2026-11-27T22:04:17.280Z",
+  "live_upstream_read_utc": "2026-11-27T22:22:33.592809+00:00",
+  "hub_source": "https://pequalnp.com/desk/status",
+  "ledger_source": "https://data.pequalnp.com/data/desk/gaps.json",
+  "weight1_source": "https://data.pequalnp.com/data/desk/gaps-weight1.522f933d73bf.json",
+  "weight1_sha256": "522f933d73bf3b41e5cd8a84e1539962c0f78749f2c768921786c89ffd79dd5c",
+  "pinned_upstream": "501dda8586110abcaebe0ea32060309d020bb2ee",
+  "live_upstream": "57e539ead5d486171172f6cedb5dfe715facd99c",
+  "proved_bounds": {
+    "L-meta-9338": {
+      "author": "JLDC",
+      "pull_request": "https://github.com/open-goat/pequalnp-proofs/pull/21189",
+      "merge_commit": "721765c220700d7eeb53d31477aa2a46cfcb806e",
+      "file": "lean/PEqualNP/Outside/L_meta_9338.lean",
+      "pinned_and_live_sha256": "d036a648649d11adbb25b8ed6d9e7ac34d1edd24e56b14e8891e6408502a093a"
+    },
+    "L-meta-9351": {
+      "author": "DPS0340",
+      "pull_request": "https://github.com/open-goat/pequalnp-proofs/pull/13338",
+      "merge_commit": "f5bb520ba709e142fe3d8a6cfa228079b2e24767",
+      "file": "lean/PEqualNP/Outside/L_meta_9351.lean",
+      "pinned_and_live_sha256": "44969209a8127ad236e3afd380c9c6a5ea432999a83c627a65b93f29584e1a61"
+    }
+  },
+  "rectangle_targets": {
+    "L-meta-9341": {
+      "title": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 13 all-0 rectangles",
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9341.lean",
+      "open_prs": [],
+      "github_title_search": [],
+      "status_card": {
+        "level": "open",
+        "kind": "prove",
+        "parallel": 1,
+        "held": 1
+      }
+    },
+    "L-meta-9345": {
+      "title": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 13 all-0 rectangles",
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9345.lean",
+      "open_prs": [],
+      "github_title_search": []
+    },
+    "L-meta-9348": {
+      "title": "Rectangles: the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) are covered by at most 14 all-0 rectangles",
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9348.lean",
+      "open_prs": [],
+      "github_title_search": [],
+      "status_card": {
+        "level": "open",
+        "kind": "prove",
+        "parallel": 1,
+        "held": 1
+      }
+    },
+    "L-meta-9350": {
+      "title": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 14 all-0 rectangles",
+      "ledger": "gaps",
+      "file": "lean/PEqualNP/Outside/L_meta_9350.lean",
+      "open_prs": [],
+      "github_title_search": []
+    }
+  },
+  "heawood": {
+    "reductions": [
+      {
+        "id": "R-L-meta-3541-1",
+        "parent": "L-meta-3541",
+        "state": "open",
+        "artifact": {
+          "lean_file": "lean/PEqualNP/Outside/R_meta_3541_1.lean",
+          "content_hash": "sha256:4d941e8687c674966a84fd81412ab223f779bc45f58df1a5512a8ce57a6b2dd3"
+        }
+      },
+      {
+        "id": "R-L-meta-3541-17",
+        "parent": "L-meta-3541",
+        "state": "open",
+        "artifact": {
+          "lean_file": "lean/PEqualNP/Outside/R_meta_3541_17.lean",
+          "content_hash": "sha256:734f82115c9fa5ef362fb983001984b7f33dae04ba9614296613932ad496cb70"
+        }
+      },
+      {
+        "id": "R-L-meta-3541-317",
+        "parent": "L-meta-3541",
+        "state": "open",
+        "artifact": {
+          "lean_file": "lean/PEqualNP/Outside/R_meta_3541_317.lean",
+          "content_hash": "sha256:f2b893e104ce2aa830434500459dbb312d94bd2a6c04e1e828486820e9a203d0"
+        }
+      }
+    ],
+    "prs": {
+      "8678": {
+        "merged_at": "2026-11-25T03:45:41Z",
+        "files": [
+          "lean/PEqualNP/Outside/R_meta_3541_17.lean"
+        ],
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/8678"
+      },
+      "8180": {
+        "merged_at": "2026-11-25T02:54:47Z",
+        "files": [
+          "lean/PEqualNP/Outside/R_meta_3541_317.lean"
+        ],
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/8180"
+      },
+      "8177": {
+        "merged_at": "2026-11-25T02:15:20Z",
+        "files": [
+          "lean/PEqualNP/Outside/R_meta_3541_1.lean"
+        ],
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/8177"
+      },
+      "9448": {
+        "merged_at": null,
+        "files": [
+          "lean/PEqualNP/Outside/R_meta_3541_1.lean"
+        ],
+        "url": "https://github.com/open-goat/pequalnp-proofs/pull/9448"
+      }
+    },
+    "standalone_listed": false
+  }
+}
