@@ -1,0 +1,95 @@
+{
+  "0": {
+    "fixed_maximum_count": 0,
+    "exceptional_area_cap": 28,
+    "physical_maximum_families": 1,
+    "maximum_representatives": 1,
+    "nodes": 8492,
+    "splits": 37,
+    "leaves": 8455,
+    "nodes_by_depth": {
+      "0": 1,
+      "1": 2,
+      "2": 147,
+      "3": 8342
+    },
+    "eligible_marks_by_depth": {
+      "0": 7280,
+      "1": 4849,
+      "2": 13897
+    },
+    "certificate_sha256": "d11eabdaf6ad4d1e511f0eeb1b22495e6f1fc4ecd6eec583cf629082eeeb537f"
+  },
+  "1": {
+    "fixed_maximum_count": 1,
+    "exceptional_area_cap": 28,
+    "physical_maximum_families": 168,
+    "maximum_representatives": 1,
+    "nodes": 1170,
+    "splits": 6,
+    "leaves": 1164,
+    "nodes_by_depth": {
+      "0": 1,
+      "1": 9,
+      "2": 1160
+    },
+    "eligible_marks_by_depth": {
+      "0": 3790,
+      "1": 3654
+    },
+    "certificate_sha256": "d534fcfe85c863a56e9ff160e527f43752518f3e9cf2494070dc76e3bccab292"
+  },
+  "3": {
+    "fixed_maximum_count": 3,
+    "exceptional_area_cap": 28,
+    "physical_maximum_families": 776216,
+    "maximum_representatives": 20,
+    "nodes": 174,
+    "leaves": 172,
+    "splits": 2,
+    "nodes_by_depth": {
+      "0": 20,
+      "1": 154
+    },
+    "eligible_marks_by_depth": {
+      "0": 956
+    },
+    "certificate_sha256": "c6e3933db87c5cfba6474fa9cc2f44ee6e88a5d3716224670fff5481448ad505"
+  },
+  "2": {
+    "fixed_maximum_count": 2,
+    "exceptional_area_cap": 28,
+    "physical_maximum_families": 14028,
+    "maximum_representatives": 4,
+    "nodes": 150,
+    "splits": 3,
+    "leaves": 147,
+    "nodes_by_depth": {
+      "0": 4,
+      "1": 146
+    },
+    "eligible_marks_by_depth": {
+      "0": 3240
+    },
+    "certificate_sha256": "fd27638dea35e2e61ceeb10ceabf67903375555ac7b57a9f6b56c9f9d94d7cee"
+  },
+  "0-small": {
+    "fixed_maximum_count": 0,
+    "exceptional_area_cap": 27,
+    "physical_maximum_families": 1,
+    "maximum_representatives": 1,
+    "nodes": 15,
+    "splits": 2,
+    "leaves": 13,
+    "nodes_by_depth": {
+      "0": 1,
+      "1": 1,
+      "2": 13
+    },
+    "eligible_marks_by_depth": {
+      "0": 2240,
+      "1": 624
+    },
+    "certificate_sha256": "957654a31bdd78ccf6e9b59097b3732944c8e23f8c9e701f1137e5fdad115c9d"
+  }
+}
