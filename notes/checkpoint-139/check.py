@@ -62,7 +62,7 @@ def audit_search(mode,files,compare=None):
     def key(s):
         words=s.split(maxsplit=3)
         return int(words[1]),int(words[2]) if four else -1
-    sums=Counter();global_hash=sha256();anchors={};previous=None;records=0
+    sums=Counter();global_hash=sha256();anchors={};previous=None;records=0;positive_prefixes=[]
     for anchor,lines in groupby(merged_lines(files,key),key=lambda s:key(s)[0]):
         block=sha256();blocks=0
         for line in lines:
@@ -75,6 +75,8 @@ def audit_search(mode,files,compare=None):
             require(n==sum(counts[:5]) and 0<=n<=eligible and 0<=stamp<2**64,'Incomplete case decisions')
             for name,x in zip(FIELDS,[n,mass,eligible,*counts]):sums[name]+=x
             global_hash.update(line.encode());block.update(line.encode())
+            if four and counts[-3]:
+                positive_prefixes.append([1 if mode=='four-one-small' else 2,anchor,v[1],counts[-3],counts[-2]])
             if compare is not None and anchor in compare:
                 r=compare[anchor]
                 require([n,mass,counts[-2]]==[r['cases'],r['physical_weight_sixths'],r['profiles']],
@@ -84,6 +86,10 @@ def audit_search(mode,files,compare=None):
     require(four or set(anchors)==set(range(2487)),'Missing marked pair')
     if four:
         require(len(anchors)==(9 if mode=='four-two-small' else 99),'Missing marked small/large pairs')
+        if (HERE/'four-prefixes.tsv').is_file():
+            marking=1 if mode=='four-one-small' else 2
+            table=[list(map(int,s.split())) for s in (HERE/'four-prefixes.tsv').read_text().splitlines()]
+            require(positive_prefixes==[r for r in table if r[0]==marking],'The independent four-rectangle inputs differ')
     return dict(maximum_rectangles=m,marked_pair_roots=len(anchors),receipt_lines=records,
                 physical_unordered_sets=expected,weight_denominator=denominator,**sums,
                 canonical_output_sha256=global_hash.hexdigest())

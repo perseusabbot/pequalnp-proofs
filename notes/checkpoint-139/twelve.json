@@ -1,0 +1,136 @@
+{
+  "largest_exceptional_maximal_area": 28,
+  "minimum_nine_rectangle_coverage": 224,
+  "families_checked_at_representative_markings": 126,
+  "physical_families_with_five_cell_witnesses": 846720,
+  "covered_cells_among_certified": {
+    "224": 362880,
+    "225": 483840
+  },
+  "certificates_sha256": "3646b76bccaba4d4c07d1840487403bac50580e20362580eada8b33efba685b9",
+  "light_sets": {
+    "selected": 9,
+    "degree_threshold": 2,
+    "at_most_low_labels": 12,
+    "tested_orbits": {
+      "12": 338
+    },
+    "realized": [
+      {
+        "rows": 23,
+        "cols": 652292,
+        "low_labels": 12,
+        "orbit_size": 6720,
+        "profiles": 1,
+        "capped": 1,
+        "incident_pair_bound": 1,
+        "families_per_marking": 1914,
+        "maximum_covered": 225,
+        "witness": [
+          19,
+          31,
+          56,
+          63,
+          102,
+          119,
+          120,
+          125,
+          167
+        ]
+      },
+      {
+        "rows": 55,
+        "cols": 385344,
+        "low_labels": 12,
+        "orbit_size": 15120,
+        "profiles": 4,
+        "capped": 2,
+        "incident_pair_bound": 2,
+        "families_per_marking": 66,
+        "maximum_covered": 206,
+        "witness": [
+          35,
+          48,
+          75,
+          81,
+          106,
+          112,
+          125,
+          137,
+          158
+        ]
+      },
+      {
+        "rows": 61,
+        "cols": 385344,
+        "low_labels": 12,
+        "orbit_size": 10080,
+        "profiles": 4,
+        "capped": 3,
+        "incident_pair_bound": 3,
+        "families_per_marking": 30,
+        "maximum_covered": 199,
+        "witness": [
+          23,
+          33,
+          59,
+          82,
+          106,
+          109,
+          132,
+          149,
+          158
+        ]
+      },
+      {
+        "rows": 1369,
+        "cols": 872450,
+        "low_labels": 12,
+        "orbit_size": 168,
+        "profiles": 280,
+        "capped": 280,
+        "incident_pair_bound": 280,
+        "families_per_marking": 18730,
+        "maximum_covered": 220,
+        "witness": [
+          1,
+          12,
+          13,
+          27,
+          107,
+          119,
+          153,
+          154,
+          160
+        ]
+      }
+    ],
+    "families_by_coverage": {
+      "12": {
+        "180": 1680,
+        "198": 60480,
+        "199": 241920,
+        "200": 272160,
+        "203": 120960,
+        "204": 120960,
+        "205": 362880,
+        "206": 241920,
+        "212": 241920,
+        "213": 322560,
+        "214": 725760,
+        "215": 1451520,
+        "216": 1330560,
+        "217": 1088640,
+        "218": 2419200,
+        "219": 1491840,
+        "220": 2056320,
+        "221": 1572480,
+        "222": 1733760,
+        "223": 604800,
+        "224": 362880,
+        "225": 483840
+      }
+    },
+    "canonical_output_sha256": "5611062eae61d8b527f3fb74909a810c24e96bedf2c0379a9cac5dff1d328505"
+  }
+}

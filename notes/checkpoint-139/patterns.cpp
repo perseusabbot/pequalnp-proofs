@@ -6,13 +6,15 @@
 
 int main(int argc, char **argv) {
     try {
-        check(argc == 5, "Usage: patterns board low-sets selected limit");
+        check(argc == 5 || argc == 6,
+              "Usage: patterns board low-sets selected limit [emit-coverage]");
         std::ifstream geometry(argv[1]), sets(argv[2]);
         check(geometry.good() && sets.good(), "Missing input");
         static Board board;
         board.read(geometry);
         Profiles profiles(board);
         int m = std::stoi(argv[3]), limit = std::stoi(argv[4]);
+        int emitCoverage = argc == 6 ? std::stoi(argv[5]) : 337;
         Mask rows, cols;
         Word multiplicity;
         while (sets >> rows >> cols >> multiplicity) {
@@ -37,6 +39,11 @@ int main(int argc, char **argv) {
                 int cells = 0;
                 for (Mask row : unionRows)
                     cells += std::popcount(row);
+                if (cells >= emitCoverage) {
+                    std::cout << "FAMILY " << rows << " " << cols << " " << cells;
+                    selected.each([](int j) { std::cout << " " << j; });
+                    std::cout << '\n';
+                }
                 if (coverage.empty() || cells > coverage.rbegin()->first)
                     witness = selected;
                 ++coverage[cells];

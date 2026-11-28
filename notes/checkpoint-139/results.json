@@ -1,0 +1,412 @@
+{
+  "three": {
+    "inventory_sha256": "c3a17687c5d90c3b19939e02f08c160d621afe1c29499ba715dc8649c5b89a8c",
+    "result": {
+      "maximum_rectangles": 10,
+      "marked_pair_roots": 2487,
+      "receipt_lines": 2487,
+      "physical_unordered_sets": 2624846160405,
+      "weight_denominator": 6,
+      "representatives": 22298616,
+      "physical_weight": 15749076962430,
+      "eligible_thirds_or_fourths": 34747470,
+      "local_sum": 8001216,
+      "domination": 13397114,
+      "parity": 379085,
+      "other_degree_constraints": 342416,
+      "admitting_profiles": 178785,
+      "profiles": 289659,
+      "search_nodes": 944118,
+      "canonical_output_sha256": "0e7f91b52ba9a1e6669f82b99e30b7acd7b7c327685aac04c836243f89aab49e"
+    }
+  },
+  "three-small": {
+    "inventory_sha256": "c3a17687c5d90c3b19939e02f08c160d621afe1c29499ba715dc8649c5b89a8c",
+    "result": {
+      "maximum_rectangles": 11,
+      "marked_pair_roots": 2487,
+      "receipt_lines": 2487,
+      "physical_unordered_sets": 45910073965,
+      "weight_denominator": 6,
+      "representatives": 267688,
+      "physical_weight": 275460443790,
+      "eligible_thirds_or_fourths": 1152387,
+      "local_sum": 0,
+      "domination": 0,
+      "parity": 20270,
+      "other_degree_constraints": 60965,
+      "admitting_profiles": 186453,
+      "profiles": 5726348,
+      "search_nodes": 30426572,
+      "canonical_output_sha256": "d71d2b8c02e1208bc267d65d3f0dfa97fdd6acc64599b9986a9694600918beaf"
+    }
+  },
+  "four-two-small": {
+    "inventory_sha256": "c3a17687c5d90c3b19939e02f08c160d621afe1c29499ba715dc8649c5b89a8c",
+    "result": {
+      "maximum_rectangles": 9,
+      "marked_pair_roots": 9,
+      "receipt_lines": 3394,
+      "physical_unordered_sets": 3344819934680,
+      "weight_denominator": 24,
+      "representatives": 28955911,
+      "physical_weight": 80275678432320,
+      "eligible_thirds_or_fourths": 57764660,
+      "local_sum": 28899986,
+      "domination": 10534,
+      "parity": 44649,
+      "other_degree_constraints": 716,
+      "admitting_profiles": 26,
+      "profiles": 26,
+      "search_nodes": 63,
+      "canonical_output_sha256": "ffe4b099962e08f226c483dd5572cbc219554fbb8918ff843fce5a686b9492e8"
+    }
+  },
+  "four-one-small": {
+    "inventory_sha256": "c3a17687c5d90c3b19939e02f08c160d621afe1c29499ba715dc8649c5b89a8c",
+    "result": {
+      "maximum_rectangles": 9,
+      "marked_pair_roots": 99,
+      "receipt_lines": 264340,
+      "physical_unordered_sets": 379103604706680,
+      "weight_denominator": 24,
+      "representatives": 3214846934,
+      "physical_weight": 9098486512960320,
+      "eligible_thirds_or_fourths": 3553573887,
+      "local_sum": 3198918756,
+      "domination": 1077867,
+      "parity": 14776615,
+      "other_degree_constraints": 68505,
+      "admitting_profiles": 5191,
+      "profiles": 5893,
+      "search_nodes": 12425,
+      "canonical_output_sha256": "4edc15a4ed530c2d0266faedd80b6b9318a388883fcbd6824c9637226aa0971e"
+    }
+  },
+  "lights": {
+    "inventory_sha256": "c3a17687c5d90c3b19939e02f08c160d621afe1c29499ba715dc8649c5b89a8c",
+    "result": {
+      "9": {
+        "selected": 9,
+        "degree_threshold": 2,
+        "at_most_low_labels": 11,
+        "tested_orbits": {
+          "8": 1,
+          "9": 2,
+          "10": 12,
+          "11": 42
+        },
+        "realized": [
+          {
+            "rows": 2437,
+            "cols": 2585,
+            "low_labels": 10,
+            "orbit_size": 336,
+            "profiles": 1,
+            "capped": 1,
+            "incident_pair_bound": 1,
+            "families_per_marking": 20,
+            "maximum_covered": 181,
+            "witness": [
+              4,
+              45,
+              69,
+              77,
+              98,
+              117,
+              135,
+              146,
+              162
+            ]
+          },
+          {
+            "rows": 15,
+            "cols": 129040,
+            "low_labels": 11,
+            "orbit_size": 5040,
+            "profiles": 1,
+            "capped": 1,
+            "incident_pair_bound": 1,
+            "families_per_marking": 191,
+            "maximum_covered": 215,
+            "witness": [
+              19,
+              31,
+              37,
+              73,
+              75,
+              98,
+              145,
+              162,
+              167
+            ]
+          }
+        ],
+        "families_by_coverage": {
+          "10": {
+            "181": 6720
+          },
+          "11": {
+            "204": 5040,
+            "206": 120960,
+            "208": 302400,
+            "210": 181440,
+            "212": 30240,
+            "213": 120960,
+            "214": 80640,
+            "215": 120960
+          }
+        },
+        "canonical_output_sha256": "2765f7d699f21aba2213538d8c2ffd64c007cbddf3cc167e11be354504df688d"
+      },
+      "10": {
+        "selected": 10,
+        "degree_threshold": 2,
+        "at_most_low_labels": 8,
+        "tested_orbits": {
+          "8": 1
+        },
+        "realized": [
+          {
+            "rows": 389,
+            "cols": 330752,
+            "low_labels": 8,
+            "orbit_size": 105,
+            "profiles": 189,
+            "capped": 189,
+            "incident_pair_bound": 9,
+            "families_per_marking": 10347048,
+            "maximum_covered": 292,
+            "witness": [
+              0,
+              9,
+              22,
+              33,
+              79,
+              87,
+              100,
+              143,
+              152,
+              167
+            ]
+          }
+        ],
+        "families_by_coverage": {
+          "8": {
+            "235": 241920,
+            "236": 806400,
+            "237": 252000,
+            "238": 1330560,
+            "239": 3588480,
+            "240": 3104640,
+            "241": 5110560,
+            "242": 5654880,
+            "243": 8467200,
+            "244": 10773000,
+            "245": 11612160,
+            "246": 12156480,
+            "247": 11612160,
+            "248": 11854080,
+            "249": 11128320,
+            "250": 13466880,
+            "251": 11370240,
+            "252": 10946880,
+            "253": 16450560,
+            "254": 19756800,
+            "255": 24433920,
+            "256": 41065920,
+            "257": 56730240,
+            "258": 63322560,
+            "259": 69552000,
+            "260": 85730400,
+            "261": 81063360,
+            "262": 79793280,
+            "263": 73543680,
+            "264": 66648960,
+            "265": 56972160,
+            "266": 51186240,
+            "267": 44876160,
+            "268": 30436560,
+            "269": 20684160,
+            "270": 20926080,
+            "271": 13547520,
+            "272": 13698720,
+            "273": 6410880,
+            "274": 6108480,
+            "275": 3265920,
+            "276": 1572480,
+            "277": 2903040,
+            "278": 846720,
+            "279": 483840,
+            "280": 574560,
+            "282": 120960,
+            "284": 120960,
+            "285": 120960,
+            "292": 15120
+          }
+        },
+        "canonical_output_sha256": "763d207b99bbb2a9dfc854005d6449ed1c3475b5c6097863b40300e6c213ec97"
+      }
+    }
+  },
+  "controls": {
+    "inventory_sha256": "c3a17687c5d90c3b19939e02f08c160d621afe1c29499ba715dc8649c5b89a8c",
+    "result": [
+      {
+        "mode": "EXACT",
+        "required_cells": 181,
+        "selected": 9,
+        "witness": [
+          4,
+          45,
+          69,
+          77,
+          98,
+          117,
+          135,
+          146,
+          162
+        ]
+      },
+      {
+        "mode": "SEARCH",
+        "required_cells": 181,
+        "selected": 9,
+        "witness": [
+          4,
+          45,
+          69,
+          77,
+          98,
+          117,
+          135,
+          146,
+          162
+        ]
+      },
+      {
+        "mode": "EXACT",
+        "required_cells": 215,
+        "selected": 9,
+        "witness": [
+          19,
+          31,
+          37,
+          73,
+          75,
+          98,
+          145,
+          162,
+          167
+        ]
+      },
+      {
+        "mode": "SEARCH",
+        "required_cells": 215,
+        "selected": 9,
+        "witness": [
+          19,
+          31,
+          37,
+          73,
+          75,
+          98,
+          145,
+          162,
+          167
+        ]
+      },
+      {
+        "mode": "EXACT",
+        "required_cells": 242,
+        "selected": 10,
+        "witness": [
+          2,
+          3,
+          7,
+          25,
+          33,
+          77,
+          82,
+          128,
+          132,
+          146
+        ]
+      },
+      {
+        "mode": "SEARCH",
+        "required_cells": 242,
+        "selected": 10,
+        "witness": [
+          2,
+          3,
+          7,
+          25,
+          33,
+          77,
+          82,
+          128,
+          132,
+          146
+        ]
+      },
+      {
+        "mode": "EXACT",
+        "required_cells": 292,
+        "selected": 10,
+        "witness": [
+          0,
+          9,
+          22,
+          33,
+          79,
+          87,
+          100,
+          143,
+          152,
+          167
+        ]
+      },
+      {
+        "mode": "SEARCH",
+        "required_cells": 292,
+        "selected": 10,
+        "witness": [
+          0,
+          9,
+          22,
+          33,
+          79,
+          87,
+          100,
+          143,
+          152,
+          167
+        ]
+      },
+      {
+        "mode": "EXACT",
+        "required_cells": 336,
+        "selected": 16,
+        "witness": [
+          13,
+          32,
+          37,
+          38,
+          49,
+          56,
+          60,
+          70,
+          94,
+          102,
+          113,
+          136,
+          140,
+          142,
+          157,
+          159
+        ]
+      }
+    ]
+  }
+}

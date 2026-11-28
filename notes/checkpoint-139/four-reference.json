@@ -1,0 +1,9 @@
+{
+  "prefixes": 1555,
+  "prefix_sha256": "6df7b00060e057c1e785e3eb52afc2d369cb69b9d7ce489292139ce239d68826",
+  "physical_residuals": 7488,
+  "distinct_representatives_checked": 5217,
+  "prior_solver_sha256": "d09b1a249c81c46d8bbf43019833743df28cba63c20063ef8e5fadd3479411d7",
+  "prior_states": 1930199,
+  "output_sha256": "dc2e2e62ecd191656e63886aac4e1ffe1faf6c1d056aad9b13bacb64f10bf1b2"
+}

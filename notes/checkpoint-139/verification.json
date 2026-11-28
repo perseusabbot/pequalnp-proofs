@@ -1,0 +1,166 @@
+{
+  "previous_commit": "697100d5a717c41eb7bd265545da1847af415a54",
+  "initial_public_solver_commit": "b46b7d61d2da0dfed3ebdbb6386424a4cf0451e6",
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "upstream": "501dda8586110abcaebe0ea32060309d020bb2ee",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "modules": {
+    "Board": {
+      "source_sha256": "6fafaadd3c247d772e372c8f73917f7837a4dd22fb9a62e5c972a0a8197c1e37",
+      "audits": {
+        "Checkpoint138.zeroOfInc": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.walkInc": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.transportPattern": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.passBit": [
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Overlaps": {
+      "source_sha256": "383f676be35cee364235941bff046a78d225fa357fbae9b1c8da5fe175bb1369",
+      "audits": {
+        "Checkpoint137.balancedPairs": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Degrees": {
+      "source_sha256": "8c178ee89f35912c3597a7e3e584b592f2b3d66c7e97b3c38b0d02ef8c1ce7cb",
+      "audits": {
+        "Checkpoint138.degreeBalance": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint138.surplusBox": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Domination": {
+      "source_sha256": "b62f4fb3b0675a1e632d700ce1741bec8807e16f40ccf780438d1ef1acfa6750",
+      "audits": {
+        "Checkpoint139.lowDomination": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint139.dominatingEight": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint139.equalityBox": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint139.eightLowLabels": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint139.elevenAtLowRow": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint139.elevenAtLowCol": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Nine": {
+      "source_sha256": "9e9dc77d6e4270740347720ca0bd7a8a21a673c17f61ee87cab72b64b5596bfe",
+      "audits": {
+        "Checkpoint139.disjointDegrees": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint139.tenLowLabels": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Extremal": {
+      "source_sha256": "36a9dcf138867ee4f855c173c08fffc0c881457791c0d4519cc1b7acc367b70f",
+      "audits": {
+        "Checkpoint139.lightSharp": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  },
+  "audited_declarations": 16,
+  "new_audited_declarations": 9,
+  "board_inventory_sha256": "c3a17687c5d90c3b19939e02f08c160d621afe1c29499ba715dc8649c5b89a8c",
+  "signed_inputs_and_results": {
+    "inventory.py": "298790e3e4016df79718a531ea651810331dee050757c4ecd52d1f354a6eeec2",
+    "board.hpp": "40e3e72033d8a0f1c5a73f280d8044d248edb9a48d41e4002e182d5d4f5ec4fd",
+    "profiles.hpp": "1430932128268f79bbc7312d51277b8438932c7ce03dfa1baa04e5332eaf0e22",
+    "complete.hpp": "6fd055ee128d176ff2e232ecedecb414102351150877142168cd4d87d524bf0f",
+    "scan.cpp": "e88e9bfd8f2e34a0127cad42c8e8cd5e0933a6a6a7512907b9e4d59a5bba9cfb",
+    "patterns.py": "bc2c7f27df67a13008b94d72435e2cd30d0c236220c4c3ccc2e6a7bdf92e2a69",
+    "patterns.cpp": "c1b18a794b8d445e7dedb3c479f7e2272b03631c76dae8e2f44bee8fe54c57b6",
+    "controls.cpp": "081e4db0625bc617fa3b7d27729006b340f6da8f5d75bc51c9d9498730066136",
+    "check.py": "e6b97c2459370ea519b2ad44426f8313d329b4e245eaf2ab886a0a812c536a44",
+    "reference.py": "c3644d5d3fb51aae811f41e97ceb12eaa6434d7f46e62f9b04f696f712e39e21",
+    "reference.json": "1765985a206eab03cec60fbd402eb1bbefac95cd0a7ab1f2201a467736ae3181",
+    "four_reference.py": "25cc988efb455b0e0ee4ae5883c033150001eeb7181512b69122741b186cf02d",
+    "four_filter.cpp": "691535a3b6f70ae75c96295c91c79c7f9b6e525a792ed484231a62ebfbbe4cf1",
+    "four-prefixes.tsv": "6df7b00060e057c1e785e3eb52afc2d369cb69b9d7ce489292139ce239d68826",
+    "four-reference.json": "e8210afb589fcba4a5236752287546ad39699847d987ccb3894edf908a9f40bf",
+    "results.json": "d7dd3b68f6e751e296bde7521e9f43138466239be019fe1e0b5ff07bf3dbb718",
+    "twelve.py": "c05bf68931108bcd1ca12d7b1512372823d8d994cdc1bf90bef00b6b4d4162ed",
+    "twelve.json": "2ae11c596e6509f0d7058afb0f6d24790238854fcedbb4241e42c72f7bfc3648",
+    "twelve-witnesses.tsv": "3646b76bccaba4d4c07d1840487403bac50580e20362580eada8b33efba685b9",
+    "large.py": "b89354d9f09b9a3ac3814f5f1f63ba48adc95a2c7c68cac8be000dd28855fdd8",
+    "proofs.py": "433b234833772a76b3a703c4d65157152bb6359bd1e9849de2e37babc2c4aae8",
+    "desk.json": "d2e55b3b5bc81e51f3631864d054595eaf9bf871b61d6049a7eca551dcb959d1"
+  },
+  "earlier_size_13_pair_roots_compared": 993,
+  "earlier_size_13_triple_representatives_compared": 9414363,
+  "earlier_size_13_expected_record_fields": [
+    "cases",
+    "physical_weight_sixths",
+    "profiles"
+  ],
+  "exhaustive_search_cases": {
+    "three": 22298616,
+    "three-small": 267688,
+    "four-two-small": 28955911,
+    "four-one-small": 3214846934
+  },
+  "previous_algorithms": {
+    "three_all_post_parity": 521201,
+    "three_degree_free": 3750,
+    "four_degree_free": 5217
+  },
+  "twelve_light_certificate_records": 126,
+  "twelve_light_distinct_physical_families": 846720,
+  "numeric_scope": "Exceptional rectangle exclusions, light-set orbit distributions, and the twelve-light residual certificates are exhaustive numerical checks. The six Lean modules establish the stated universal degree and domination bounds and explicit examples."
+}
