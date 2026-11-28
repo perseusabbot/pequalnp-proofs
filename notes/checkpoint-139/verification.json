@@ -140,7 +140,9 @@
     "twelve-witnesses.tsv": "3646b76bccaba4d4c07d1840487403bac50580e20362580eada8b33efba685b9",
     "large.py": "b89354d9f09b9a3ac3814f5f1f63ba48adc95a2c7c68cac8be000dd28855fdd8",
     "proofs.py": "433b234833772a76b3a703c4d65157152bb6359bd1e9849de2e37babc2c4aae8",
-    "desk.json": "d2e55b3b5bc81e51f3631864d054595eaf9bf871b61d6049a7eca551dcb959d1"
+    "desk.json": "d2e55b3b5bc81e51f3631864d054595eaf9bf871b61d6049a7eca551dcb959d1",
+    "direct_cells.py": "bf95aef86ee67267f45c001cdc7cc8c99534f92fbae1201fbc595bdf88ba8630",
+    "direct-cells.json": "e9973cf9fdabc8c5633bcd64b42104df0f97634058562fe33df26136246704a3"
   },
   "earlier_size_13_pair_roots_compared": 993,
   "earlier_size_13_triple_representatives_compared": 9414363,
@@ -162,5 +164,12 @@
   },
   "twelve_light_certificate_records": 126,
   "twelve_light_distinct_physical_families": 846720,
-  "numeric_scope": "Exceptional rectangle exclusions, light-set orbit distributions, and the twelve-light residual certificates are exhaustive numerical checks. The six Lean modules establish the stated universal degree and domination bounds and explicit examples."
+  "numeric_scope": "Exceptional rectangle exclusions, light-set orbit distributions, and the twelve-light residual certificates are exhaustive numerical checks. The six Lean modules establish the stated universal degree and domination bounds and explicit examples.",
+  "direct_certificate_check_against_upstream": {
+    "matrix_source_sha256": "d036a648649d11adbb25b8ed6d9e7ac34d1edd24e56b14e8891e6408502a093a",
+    "maximal_rectangles": 25235,
+    "representative_families": 126,
+    "rectangle_witness_comparisons": 3179610,
+    "largest_gain_from_one_exception": 24
+  }
 }

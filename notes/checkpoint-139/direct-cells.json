@@ -1,0 +1,20 @@
+{
+  "cells_in_each_witness": 5,
+  "four_largest_gains_plus_original_coverage": {
+    "320": 54,
+    "321": 72
+  },
+  "largest_single_exceptional_gain": {
+    "24": 126
+  },
+  "matrix_source_sha256": "d036a648649d11adbb25b8ed6d9e7ac34d1edd24e56b14e8891e6408502a093a",
+  "maximal_rectangles": 25235,
+  "maximum_witness_cells_in_any_single_rectangle": 1,
+  "nine_rectangle_coverage": {
+    "224": 54,
+    "225": 72
+  },
+  "representative_witnesses": 126,
+  "tests_of_one_maximal_rectangle_against_one_witness": 3179610,
+  "witnesses_sha256": "3646b76bccaba4d4c07d1840487403bac50580e20362580eada8b33efba685b9"
+}

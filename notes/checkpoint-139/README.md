@@ -43,6 +43,8 @@ The calculation enumerates 57 possible light-set representatives up to eleven la
 
 For exactly twelve light labels, there are 338 further light-set representatives. Only four support any family of nine maximum rectangles. Just one supports families covering at least 224 cells. At each of its 6,720 possible light-set positions, 54 families cover 224 and 72 cover 225. For each of the 126 families at the representative position, the table lists five uncovered zeros. Every pair has a cross-entry equal to one, so no legal rectangle can contain both. Covering those five cells requires at least five further rectangles. Symmetry carries these certificates to all 846,720 families meeting the area threshold. [Twelve-label results](twelve.json) · [Five-cell witnesses](twelve-witnesses.tsv) · [Certificate checker](twelve.py)
 
+A second checker reads the incidence matrix straight from the upstream Lean source and reconstructs every maximal rectangle by intersecting its rows. It checks each of the 25,235 maximal rectangles against each of the 126 witnesses. None covers two marked cells. It also finds that any single exception adds at most 24 cells to each of these nine-rectangle families, giving independent upper bounds of 320 and 321 for the two coverage sizes after four exceptions. [Direct matrix check](direct_cells.py) · [Counts](direct-cells.json)
+
 Each witness row starts with the nine zero-based indices in the sorted inventory of maximum rectangles. The final five entries encode cells as 21 times the zero-based row index plus the column index.
 
 ## Reproduction
@@ -58,6 +60,7 @@ python3 -B check.py four-one-small --jobs 3
 python3 -B four_reference.py
 python3 -B check.py lights
 python3 -B twelve.py
+python3 -B direct_cells.py /path/to/pinned/upstream/lean/PEqualNP/Outside/L_meta_9338.lean twelve-witnesses.tsv
 python3 -B check.py controls
 python3 -B proofs.py /path/to/pinned/upstream --build /tmp/pnp139-lean --jobs 2
 ~~~
