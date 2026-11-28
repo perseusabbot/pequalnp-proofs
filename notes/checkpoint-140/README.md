@@ -25,16 +25,34 @@ When this inequality does not yet exclude a cover, choose its heaviest remaining
 
 The four rows contain 9,986 certificates. The longest path chooses three exceptional rectangles. The checker reads the upstream matrix, rebuilds all maximal rectangles, and performs every exclusion with integer arithmetic. Its decision uses only the published weights, the allowed rectangles and the board symmetries. [Certificates](certificates) · [Weight receipts](weights.json)
 
+An independently written C++ checker generated all maximal rectangles by testing all nonempty row subsets. It constructed the symmetry group from generators, recomputed every candidate and every lower and upper weight threshold, and verified the same 9,986 integer certificates. A separate orbit check marked each of the 32,018,910 physical four-subsets exactly once. [Second integer checker](direct_weights.cpp) · [Counts by stratum](direct.json) · [Four-subset verification](orbits.py)
+
+## Additional results
+
+Nine maximum rectangles always leave five zero cells such that no legal rectangle covers two of them. The check extends every six-rectangle marking, tests the surviving triples, and verifies a five-cell witness for each of 1,191,915 nine-rectangle markings that survive its earlier bounds. On the entire board, the greatest possible size of a set of pairwise incompatible zero cells is seven. Lean proves the upper bound and checks an explicit seven-cell witness. [Nine-rectangle search](obstructions.cpp) · [Lean proof](src/Fooling.lean) · [Search results](results.json)
+
+A cover of size 14 can retain at most four of the rectangles in the published 15-cover. The search kept five specific rectangles and allowed the other nine to have any legal shape. It ruled out all 3,003 five-subsets in 1,001 symmetry classes. [Neighborhood search](neighbors.py) · [Decision digest](neighbors.json)
+
+The size-14 search with six fixed maximum rectangles uses 121,572 symmetry representatives. A restart snapshot records each completed block of 64, with a shorter last block. To resume from a snapshot, use the two commands below with a new destination directory. The same directory can be reused by the search after an interruption.
+
+~~~sh
+python3 -B restore.py resume/six-at-14 /tmp/pnp140-search
+python3 -B fourteen.py /tmp/pnp140-search
+~~~
+
 ## Reproduction
 
 Use Python 3, NumPy and a C++20 compiler. Run these commands from this directory. The upstream matrix source is pinned by SHA-256 inside the weight checker.
 
 ~~~sh
 python3 -B weights.py /path/to/upstream/lean/PEqualNP/Outside/L_meta_9338.lean 0 1 2 3
+python3 -B direct_weights.py /path/to/upstream/lean/PEqualNP/Outside/L_meta_9338.lean 0 1 2 3
+python3 -B orbits.py /path/to/upstream/lean/PEqualNP/Outside/L_meta_9338.lean
 python3 -B replay.py 4 --jobs 2
 python3 -B replay.py hulls --jobs 2
 python3 -B replay.py controls
 python3 -B replay.py obstructions --jobs 2
+python3 -B neighbors.py --jobs 2
 python3 -B proofs.py /path/to/pinned/upstream --build /tmp/pnp140-lean --jobs 2
 ~~~
 

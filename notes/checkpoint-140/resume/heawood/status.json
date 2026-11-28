@@ -1,0 +1,11 @@
+{
+  "input_sha256": "fd060881790a19b0be9d0ee3340f6e434052c415d568ae5f93d8194839b4aaf9",
+  "driver_sha256": "c6560fc83915effeb3db9be111366698fb2e765b1d3a21e4a7fcb23b1993af28",
+  "observed_utc": "2026-11-28T03:43:03.978942+00:00",
+  "pid": 1063,
+  "total": 94,
+  "excluded": 13,
+  "current": 268428917,
+  "candidate": null,
+  "status": "running"
+}

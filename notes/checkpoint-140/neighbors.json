@@ -1,0 +1,11 @@
+{
+  "published_rectangles": 15,
+  "retained": 5,
+  "budget": 14,
+  "stabilizer_order": 3,
+  "representatives": 1001,
+  "physical_five_subsets": 3003,
+  "states": 1248046758,
+  "all_decisions_sha256": "9233596e38baa1787776420ac6b51d8763154daa3907f6c8930cb46f7e5850c4",
+  "covers": []
+}

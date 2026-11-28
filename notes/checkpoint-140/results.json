@@ -1,0 +1,153 @@
+{
+  "controls": [
+    {
+      "colors": 4,
+      "required": 4,
+      "cover": true,
+      "states": 1
+    },
+    {
+      "colors": 4,
+      "required": 5,
+      "cover": false,
+      "states": 1
+    },
+    {
+      "colors": 5,
+      "required": 5,
+      "cover": true,
+      "states": 1
+    },
+    {
+      "colors": 5,
+      "required": 6,
+      "cover": false,
+      "states": 1
+    },
+    {
+      "colors": 6,
+      "required": 6,
+      "cover": true,
+      "states": 1
+    },
+    {
+      "colors": 6,
+      "required": 7,
+      "cover": false,
+      "states": 1
+    },
+    {
+      "colors": 7,
+      "required": 7,
+      "cover": true,
+      "states": 1
+    },
+    {
+      "colors": 4,
+      "required": 81,
+      "cover": true,
+      "states": 6
+    },
+    {
+      "colors": 5,
+      "required": 105,
+      "cover": true,
+      "states": 12
+    },
+    {
+      "colors": 6,
+      "required": 129,
+      "cover": true,
+      "states": 27
+    },
+    {
+      "colors": 7,
+      "required": 156,
+      "cover": true,
+      "states": 54
+    },
+    {
+      "colors": 8,
+      "required": 184,
+      "cover": true,
+      "states": 1396
+    },
+    {
+      "colors": 9,
+      "required": 213,
+      "cover": true,
+      "states": 87489
+    },
+    {
+      "colors": 4,
+      "required": 0,
+      "cover": true,
+      "states": 1
+    }
+  ],
+  "4": {
+    "representatives": 235,
+    "fixed": 4,
+    "physical_fixed_families": 32018910,
+    "canonical_output_sha256": "1b0d7cd8270f4a3afb73c90056283f0f04dfa388507020926b9d5bf16ffc1bd8",
+    "remaining_colors": 9,
+    "search_nodes": 176880656,
+    "largest_search": {
+      "orbit": 166,
+      "states": 2750533
+    },
+    "anchors_sha256": "f717c97e2734b0b887a81cb34426dcaa1fbd4b5eb62b9190530664af24863782"
+  },
+  "5": {
+    "representatives": 4911,
+    "fixed": 5,
+    "physical_fixed_families": 1050220248,
+    "canonical_output_sha256": "af3e982f50d3e4fcff477e628b665c5b11f837c7b8afba7b4f5fcb8da7c2549f",
+    "remaining_colors": 8,
+    "search_nodes": 41635589,
+    "largest_search": {
+      "orbit": 4386,
+      "states": 49411
+    },
+    "anchors_sha256": "481c55371edcb32bf91b9d88405d39919d62dc19015d6e35ca4d46278f5e6e87"
+  },
+  "6": {
+    "representatives": 121572,
+    "fixed": 6,
+    "physical_fixed_families": 28530983404,
+    "canonical_output_sha256": "89f3d138f36344b10c7c07fc0321cbbfc9dda7c9219525529abda7bbd3783538",
+    "remaining_colors": 7,
+    "search_nodes": 26273982,
+    "largest_search": {
+      "orbit": 105847,
+      "states": 2384
+    },
+    "anchors_sha256": "14129f2d4cd08fddc3af5d9c5d0760b0bc4c7fee2ae58629f5a6f411d26210cd"
+  },
+  "hulls": {
+    "representatives": 235,
+    "fixed": 4,
+    "physical_fixed_families": 32018910,
+    "canonical_output_sha256": "f762974d54b12a89a7d85681ccc4437cea11c5afdf3a377951981288d8de6790",
+    "remaining_colors": 9,
+    "search_nodes": 165751473,
+    "largest_search": {
+      "orbit": 196,
+      "states": 2965566
+    },
+    "anchors_sha256": "f717c97e2734b0b887a81cb34426dcaa1fbd4b5eb62b9190530664af24863782"
+  },
+  "obstructions": {
+    "representatives": 121572,
+    "fixed": 6,
+    "physical_fixed_families": 28530983404,
+    "canonical_output_sha256": "2df92bcd5e2c26c4d31d43f4a88395004bdd9e4d6ddf7f50d80afdab7ad8a379",
+    "marked_pairs": 10769698,
+    "marked_triangles": 10628366,
+    "nine_markings_checked": 1191915,
+    "physical_eight_families_without_six_clique": 88388264412,
+    "all_eight_families": 13288305520413,
+    "all_nine_families": 236236542585120,
+    "anchors_sha256": "14129f2d4cd08fddc3af5d9c5d0760b0bc4c7fee2ae58629f5a6f411d26210cd"
+  }
+}
