@@ -1,0 +1,16 @@
+{
+  "core_sha256": "4e80812f20c047288b574bd9ee7251469fec98afc06d5d18cd8cecb8d9d09b26",
+  "degree_search": {
+    "solver_sha256": "2bd83c90a285b8d2dc0468f5a59ffd8212011e8db9a3dbf54f2e87dbee035eb7",
+    "excluded": 521201,
+    "states": 7311883,
+    "output_sha256": "e61342ea9031e419b38c3579eea201cd8a5a27ed9ad541b79f1672371edd02bd"
+  },
+  "independent_stride": 139,
+  "previous_degree_free_search": {
+    "solver_sha256": "d09b1a249c81c46d8bbf43019833743df28cba63c20063ef8e5fadd3479411d7",
+    "excluded": 3750,
+    "states": 15418258,
+    "output_sha256": "578341a7b812a5d4788ebf49c837587e996ac310b7b8f2eb10a1f57fb24ce10c"
+  }
+}
