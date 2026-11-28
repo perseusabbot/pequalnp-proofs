@@ -1,0 +1,86 @@
+[
+  {
+    "colors": 4,
+    "required": 4,
+    "cover": true,
+    "states": 1
+  },
+  {
+    "colors": 4,
+    "required": 5,
+    "cover": false,
+    "states": 1
+  },
+  {
+    "colors": 5,
+    "required": 5,
+    "cover": true,
+    "states": 1
+  },
+  {
+    "colors": 5,
+    "required": 6,
+    "cover": false,
+    "states": 1
+  },
+  {
+    "colors": 6,
+    "required": 6,
+    "cover": true,
+    "states": 1
+  },
+  {
+    "colors": 6,
+    "required": 7,
+    "cover": false,
+    "states": 1
+  },
+  {
+    "colors": 7,
+    "required": 7,
+    "cover": true,
+    "states": 1
+  },
+  {
+    "colors": 4,
+    "required": 81,
+    "cover": true,
+    "states": 1
+  },
+  {
+    "colors": 5,
+    "required": 105,
+    "cover": true,
+    "states": 6
+  },
+  {
+    "colors": 6,
+    "required": 129,
+    "cover": true,
+    "states": 16
+  },
+  {
+    "colors": 7,
+    "required": 156,
+    "cover": true,
+    "states": 58
+  },
+  {
+    "colors": 8,
+    "required": 184,
+    "cover": true,
+    "states": 324
+  },
+  {
+    "colors": 9,
+    "required": 213,
+    "cover": true,
+    "states": 17951
+  },
+  {
+    "colors": 4,
+    "required": 0,
+    "cover": true,
+    "states": 1
+  }
+]

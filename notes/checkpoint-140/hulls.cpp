@@ -202,13 +202,8 @@ template <int K> struct Hulls {
         return descend(s);
     }
 };
-template <int K> void test(const Plane &p, const std::vector<int> &fixed, int id) {
-    std::array<unsigned, 21> missing = p.rows;
-    for (int j : fixed) {
-        auto [a, b] = p.six[j];
-        for (unsigned t = a; t; t &= t - 1)
-            missing[std::countr_zero(t)] &= ~b;
-    }
+template <int K>
+void solve(const Plane &p, const std::array<unsigned, 21> &missing, int id, bool control = false) {
     Mask target{};
     for (int i = 0; i < 336; ++i) {
         auto [r, c] = p.coords[i];
@@ -226,22 +221,46 @@ template <int K> void test(const Plane &p, const std::vector<int> &fixed, int id
             }
         for (int r = 0; r < 21; ++r)
             check(!(missing[r] & ~extra[r]), "Incomplete positive hull");
-        std::cout << "COVER " << id;
+        std::cout << "COVER " << (control ? h.nodes : W(id));
         for (auto [a, b] : h.solution)
             std::cout << " " << a << " " << b;
         std::cout << std::endl;
         return;
     }
-    std::cout << "EXCLUDED " << id << " " << size(target) << " " << h.nodes << std::endl;
+    if (control)
+        std::cout << "EXCLUDED " << h.nodes << '\n';
+    else
+        std::cout << "EXCLUDED " << id << " " << size(target) << " " << h.nodes << std::endl;
 }
 int main(int argc, char **argv) {
     try {
-        check(argc == 7, "Usage: hulls board seeds fixed start stop stride");
+        check(argc == 2 || argc == 7 || argc == 8,
+              "Usage: hulls board [seeds fixed start stop stride [budget]]");
         Plane p(argv[1]);
+        if (argc == 2) {
+            int k;
+            while (std::cin >> k) {
+                std::array<unsigned, 21> rows{};
+                for (int i = 0; i < 21; ++i)
+                    check(bool(std::cin >> rows[i]) && !(rows[i] & ~p.rows[i]), "Invalid test board");
+                switch (k) {
+                case 4: solve<4>(p, rows, 0, true); break;
+                case 5: solve<5>(p, rows, 0, true); break;
+                case 6: solve<6>(p, rows, 0, true); break;
+                case 7: solve<7>(p, rows, 0, true); break;
+                case 8: solve<8>(p, rows, 0, true); break;
+                case 9: solve<9>(p, rows, 0, true); break;
+                default: throw std::runtime_error("Unsupported control budget");
+                }
+            }
+            return 0;
+        }
         std::ifstream input(argv[2]);
+        int budget = argc == 8 ? std::stoi(argv[7]) : 13;
         int f = std::stoi(argv[3]), lo = std::stoi(argv[4]), hi = std::stoi(argv[5]),
             step = std::stoi(argv[6]);
         check((f == 4 || f == 5 || f == 6) && step > 0, "Unsupported independent search");
+        check(budget == 13 || (budget == 14 && f >= 5), "Unsupported total budget");
         for (int i = 0; i < hi; ++i) {
             std::vector<int> ids(f);
             if (!(input >> ids[0]))
@@ -252,12 +271,18 @@ int main(int argc, char **argv) {
             check(bool(input >> weight), "Missing orbit weight");
             if (i < lo || (i - lo) % step)
                 continue;
-            if (f == 4)
-                test<9>(p, ids, i);
-            if (f == 5)
-                test<8>(p, ids, i);
-            if (f == 6)
-                test<7>(p, ids, i);
+            auto missing = p.rows;
+            for (int j : ids) {
+                check(j >= 0 && j < int(p.six.size()), "Invalid fixed rectangle");
+                auto [a, b] = p.six[j];
+                for (unsigned t = a; t; t &= t - 1)
+                    missing[std::countr_zero(t)] &= ~b;
+            }
+            switch (budget - f) {
+            case 7: solve<7>(p, missing, i); break;
+            case 8: solve<8>(p, missing, i); break;
+            case 9: solve<9>(p, missing, i); break;
+            }
         }
     } catch (const std::exception &e) {
         std::cerr << e.what() << '\n';

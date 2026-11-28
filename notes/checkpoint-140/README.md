@@ -33,11 +33,20 @@ Nine maximum rectangles always leave five zero cells such that no legal rectangl
 
 A cover of size 14 can retain at most four of the rectangles in the published 15-cover. The search kept five specific rectangles and allowed the other nine to have any legal shape. It ruled out all 3,003 five-subsets in 1,001 symmetry classes. [Neighborhood search](neighbors.py) · [Decision digest](neighbors.json)
 
+For the pair of disjoint maximum rectangles numbered 13 and 14, 216 uncovered cells have weight one and another 48 have weight two. Their total is 312. An exceptional rectangle has weight at most 28, so eleven supply at most 308. The Lean proof checks every possible exceptional tile and uses simultaneous cyclic shifts to check its 21 positions together. [Concrete weight proof](src/Disjoint.lean)
+
 The size-14 search with six fixed maximum rectangles uses 121,572 symmetry representatives. A restart snapshot records each completed block of 64, with a shorter last block. To resume from a snapshot, use the two commands below with a new destination directory. The same directory can be reused by the search after an interruption.
 
 ~~~sh
 python3 -B restore.py resume/six-at-14 /tmp/pnp140-search
 python3 -B fourteen.py /tmp/pnp140-search
+~~~
+
+The search with five fixed maximum rectangles allows nine further rectangles of arbitrary shape. It covers 4,911 orbits. Its driver writes a digest for every block of 16 orbits and records any complete cover it finds. To resume a five-rectangle search, copy the saved journal to a writable directory and provide that directory to the driver.
+
+~~~sh
+cp -r resume/five-at-14 /tmp/pnp140-five
+python3 -B five_at_fourteen.py /tmp/pnp140-five
 ~~~
 
 ## Reproduction
@@ -51,8 +60,10 @@ python3 -B orbits.py /path/to/upstream/lean/PEqualNP/Outside/L_meta_9338.lean
 python3 -B replay.py 4 --jobs 2
 python3 -B replay.py hulls --jobs 2
 python3 -B replay.py controls
+python3 -B hull_controls.py
 python3 -B replay.py obstructions --jobs 2
 python3 -B neighbors.py --jobs 2
+python3 -B at_fourteen.py --fixed 6 --solver hulls --stride 257
 python3 -B proofs.py /path/to/pinned/upstream --build /tmp/pnp140-lean --jobs 2
 ~~~
 

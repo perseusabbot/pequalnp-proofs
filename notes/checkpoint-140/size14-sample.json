@@ -1,0 +1,13 @@
+{
+  "fixed": 6,
+  "budget": 14,
+  "solver": "hulls",
+  "start": 0,
+  "stop": 121572,
+  "stride": 257,
+  "tested": 474,
+  "physical_fixed_subsets": 111071520,
+  "search_states": 8606685,
+  "all_decisions_sha256": "78772312c3ce290263dbf7c62caf04e805aeb369d9adccd99e8ea382d71c0241",
+  "covers": []
+}
