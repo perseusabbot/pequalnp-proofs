@@ -1,1 +1,1 @@
-{"status":"running","observed_utc":"2026-11-28T03:52:01.073908+00:00","pid":22821,"completed_blocks":525,"excluded":33600,"total_orbits":121572,"physical_six_subsets_excluded":7967640240,"search_states":532815045}
+{"status":"complete","observed_utc":"2026-11-28T04:10:51.317677+00:00","pid":22821,"completed_blocks":1900,"excluded":121572,"total_orbits":121572,"physical_six_subsets_excluded":28530983404,"search_states":2328082438}

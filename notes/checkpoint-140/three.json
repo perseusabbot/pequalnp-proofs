@@ -1,0 +1,13 @@
+{
+  "representatives": 20,
+  "fixed": 3,
+  "physical_fixed_families": 776216,
+  "canonical_output_sha256": "26430b611f796b73ed0d16ecd85ca7045753164a65f374d99fa49354ed86b292",
+  "remaining_colors": 10,
+  "search_nodes": 4310211954,
+  "largest_search": {
+    "orbit": 6,
+    "states": 573723823
+  },
+  "anchors_sha256": "e623c3c0827614302fe5069a48b4f59f5b46331c672b86458471afc719fc519a"
+}

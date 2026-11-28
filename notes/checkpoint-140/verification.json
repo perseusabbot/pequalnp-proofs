@@ -1,0 +1,309 @@
+{
+  "lean": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "upstream": "501dda8586110abcaebe0ea32060309d020bb2ee",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "modules": {
+    "Fooling": {
+      "source_sha256": "c006a712beee106811496be0a1c190edb0e6650ede60c697221bf293457265df",
+      "audits": {
+        "Checkpoint140.distinctLabels": [
+          "propext"
+        ],
+        "Checkpoint140.onePerRectangle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.incidenceMoments": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.incidenceUpper": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.pairLower": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.atMostSeven": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.sevenAttained": [
+          "propext"
+        ]
+      }
+    },
+    "ColorCover": {
+      "source_sha256": "78dbdb1a56ce50b3b356c912f69ad6347b9f9defeb9f0e385713130dea325bf0",
+      "audits": {
+        "Checkpoint140.colorsCover": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Weights": {
+      "source_sha256": "0fa0b97d148743405643a94391f24d7ff5c409e5f8b267bf8180d5f8747d2f8a",
+      "audits": {
+        "Checkpoint140.totalLoad": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.heavyMember": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.memberFloor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Disjoint": {
+      "source_sha256": "7312286fc93d4897d756158a4197e09bd76428926756c242ff8b338e578d4703",
+      "audits": {
+        "Checkpoint140.disjointTotals": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.disjointTile": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.disjointPairImpossible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "Pairs": {
+      "source_sha256": "6539d94fe4afb347cb45160d69fc03d89add71ffedc924a9224d1fece450a701",
+      "audits": {
+        "Checkpoint140.apartCount": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Checkpoint140.disjointPairsImpossible": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  },
+  "previous_commit": "53db70c17a166de1c2752b42e69b8eb3d2cbdef6",
+  "first_solver_commit": "c4c301d16037f21c7de5e049e5b9225e24d9a9e3",
+  "second_checker_commit": "6ab15779678572bfc604f4390f8ddad51c858d06",
+  "formal_source_commit": "5256caf497aac7ca01663eefc5ad0235a804023d",
+  "audited_declarations": 16,
+  "computational_bound": [
+    14,
+    15
+  ],
+  "desk_checked_bound": [
+    13,
+    15
+  ],
+  "fixed_four_orbits": 235,
+  "physical_four_subsets": 32018910,
+  "independent_four_search_states": [
+    176880656,
+    165751473
+  ],
+  "integer_certificates": 9986,
+  "weight_splits": 48,
+  "weight_leaves": 9938,
+  "formal_disjoint_pairs": 840,
+  "published_cover_five_subsets": 3003,
+  "formal_scope": "Structural reductions and the full disjoint-pair stratum with eleven exceptional companions",
+  "search_status": {
+    "four-large": {
+      "status": "paused",
+      "observed_utc": "2026-11-28T03:42:22.969063+00:00",
+      "pid": 22255,
+      "completed_pairs": 50,
+      "total_pairs": 2379,
+      "representative_quadruples": 3804896596,
+      "search_states": 331387,
+      "next_pair": 99
+    },
+    "heawood": {
+      "input_sha256": "fd060881790a19b0be9d0ee3340f6e434052c415d568ae5f93d8194839b4aaf9",
+      "driver_sha256": "c6560fc83915effeb3db9be111366698fb2e765b1d3a21e4a7fcb23b1993af28",
+      "observed_utc": "2026-11-28T03:43:03.978942+00:00",
+      "pid": 1063,
+      "total": 94,
+      "excluded": 13,
+      "current": 268428917,
+      "candidate": null,
+      "status": "running"
+    },
+    "near-nine": {
+      "mode": "near-nine",
+      "source_sha256": "22a10dfe757a0ccc178f5b4e3753d55268b96eb5c3b3f8d745c788f1158275b3",
+      "input_sha256": "e7185477db832d5d84b011ed505c2c748d2f7d667ef17df1c33af257ab90450c",
+      "observed_utc": "2026-11-28T04:13:46.721286+00:00",
+      "pid": 2957,
+      "status": "running",
+      "representatives": 962,
+      "original_subsets": 2002,
+      "excluded": 197,
+      "states": 76867185776,
+      "current_retained": 6674
+    },
+    "six-at-14": {
+      "status": "complete",
+      "observed_utc": "2026-11-28T04:10:51.317677+00:00",
+      "pid": 22821,
+      "completed_blocks": 1900,
+      "excluded": 121572,
+      "total_orbits": 121572,
+      "physical_six_subsets_excluded": 28530983404,
+      "search_states": 2328082438
+    },
+    "three-at-13": {
+      "observed_utc": "2026-11-28T03:42:32.911431+00:00",
+      "pid": 22322,
+      "status": "paused",
+      "total_pair_cases": 2487,
+      "completed_pairs": 1117,
+      "completed_triple_cases": 10526943,
+      "states": 15319383,
+      "next_pair_case": 1123
+    },
+    "two-other-14": {
+      "status": "running",
+      "observed_utc": "2026-11-28T04:13:40.063230+00:00",
+      "pid": 10155,
+      "representatives": 2487,
+      "represented_ordered_pairs": 402926972,
+      "excluded": 804,
+      "states": 8710298720,
+      "next_case": 804
+    },
+    "five-at-14": {
+      "status": "running",
+      "observed_utc": "2026-11-28T04:13:30.114975+00:00",
+      "pid": 24490,
+      "tested": 576,
+      "total_orbits": 4911,
+      "physical_fixed_subsets": 128308320,
+      "search_states": 975039956
+    }
+  },
+  "signed_inputs_and_results": {
+    "anchors.cpp": "20399efb5c4c6edd36e9cc93dbd1c0fb0d0d863bf92934e4f65e6fcc7ed0151c",
+    "at_fourteen.py": "7aafd564cc56566a1c866122722c768784a270b993e6070fe8783b9b618e381e",
+    "certificates/0-small.json.gz": "be39e03af67a3dadaf7bb259b22b9de212ea1a9c4e0e67a8ec45b480f240b6e7",
+    "certificates/0.json.gz": "bd567f474511c734b6565c76bb312420b15f8c540794923fd89b7b0c6dd561aa",
+    "certificates/1.json.gz": "1a77edf675ee170d8920a84d059957267f6210ba4fda22e4eca1ecc7004572b4",
+    "certificates/2.json.gz": "88e46d4eef57f81b35bd5606eaafcf59011872532e5c46f505e901f8c737eabd",
+    "certificates/3.json.gz": "561e25ac8c380cdbb915c686ed6c84fbc3b88ab8aa7bc85bdd44320e3ae26cde",
+    "cliques.hpp": "e3c045d995efd4b8941c4dd8d9dd26be6fae364973f89538a40f2296d0300826",
+    "coloring.hpp": "b320eabc2a657f7b01a765a9166e568b8249c69cc98c039a375a56f75d955a00",
+    "common.hpp": "06539694877dddeb6fd80e0b32e6ad074ef6e6d706180a489da7decfdcf03d7d",
+    "controls.cpp": "01d726f95dac73e298e4e1ef61d3716003a8455f1e54734b4e820af7084db0c0",
+    "desk.json": "8468f7b9c9653e7c344538285bb0757d1ec1e0e83ecad56f9bc57ae5f57f1ddf",
+    "direct.json": "e2247cd0f7bf86875f2ae4cf8f307192c1594fa225d7902699545b035f5e4216",
+    "direct_weights.cpp": "15104ca26e59861a0e396b523f79d6a645464307ae5ef50b33ab7867f2a22e0b",
+    "direct_weights.py": "7354fb1d3a01b4fa9e92d90b84d94eed5351a533928b51c0e550c39caf52b286",
+    "five_at_fourteen.py": "343f5a5f59006a7024614d0522811e4d9319ea3c1f5203491eaafc41bbcea4c5",
+    "fourteen.py": "0e30cde89c3c53bde1c8f0e3f95f3bb0c72f5a65907aa23ee95d3122d80dc52e",
+    "hull-controls.json": "f901c783e52399450e983462941c444af2f9df464ab6165d062fe78cb1ea1c5d",
+    "hull_controls.py": "5a2c617006c83155cfdc798e8b79f1af35b5969c0cad576b20eb7e33c5905ac0",
+    "hulls.cpp": "12585aec7451ef0bd4551f02dc6538d6dd74eaef5d69b5e08873b561b370e10d",
+    "input_data.py": "9191d874458e34872850e6cc0180c1dee218e81c73ba5ce4470d8add1af3451f",
+    "neighbors.json": "3a6d3e053383e8c8b3cba06d0925a2350a735d0bb6040cf3320e71dfb427c2fe",
+    "neighbors.py": "ec7cf2aaffcba4516ba14f910feccd16a476095c4a9440100a4b6eb4632c7e5e",
+    "obstructions.cpp": "44b03963dba38984f07f789a16914da5a538689ff1a15041970491a3c52c7860",
+    "orbits.json": "6f8283d2801fb4a7402caab7091fdbc9490d043922d435649d9112355aac59bb",
+    "orbits.py": "7f7be7810db0e079725de1fd76110c4f86f9e700dcad7c08d3e71a1e6943b8a1",
+    "proofs.py": "5b046716e2ba62060b0f8edbfb2844fdea737184c75c1f8332475125c73c921e",
+    "replay.py": "7cc569b5d33bb6076878df777490c5019216cac9eef0f6c29015c7fdd2cdc33e",
+    "restore.py": "355edf011d53b6e07190f57bbd561e74dd20acbc633c1c7fc5b4951d314d28a5",
+    "results.json": "eaa790b6d7897077e3732960816530eb11c48bdc5be04838ac288a24c84a6b96",
+    "resume/five-at-14/journal.json": "e26ac609c2abfb35c09a6fbfff75300b199c41e6583618bfc87221db97840cc8",
+    "resume/four-large/decisions.json": "e9b80a9ed5cc158fc3c031ea2e7ee81c2fd6bdf6c857abaeae2164d06b3288ef",
+    "resume/four-large/status.json": "75a56d33235b2506d9da2fb575b8669004a720dc32a0d0355937ba002ed746af",
+    "resume/heawood/branches.json": "7b0c30fc49d9a2e6d06a847e2e77a9a919ed7a3b89cfa1ac2807531afb0750ad",
+    "resume/heawood/completed/134209605.json": "a8b0191cc4c3b60be56fcb1fb28935a42df5693b350fd364a1a863e93e9e7f40",
+    "resume/heawood/completed/134209645.json": "5af22f208149e8e23a7b3d73b1eee690636428ad77aedd743c21d1f369686589",
+    "resume/heawood/completed/134210413.json": "65f63d1a7f6a6075db4438f8d0fc1a2db6f4cebbd532837fda49b9ecafa10285",
+    "resume/heawood/completed/134211181.json": "6e4e53d61ba83a30b8306764141b6fdff2627d1e51794f8fc9791724fd1d6935",
+    "resume/heawood/completed/201318517.json": "cd2b4ea0cceb5e6387066a9509008bc631930e08ec0a5b8d0500eed92c94d7b1",
+    "resume/heawood/completed/201319285.json": "a3489f97d591cc3dd3d07c75cb05989bf30348d305b3b97d80c4c1e32725f491",
+    "resume/heawood/completed/201320053.json": "2cef2f06c11d432d5f06054ad5849d0c851939dfa56750cd2dc7af2b8561d4f1",
+    "resume/heawood/completed/268427333.json": "2a32765a60cd7545dcb658fdb72f923d0125f7fdf2ab685c94649a73e73d9681",
+    "resume/heawood/completed/268427373.json": "a7e20cbc902ea7d1f844c840f1652092c651c44d8871abce853d43f04d364d1b",
+    "resume/heawood/completed/268427381.json": "171692dc38146c4c7715eb434a99ca57d61b933b07e794b71de59bbc831f9902",
+    "resume/heawood/completed/268428141.json": "992b2db935c8230af3dbece3b8d6d6c325df9bb27c33eaf0bee76e0a7695c1f2",
+    "resume/heawood/completed/268428149.json": "6f7695f66d3dc52e66eeab15b5cfbd4050189c7f6d59beffc3bf51e8d9bd6fbf",
+    "resume/heawood/completed/268428909.json": "670e6a06b97e42cdb2be3dd21013be3a3503e0230542f7a914d2a858494648f3",
+    "resume/heawood/status.json": "fd07a8bdbe9e5f6076dafa832de1d4a8dc71b73810bde1313a199021ff978c98",
+    "resume/near-nine/decisions.json": "fc438ed9961d3e77a8605fab5c26715532ce4b2000d787223aa62fd5a90288b8",
+    "resume/near-nine/status.json": "c4c896bbcbb654e519ccbaa7fce40ae942e673b3b12075f452344678f62c93f4",
+    "resume/six-at-14/anchors.txt": "14129f2d4cd08fddc3af5d9c5d0760b0bc4c7fee2ae58629f5a6f411d26210cd",
+    "resume/six-at-14/blocks.tsv.gz": "76ee027e4683a9da8e1de78408fe7f8497ee0edcb01705cf394346c5fa36b12f",
+    "resume/six-at-14/signature.json": "60ce08b7c5124e73994e96beb55a1234b2afd8e8e16f677bfb64e2c22177a05f",
+    "resume/six-at-14/status.json": "ba15a0a3044670b6b922bf3b153e0be5a7795eb3845888cb94df1fec13ceda91",
+    "resume/three-at-13/decisions.json": "570a733bb276eee4cd56081795d3df6fc2b78e1d964b16bec4cef2eeb0eccd5c",
+    "resume/three-at-13/status.json": "252277e68b1461c5195b3f8f965ce2039d1bd802ab215d194ebff5c1906f5a22",
+    "resume/two-other-14/decisions.json": "e29f02a3b31a37009ec764f48752a5d881af562a656c158031acca8618fdf3a2",
+    "resume/two-other-14/status.json": "b1532987f85d7966c0b731fbc3ef8ed3ad30d6792409b03eb43b8ba294469ab7",
+    "search.cpp": "ef7732f66ae5c276d2f441cf73199084224134253346a3e401a82b341d186df4",
+    "size14-prefix.json": "6a6c8097ffdc787c1bb159885e8680ca1a90d228285fa897c21884fe33b05dc7",
+    "size14-sample.json": "5db3620cc032934791913d566f77d2730ed4de4b7167b92bccbef042a62a23b2",
+    "size14-six.json": "955e70c1d30acd012e2ec5bf4e33d4ce0cfdee71a689f179c32c0b79142db2da",
+    "src/ColorCover.lean": "78dbdb1a56ce50b3b356c912f69ad6347b9f9defeb9f0e385713130dea325bf0",
+    "src/Disjoint.lean": "7312286fc93d4897d756158a4197e09bd76428926756c242ff8b338e578d4703",
+    "src/Fooling.lean": "c006a712beee106811496be0a1c190edb0e6650ede60c697221bf293457265df",
+    "src/Pairs.lean": "6539d94fe4afb347cb45160d69fc03d89add71ffedc924a9224d1fece450a701",
+    "src/Weights.lean": "0fa0b97d148743405643a94391f24d7ff5c409e5f8b267bf8180d5f8747d2f8a",
+    "target.json": "5c9c0d3f4c217c12a358a31e16c58acb34ab2755cbe978e9cecd272cd177f086",
+    "three.json": "ba18cd3ed4b76bb1b4a89c15e7d4a7b5c3089b51a078ea130c99ec97a9b824a4",
+    "three.py": "1d38582368df55569d37bcc4de6b538154d7a48bd67279df5926da460e3c3954",
+    "three.tsv": "26430b611f796b73ed0d16ecd85ca7045753164a65f374d99fa49354ed86b292",
+    "weights.json": "c5623b4af47ef19bd498208f1595e0e943cbc4a90f8dc037d9836af16d1637b1",
+    "weights.py": "236453107526cff3307203d5fecd3df0a8c25bab9539da8d3437d50f2c11f6b8"
+  },
+  "six_maximum_at_fourteen": {
+    "fixed": 6,
+    "budget": 14,
+    "solver": "search",
+    "start": 0,
+    "stop": 121572,
+    "stride": 1,
+    "tested": 121572,
+    "physical_fixed_subsets": 28530983404,
+    "search_states": 2328082438,
+    "all_decisions_sha256": "a14976e075e68b49f4cd65c02e005964c6cffc3a3c5319907028d1e1b3195cf5",
+    "covers": []
+  },
+  "independent_six_maximum_prefix": {
+    "fixed": 6,
+    "budget": 14,
+    "from_orbit": 0,
+    "stop_before_orbit": 32768,
+    "total_orbits": 121572,
+    "physical_subsets": 7772047920,
+    "hull_search_states": 521086897,
+    "color_search_states": 515892094,
+    "hull_decisions_sha256": "531dab05456932495549eb8ce45e16d2e1e78e234722183732c09a51508ad1af",
+    "color_decisions_sha256": "1fc0c6a3aa86a3dd108789d61dac4f153a88468a5759da2e41e7d7f2e8331167",
+    "anchors_sha256": "14129f2d4cd08fddc3af5d9c5d0760b0bc4c7fee2ae58629f5a6f411d26210cd"
+  }
+}

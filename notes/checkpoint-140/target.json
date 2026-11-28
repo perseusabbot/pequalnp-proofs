@@ -1,0 +1,30 @@
+{
+  "observed_utc": "2026-11-28T04:06:55.891031+00:00",
+  "ledger_utc": "2026-11-28T04:05:23.675Z",
+  "source": "https://data.pequalnp.com/data/desk/gaps-weight1.c3924204b637.json",
+  "byte_range": [
+    1991793,
+    1992842
+  ],
+  "body_sha256": "f28165c74702fb33d58a4463d5a283809e4430f9ffdae0759c5ad5c19c65f0dd",
+  "body": {
+    "id": "L-meta-9345",
+    "title": "Rectangles: covering the 0-entries of a 21 by 21 0/1 matrix (rows in the sentence) takes more than 13 all-0 rectangles",
+    "statement": "\u00ac (\u2203 L : List (Finset (Fin 21) \u00d7 Finset (Fin 21)), L.length \u2264 13 \u2227 (\u2200 r \u2208 L, \u2200 i \u2208 r.1, \u2200 j \u2208 r.2, (([1179809, 262467, 524934, 1049868, 2585, 5170, 10340, 20680, 41360, 82720, 165440, 330880, 661760, 1323520, 549889, 1099778, 102405, 204810, 409620, 819240, 1638480] : List \u2115).getD i.val 0).testBit j.val = false) \u2227 \u2200 (i : Fin 21) (j : Fin 21), (([1179809, 262467, 524934, 1049868, 2585, 5170, 10340, 20680, 41360, 82720, 165440, 330880, 661760, 1323520, 549889, 1099778, 102405, 204810, 409620, 819240, 1638480] : List \u2115).getD i.val 0).testBit j.val = false \u2192 \u2203 r \u2208 L, i \u2208 r.1 \u2227 j \u2208 r.2)",
+    "file": "lean/PEqualNP/Outside/L_meta_9345.lean",
+    "module": "PEqualNP.Outside.L_meta_9345",
+    "imports": [
+      "PEqualNP.Defs"
+    ],
+    "weight": null,
+    "parallel": 1,
+    "lane": "main",
+    "depth": null,
+    "takes_cuts": false,
+    "pr_open": null,
+    "pr_numbers": null,
+    "answer_known": false,
+    "level": "open"
+  },
+  "compared_matrix_copies": 2
+}

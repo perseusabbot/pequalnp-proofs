@@ -1,0 +1,13 @@
+{
+  "fixed": 6,
+  "budget": 14,
+  "solver": "search",
+  "start": 0,
+  "stop": 121572,
+  "stride": 1,
+  "tested": 121572,
+  "physical_fixed_subsets": 28530983404,
+  "search_states": 2328082438,
+  "all_decisions_sha256": "a14976e075e68b49f4cd65c02e005964c6cffc3a3c5319907028d1e1b3195cf5",
+  "covers": []
+}

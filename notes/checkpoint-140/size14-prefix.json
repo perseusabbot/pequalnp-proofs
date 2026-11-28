@@ -1,0 +1,13 @@
+{
+  "fixed": 6,
+  "budget": 14,
+  "from_orbit": 0,
+  "stop_before_orbit": 32768,
+  "total_orbits": 121572,
+  "physical_subsets": 7772047920,
+  "hull_search_states": 521086897,
+  "color_search_states": 515892094,
+  "hull_decisions_sha256": "531dab05456932495549eb8ce45e16d2e1e78e234722183732c09a51508ad1af",
+  "color_decisions_sha256": "1fc0c6a3aa86a3dd108789d61dac4f153a88468a5759da2e41e7d7f2e8331167",
+  "anchors_sha256": "14129f2d4cd08fddc3af5d9c5d0760b0bc4c7fee2ae58629f5a6f411d26210cd"
+}
